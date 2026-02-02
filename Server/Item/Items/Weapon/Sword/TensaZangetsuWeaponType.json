@@ -126,7 +126,7 @@
   "DurabilityLossOnHit": 0.21,
   "Trails": [
     {
-      "TrailId": {}
+      "TrailId": "TensaZangetsu_Trail"
     }
   ]
 }

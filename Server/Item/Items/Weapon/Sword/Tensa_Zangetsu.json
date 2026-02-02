@@ -4,8 +4,8 @@
     "Name": "items.Bankai_Tensa_Zangetsu.name",
     "Description": "items.Bankai_Tensa_Zangetsu.description"
   },
-  "Model": "Items/Weapons/Tensa_Zanguetsu/Tensa_Zangetsu.blockymodel",
-  "Texture": "Items/Weapons/Tensa_Zanguetsu/Tensa_Zangetsu.png",
+  "Model": "Items/Weapons/Tensa_Zangetsu/Tensa_Zangetsu.blockymodel",
+  "Texture": "Items/Weapons/Tensa_Zangetsu/Tensa_Zangetsu.png",
   "Quality": "Bankai",
   "ItemLevel": 50,
   "Icon": "Icons/ItemsGenerated/Tensa_Zangetsu.png",
@@ -153,7 +153,7 @@
   },
   "MaxDurability": 570,
   "DurabilityLossOnHit": 0.21,
-  "PlayerAnimationsId": "TensaZanguetsuAnimations",
+  "PlayerAnimationsId": "TensaZangetsuAnimations",
   "UsePlayerAnimations": false,
   "Weapon": {
     "StatModifiers": {

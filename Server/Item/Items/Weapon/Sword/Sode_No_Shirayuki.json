@@ -4,8 +4,8 @@
     "Name": "items.Sode_No_Shirayuki.name",
     "Description": "items.Sode_No_Shirayuki.description"
   },
-  "Model": "Items/Weapons/Sode_No_Shirayuki/Sode no Shirayuki.blockymodel",
-  "Texture": "Items/Weapons/Sode_No_Shirayuki/Sode_No_Shirayuki_texture.png",
+  "Model": "Items/Weapons/Sode_No_Shirayuki/Sode_No_Shirayuki.blockymodel",
+  "Texture": "Items/Weapons/Sode_No_Shirayuki/Sode_No_Shirayuki_Texture.png",
   "Icon": "Icons/ItemsGenerated/Sode_No_Shirayuki.png",
   "Quality": "Shikai",
   "ItemLevel": 40,
