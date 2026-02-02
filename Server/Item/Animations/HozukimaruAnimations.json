@@ -1,0 +1,61 @@
+{
+  "WiggleWeights": {
+    "Pitch": 2,
+    "PitchDeceleration": 0.2,
+    "Roll": 0.1,
+    "RollDeceleration": 0.2,
+    "X": 2,
+    "XDeceleration": 0.2,
+    "Y": 0.1,
+    "YDeceleration": 0.2,
+    "Z": 0.1,
+    "ZDeceleration": 0.2
+  },
+  "Camera": {
+    "Yaw": {
+      "TargetNodes": [
+        "Head"
+      ]
+    },
+    "Pitch": {
+      "TargetNodes": [
+        "Head"
+      ]
+    }
+  },
+  "PullbackConfig": {
+    "LeftOffsetOverride": [
+      0,
+      0,
+      -1.6
+    ],
+    "LeftRotationOverride": [
+      0,
+      0,
+      0
+    ],
+    "RightOffsetOverride": [
+      0,
+      0,
+      -1.6
+    ],
+    "RightRotationOverride": [
+      0,
+      0,
+      0
+    ]
+  },
+  "Animations": {
+    "Idle": {
+      "ThirdPerson": "Characters/Animations/Items/Hozukimaru/Idle_Hozukimaru.blockyanim"
+    },
+    "SwingUp": {
+      "ThirdPerson": "Characters/Animations/Items/Hozukimaru/Swing_Up.blockyanim",
+      "Speed": 3
+    },
+    "HitBack": {
+      "ThirdPerson": "Characters/Animations/Items/Hozukimaru/Hit_Back_new.blockyanim",
+      "Speed": 2
+    }
+  }
+}
