@@ -1,0 +1,46 @@
+name: Release Mod Build
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Read manifest version
+        id: manifest
+        run: |
+          VERSION=$(jq -r '.Version' manifest.json)
+          echo "VERSION=$VERSION" >> $GITHUB_OUTPUT
+
+      - name: Create mod archive (exclude docs, .github)
+        run: |
+          MOD_NAME="Bleach-Reiryoku-${{ steps.manifest.outputs.VERSION }}"
+          mkdir -p dist/$MOD_NAME
+          
+          # Копируем только файлы мода
+          cp manifest.json dist/$MOD_NAME/
+          cp -r Common dist/$MOD_NAME/
+          cp -r Server dist/$MOD_NAME/
+          
+          # Создаём zip (без docs, .github, .git)
+          cd dist
+          zip -r "../Bleach-Reiryoku-${{ steps.manifest.outputs.VERSION }}.zip" "$MOD_NAME"
+          cd ..
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: Bleach-Reiryoku-${{ steps.manifest.outputs.VERSION }}.zip
+          generate_release_notes: true
+          draft: false
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
