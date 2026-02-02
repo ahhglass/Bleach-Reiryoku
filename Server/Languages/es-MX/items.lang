@@ -1,22 +1,29 @@
 Bankai_Tensa_Zangetsu.name = Bankai - Tensa Zangetsu
-Bankai_Tensa_Zangetsu.description = Bankai – Tensa Zangetsu es una espada espiritual legendaria. Su oscuro filo con una cadena condensa la energia de su usuario, realizando una devastadora ola de energia <i><b>Getsuga Tensho — «Colmillo lunar que atraviesa los cielos»</b></i>.
+Bankai_Tensa_Zangetsu.description = Bankai – Tensa Zangetsu es una espada espiritual legendaria. Su filo negro con cadena concentra la energía del portador y libera la devastadora ola <i><b>Getsuga Tensho — «Colmillo lunar que atraviesa los cielos»</b></i>.
 Shikai_Tensa_Zangetsu.name = Shikai - Zangetsu
-Shikai_Tensa_Zangetsu.description = Zangetsu es una enorme espada espiritual, permanece permanentemente en su estado liberado. La espada negra envuelta en tela empodera a su usuario, desatando oleadas de <i><b>Getsuga Tensho</b></i>, al mismo tiempo que sirve de proteccion ante cualquier ataque fisico y espiritual.
+Shikai_Tensa_Zangetsu.description = Zangetsu es una enorme espada espiritual, permanentemente en estado liberado. La hoja negra envuelta en tela viviente potencia a su portador, desatando oleadas de <i><b>Getsuga Tensho</b></i> y sirviendo de escudo ante ataques físicos y energéticos.
 ReiryokuCrystal.name = Reiryoku Crystal
-ReiryokuCrystal.description = Es un cristal de energia espiritual pura, una concentracion de numerosos espiritus. Despierta y evoluciona Zanpakuto.
+ReiryokuCrystal.description = Cristal de energía espiritual pura, concentración de numerosas almas. Despierta y hace evolucionar un Zanpakuto.
 Sealed_Zangetsu.name = Sealed - Zangetsu
-Sealed_Zangetsu.description = Una espada sellada antes de su desepertar. Tiene un infinito, pero durmiente potencial.
+Sealed_Zangetsu.description = La espada sellada antes del despertar. Guarda un potencial infinito, aunque dormido.
 Asauchi.name = Asauchi
-Asauchi.description = Una plantilla espiritual en blanco. La base para una futura Zanpakuto, esperando el despertar espiritual de su usuario.
-Sode_No_Shirayuki.name = Shikai – Sode no Shirayukis
-Sode_No_Shirayuki.description = Una elegante katana de hielo. Su comando para despertar, «Baila, Sode no Shirayuki» refleja una gelida belleza.
-Soul_Imprinting_Altar.name = Altar de Impresion de Almas
-Soul_Imprinting_Altar.description = Una sagrada estacion de trabajo donde el alma del portador se fusiona con la Asauchi. Mediante meditacion profunda y concentracion de energia espiritual (Reiryoku), se sientan las bases de la futura Zanpakuto. Este altar se utiliza no solo para el despertar inicial, sino tambien para la posterior etapa "Bankai".
-Shinigami_Robes.name = Tunica de Shinigami - Shihakusho
-Shinigami_Robes.description = The standard Shinigami uniform worn by all members of the Gotei 13. El uniforme estandar vestido por todos los miembros del Gotei 13.
+Asauchi.description = Una plantilla espiritual en blanco. La base para una futura Zanpakuto, en espera del sello de su dueño.
+Sode_No_Shirayuki.name = Shikai – Sode no Shirayuki
+Sode_No_Shirayuki.description = Una elegante katana de hielo. Su comando de liberación, \n<i><b>«Baila, Sode no Shirayuki»</b></i>, ordena el frío y la belleza.
+Shikai_Wabisuke.name = Shikai – Wabisuke
+Shikai_Wabisuke.description = Una espada elegantemente curvada cuya naturaleza traicionera contrasta con su refinamiento externo. Su golpe impone una maldición de peso sobre el objetivo. Con cada parada o bloqueo, la carga de la víctima se duplica sin piedad, hasta que el oponente queda quebrado y clavado al suelo por su propia carga insoportable. Comando de liberación: <i><b>«Doblegate, Wabisuke»</b></i>.
+Shikai_Hozukimaru.name = Shikai – Hozukimaru
+Shikai_Hozukimaru.description = Una tosca y directa lanza de guerra. Su forma simple y sin adornos oculta un feroz poder destructivo y una durabilidad inquebrantable. En su interior late un potencial dormido de transformación, capaz de desbloquear su forma verdadera, aún más formidable.
+
+Soul_Imprinting_Altar.name = Altar de Impresión de Almas
+Soul_Imprinting_Altar.description = Una sagrada estación de trabajo donde el alma del portador se fusiona con la Asauchi. Mediante meditación profunda y concentración de energía espiritual (Reiryoku), se sientan las bases de la futura Zanpakuto. Este altar se utiliza no solo para el despertar inicial, sino también para las etapas posteriores de evolución de la espada — desde Shikai hasta la revelación definitiva, Bankai.
+
+Shinigami_Robes.name = Túnica de Shinigami - Shihakusho
+Shinigami_Robes.description = El uniforme estándar de Shinigami vestido por todos los miembros del Gotei 13.
 Shinigami_Robes_Sleeveless.name = Tunica de Shinigami - Sin mangas
-Shinigami_Robes_Sleeveless.description = Una modificada <i>Shihakusho</i> con acomodaciones para aquellos que desean mas libertad de movimiento. Mayormente considerada una mera modificacion estetica de la tunica estandar.
-Resonating_Reishi_Core.name = Nucleo resonante de Reishi
-Resonating_Reishi_Core.description = Este nucleo zumba a una frecuencia que imita la tuya. Es una extensión de tu alma. Listo para ser asignado a una espada para despertarla.
+Shinigami_Robes_Sleeveless.description = Un <i>Shihakusho</i> modificado para quienes desean más libertad de movimiento. Se considera más bien una modificación cosmética de la túnica estándar.
+
+Resonating_Reishi_Core.name = Núcleo resonante de Reishi
+Resonating_Reishi_Core.description = Este núcleo vibra a una frecuencia que imita la tuya. Es una extensión de tu alma. Listo para asignarse a una espada y despertarla.
 Transcendent_Essence.name = Esencia Trascendental
-Transcendent_Essence.description = Una turbulenta paradoja del poder absoluto. Los limites entre tu espiritu y el mundo físico se han disuelto en este singular punto pulsante. Dentro de este resplandor se encuentra la verdadera forma de tu alma, gritando por ser liberada.
+Transcendent_Essence.description = Un paradójico remolino de poder absoluto. Los límites entre tu espíritu y el mundo físico se han disuelto en este único punto pulsante. En su resplandor yace la verdadera forma de tu alma, clamando por ser liberada.
