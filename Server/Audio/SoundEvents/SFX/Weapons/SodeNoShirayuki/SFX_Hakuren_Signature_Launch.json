@@ -2,7 +2,7 @@
   "Layers": [
     {
       "Files": [
-        "Sounds/hakuren launch.ogg"
+        "Sounds/Weapons/Shikai/Hakuren_Signature_Launch.ogg"
       ],
       "StartDelay": 0,
       "Looping": false,

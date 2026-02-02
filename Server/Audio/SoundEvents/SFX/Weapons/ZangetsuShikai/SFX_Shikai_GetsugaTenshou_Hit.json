@@ -2,7 +2,7 @@
   "Layers": [
     {
       "Files": [
-        "Sounds/GetsugaExplodeMONO.ogg"
+        "Sounds/Weapons/Shikai/Shikai_GetsugaTenshou_Hit.ogg"
       ],
       "RandomSettings": {
         "MinVolume": -2,
@@ -15,7 +15,7 @@
     }
   ],
   "MaxInstance": 5,
-  "Volume": -18.16,
+  "Volume": -7.16,
   "PreventSoundInterruption": true,
   "Parent": "SFX_Attn_Moderate"
 }

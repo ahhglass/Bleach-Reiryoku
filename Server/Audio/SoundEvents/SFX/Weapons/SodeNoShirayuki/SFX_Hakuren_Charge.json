@@ -2,7 +2,7 @@
   "Layers": [
     {
       "Files": [
-        "Sounds/HakurenCharge.ogg"
+        "Sounds/Weapons/Shikai/Hakuren_Charge.ogg"
       ],
       "StartDelay": 0,
       "Looping": false,

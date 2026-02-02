@@ -2,7 +2,7 @@
   "Layers": [
     {
       "Files": [
-        "Sounds/Shikai_Getsugatenshou_Hit.ogg"
+        "Sounds/Weapons/Bankai/TensaZangetsu_GetsugaTenshou_Hit.ogg"
       ],
       "RandomSettings": {
         "MinVolume": -2,
@@ -11,11 +11,11 @@
       },
       "StartDelay": 0,
       "Looping": false,
-      "Volume": 6.0
+      "Volume": -2
     }
   ],
   "MaxInstance": 5,
-  "Volume": -7.16,
+  "Volume": -3,
   "PreventSoundInterruption": true,
   "Parent": "SFX_Attn_Moderate"
 }

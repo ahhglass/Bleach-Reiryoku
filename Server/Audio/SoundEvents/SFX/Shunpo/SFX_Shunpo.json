@@ -2,7 +2,7 @@
   "Layers": [
     {
       "Files": [
-        "Sounds/ShunpoSFX.ogg"
+        "Sounds/Generic/Shunpo_SFX.ogg"
       ],
       "RandomSettings": {
         "MinVolume": -2,

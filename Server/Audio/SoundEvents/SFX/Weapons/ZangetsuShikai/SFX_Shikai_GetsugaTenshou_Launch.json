@@ -2,7 +2,7 @@
   "Layers": [
     {
       "Files": [
-        "Sounds/Shikai_Getsugatenshou_Launch.ogg"
+        "Sounds/Weapons/Shikai/Shikai_GetsugaTenshou_Launch.ogg"
       ],
       "RandomSettings": {
         "MinVolume": -2,
