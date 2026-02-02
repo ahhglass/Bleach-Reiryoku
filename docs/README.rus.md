@@ -35,7 +35,7 @@
       <img src="https://img.shields.io/discord/1464785450270064814?style=for-the-badge&logo=discord&label=Discord&color=7289DA" alt="Discord">
     </a>
     <br>
-    <img src="https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/ahhglass/Bleach-Reiryoku/main/manifest.json&query=%24.Version&label=Версия&color=blue&style=flat" alt="Версия">
+    <img src="https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/ahhglass/Bleach-Reiryoku/main/manifest.json&query=%24.Version&label=%D0%92%D0%B5%D1%80%D1%81%D0%B8%D1%8F&color=blue&style=flat" alt="Версия">
     <img src="https://img.shields.io/badge/Лицензия-CC%20BY--NC--SA%204.0-ef9421?style=flat" alt="CC BY-NC-SA 4.0">
     <img src="https://img.shields.io/badge/Статус-Ранний_доступ-yellow?style=flat" alt="Ранний доступ">
   </p>
