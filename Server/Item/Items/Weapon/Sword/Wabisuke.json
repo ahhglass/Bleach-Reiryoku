@@ -1,7 +1,8 @@
 {
   "Parent": "Wabisuke_Weapon_Type",
   "TranslationProperties": {
-    "Name": "Wabisuke"
+    "Name": "items.Shikai_Wabisuke.name",
+    "Description": "items.Shikai_Wabisuke.description"
   },
   "Model": "Items/Weapons/Wabisuke/Wabisuke.blockymodel",
   "Texture": "Items/Weapons/Wabisuke/Wabisuke_Texture.png",

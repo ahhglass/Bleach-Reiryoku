@@ -1,6 +1,7 @@
 {
   "TranslationProperties": {
-    "Name": "Hozukimaru"
+    "Name": "items.Shikai_Hozukimaru.name",
+    "Description": "items.Shikai_Hozukimaru.description" 
   },
   "Categories": [
     "Items.Weapons",

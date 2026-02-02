@@ -18,6 +18,11 @@
       "Icon": "Icons/ItemCategories/Items-Ingredients.png"
     },
     {
+      "Id": "Foods",
+      "Name": "server.ui.itemcategory.foods",
+      "Icon": "Icons/ItemCategories/Items-Food.png"
+    },
+    {
       "Id": "Blocks",
       "Name": "server.ui.itemcategory.block",
       "Icon": "Icons/ItemCategories/block-category.png"
