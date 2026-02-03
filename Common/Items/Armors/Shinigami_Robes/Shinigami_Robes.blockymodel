@@ -49,7 +49,7 @@
                 "angle": 0
               },
               "left": {
-                "offset": {"x": 31, "y": 58},
+                "offset": {"x": 31, "y": 59},
                 "mirror": {"x": false, "y": false},
                 "angle": 0
               },
@@ -135,7 +135,7 @@
                         },
                         "textureLayout": {
                           "front": {
-                            "offset": {"x": 90, "y": 95},
+                            "offset": {"x": 78, "y": 96},
                             "mirror": {"x": true, "y": false},
                             "angle": 0
                           }
@@ -162,7 +162,7 @@
                         },
                         "textureLayout": {
                           "front": {
-                            "offset": {"x": 90, "y": 95},
+                            "offset": {"x": 78, "y": 96},
                             "mirror": {"x": true, "y": false},
                             "angle": 0
                           }
@@ -191,7 +191,7 @@
                     },
                     "textureLayout": {
                       "front": {
-                        "offset": {"x": 90, "y": 75},
+                        "offset": {"x": 78, "y": 77},
                         "mirror": {"x": true, "y": false},
                         "angle": 0
                       }
@@ -218,7 +218,7 @@
                     },
                     "textureLayout": {
                       "front": {
-                        "offset": {"x": 90, "y": 75},
+                        "offset": {"x": 78, "y": 77},
                         "mirror": {"x": true, "y": false},
                         "angle": 0
                       }
@@ -355,7 +355,7 @@
                         },
                         "textureLayout": {
                           "front": {
-                            "offset": {"x": 90, "y": 95},
+                            "offset": {"x": 78, "y": 96},
                             "mirror": {"x": true, "y": false},
                             "angle": 0
                           }
@@ -382,7 +382,7 @@
                         },
                         "textureLayout": {
                           "front": {
-                            "offset": {"x": 18, "y": 95},
+                            "offset": {"x": 30, "y": 95},
                             "mirror": {"x": false, "y": false},
                             "angle": 0
                           }
@@ -411,7 +411,7 @@
                     },
                     "textureLayout": {
                       "front": {
-                        "offset": {"x": 90, "y": 75},
+                        "offset": {"x": 78, "y": 77},
                         "mirror": {"x": true, "y": false},
                         "angle": 0
                       }
@@ -438,7 +438,7 @@
                     },
                     "textureLayout": {
                       "front": {
-                        "offset": {"x": 18, "y": 75},
+                        "offset": {"x": 30, "y": 77},
                         "mirror": {"x": false, "y": false},
                         "angle": 0
                       }
@@ -519,7 +519,7 @@
                         },
                         "textureLayout": {
                           "front": {
-                            "offset": {"x": 90, "y": 95},
+                            "offset": {"x": 78, "y": 96},
                             "mirror": {"x": true, "y": false},
                             "angle": 0
                           }
@@ -546,7 +546,7 @@
                         },
                         "textureLayout": {
                           "front": {
-                            "offset": {"x": 18, "y": 95},
+                            "offset": {"x": 30, "y": 95},
                             "mirror": {"x": false, "y": false},
                             "angle": 0
                           }
@@ -575,7 +575,7 @@
                     },
                     "textureLayout": {
                       "front": {
-                        "offset": {"x": 90, "y": 75},
+                        "offset": {"x": 78, "y": 77},
                         "mirror": {"x": true, "y": false},
                         "angle": 0
                       }
@@ -593,17 +593,17 @@
                   "orientation": {"x": 0, "y": -0.13053, "z": 0, "w": 0.99144},
                   "shape": {
                     "type": "quad",
-                    "offset": {"x": 6.00008, "y": -0.00018, "z": 0},
+                    "offset": {"x": -0.06684, "y": -0.00018, "z": 0},
                     "stretch": {"x": -1, "y": 1, "z": -1},
                     "settings": {
                       "isPiece": false,
-                      "size": {"x": 12, "y": 20.00001},
+                      "size": {"x": -0.13385, "y": 20.00001},
                       "normal": "+Z"
                     },
                     "textureLayout": {
                       "front": {
                         "offset": {"x": 18, "y": 75},
-                        "mirror": {"x": false, "y": false},
+                        "mirror": {"x": true, "y": false},
                         "angle": 0
                       }
                     },
@@ -611,14 +611,44 @@
                     "visible": true,
                     "doubleSided": true,
                     "shadingMode": "flat"
-                  }
+                  },
+                  "children": [
+                    {
+                      "id": "23",
+                      "name": "R_Side_Cloth_Side_L--C1",
+                      "position": {"x": 6.06693, "y": 0, "z": 0},
+                      "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
+                      "shape": {
+                        "type": "quad",
+                        "offset": {"x": -0.06692, "y": 0, "z": 0},
+                        "stretch": {"x": -1, "y": 1, "z": -1},
+                        "settings": {
+                          "isPiece": false,
+                          "size": {"x": 12.13385, "y": 20.00001},
+                          "normal": "+Z",
+                          "isStaticBox": true
+                        },
+                        "textureLayout": {
+                          "front": {
+                            "offset": {"x": 30, "y": 77},
+                            "mirror": {"x": false, "y": false},
+                            "angle": 0
+                          }
+                        },
+                        "unwrapMode": "custom",
+                        "visible": true,
+                        "doubleSided": true,
+                        "shadingMode": "flat"
+                      }
+                    }
+                  ]
                 }
               ]
             }
           ]
         },
         {
-          "id": "23",
+          "id": "24",
           "name": "Belly",
           "position": {"x": 0, "y": 16.25, "z": 0},
           "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
@@ -637,7 +667,7 @@
           },
           "children": [
             {
-              "id": "24",
+              "id": "25",
               "name": "Chest",
               "position": {"x": 0, "y": 17, "z": 0},
               "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
@@ -656,7 +686,7 @@
               },
               "children": [
                 {
-                  "id": "25",
+                  "id": "26",
                   "name": "Coat2",
                   "position": {"x": 0, "y": -1, "z": 0},
                   "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
@@ -707,7 +737,7 @@
                   }
                 },
                 {
-                  "id": "26",
+                  "id": "27",
                   "name": "L-Arm",
                   "position": {"x": 18, "y": 1, "z": -1},
                   "orientation": {"x": 0.00266, "y": 0.06099, "z": 0.04354, "w": 0.99718},
@@ -726,7 +756,7 @@
                   },
                   "children": [
                     {
-                      "id": "27",
+                      "id": "28",
                       "name": "L-Sleeve",
                       "position": {"x": 0, "y": 7, "z": 0},
                       "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
@@ -760,9 +790,9 @@
                             "angle": 0
                           },
                           "top": {
-                            "offset": {"x": 120, "y": 4},
-                            "mirror": {"x": false, "y": false},
-                            "angle": 90
+                            "offset": {"x": 119, "y": 30},
+                            "mirror": {"x": true, "y": true},
+                            "angle": 270
                           },
                           "bottom": {
                             "offset": {"x": 83, "y": 1},
@@ -777,7 +807,7 @@
                       },
                       "children": [
                         {
-                          "id": "28",
+                          "id": "29",
                           "name": "L-Forearm",
                           "position": {"x": 0, "y": -10.99985, "z": 0},
                           "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
@@ -796,7 +826,7 @@
                           },
                           "children": [
                             {
-                              "id": "29",
+                              "id": "30",
                               "name": "L-Sleeve2",
                               "position": {"x": 0, "y": 7.5, "z": 0},
                               "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
@@ -847,7 +877,7 @@
                               },
                               "children": [
                                 {
-                                  "id": "30",
+                                  "id": "31",
                                   "name": "L-Sleeve_End",
                                   "position": {"x": 0, "y": -6, "z": 0},
                                   "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
@@ -882,13 +912,13 @@
                                       },
                                       "top": {
                                         "offset": {"x": 120, "y": 62},
-                                        "mirror": {"x": false, "y": false},
-                                        "angle": 90
+                                        "mirror": {"x": true, "y": true},
+                                        "angle": 270
                                       },
                                       "bottom": {
                                         "offset": {"x": 120, "y": 62},
-                                        "mirror": {"x": false, "y": false},
-                                        "angle": 90
+                                        "mirror": {"x": true, "y": true},
+                                        "angle": 270
                                       }
                                     },
                                     "unwrapMode": "custom",
@@ -906,7 +936,7 @@
                   ]
                 },
                 {
-                  "id": "31",
+                  "id": "32",
                   "name": "R-Arm",
                   "position": {"x": -19, "y": 1, "z": -1},
                   "orientation": {"x": 0.00266, "y": -0.06099, "z": -0.04354, "w": 0.99718},
@@ -925,7 +955,7 @@
                   },
                   "children": [
                     {
-                      "id": "32",
+                      "id": "33",
                       "name": "R-Forearm",
                       "position": {"x": 0.763, "y": -19.0045, "z": -1.21983},
                       "orientation": {"x": 0, "y": -0.12187, "z": -0.0865, "w": 0.98877},
@@ -944,7 +974,7 @@
                       },
                       "children": [
                         {
-                          "id": "33",
+                          "id": "34",
                           "name": "R-Sleeve2",
                           "position": {"x": 0, "y": 7.5, "z": 0},
                           "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
@@ -995,7 +1025,7 @@
                           },
                           "children": [
                             {
-                              "id": "34",
+                              "id": "35",
                               "name": "R-Sleeve_End",
                               "position": {"x": 0, "y": -6, "z": 0},
                               "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
@@ -1030,13 +1060,13 @@
                                   },
                                   "top": {
                                     "offset": {"x": 120, "y": 62},
-                                    "mirror": {"x": false, "y": false},
-                                    "angle": 90
+                                    "mirror": {"x": true, "y": true},
+                                    "angle": 270
                                   },
                                   "bottom": {
                                     "offset": {"x": 120, "y": 62},
-                                    "mirror": {"x": false, "y": false},
-                                    "angle": 90
+                                    "mirror": {"x": true, "y": true},
+                                    "angle": 270
                                   }
                                 },
                                 "unwrapMode": "custom",
@@ -1050,7 +1080,7 @@
                       ]
                     },
                     {
-                      "id": "35",
+                      "id": "36",
                       "name": "R-Sleeve",
                       "position": {"x": 0, "y": 7, "z": 0},
                       "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
@@ -1084,9 +1114,9 @@
                             "angle": 0
                           },
                           "top": {
-                            "offset": {"x": 120, "y": 4},
-                            "mirror": {"x": false, "y": false},
-                            "angle": 90
+                            "offset": {"x": 118, "y": 29},
+                            "mirror": {"x": true, "y": true},
+                            "angle": 270
                           },
                           "bottom": {
                             "offset": {"x": 83, "y": 1},
@@ -1101,7 +1131,7 @@
                       },
                       "children": [
                         {
-                          "id": "36",
+                          "id": "37",
                           "name": "R-Forearm",
                           "position": {"x": 0, "y": -10.99985, "z": 0},
                           "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
@@ -1126,7 +1156,7 @@
               ]
             },
             {
-              "id": "37",
+              "id": "38",
               "name": "BellyPart",
               "position": {"x": 0, "y": 0.75, "z": 0},
               "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
