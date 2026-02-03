@@ -6,6 +6,14 @@
     {
       "Type": "Replace",
       "DefaultOk": true,
+      "Var": "Spin_Swing_Right",
+      "DefaultValue": {
+        "Interactions": []
+      }
+    },
+    {
+      "Type": "Replace",
+      "DefaultOk": true,
       "Var": "Swing_Up",
       "DefaultValue": {
         "Interactions": [
@@ -20,6 +28,16 @@
       "DefaultValue": {
         "Interactions": [
           "Hozukimaru_Hit_Back"
+        ]
+      }
+    },
+    {
+      "Type": "Replace",
+      "DefaultOk": true,
+      "Var": "Swing_Right",
+      "DefaultValue": {
+        "Interactions": [
+          "Hozukimaru_Swing_Right"
         ]
       }
     }

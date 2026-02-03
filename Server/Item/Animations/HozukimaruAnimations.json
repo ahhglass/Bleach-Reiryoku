@@ -56,6 +56,10 @@
     "HitBack": {
       "ThirdPerson": "Characters/Animations/Items/Hozukimaru/Hit_Back_new.blockyanim",
       "Speed": 2
+    },
+    "SwingRight": {
+      "ThirdPerson": "Characters/Animations/Items/Hozukimaru/Swing_Left_Hozukimaru2.blockyanim",
+      "Speed": 2
     }
   }
 }

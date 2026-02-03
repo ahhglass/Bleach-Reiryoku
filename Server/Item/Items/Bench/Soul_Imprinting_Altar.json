@@ -64,6 +64,11 @@
           "Id": "Soul_Misc",
           "Icon": "Icons/CraftingCategories/Soul_Imprinting_Altar/Soul_Misc.png",
           "Name": "Misc"
+        },
+        {
+          "Id": "Soul_Deco",
+          "Icon": "Icons/CraftingCategories/Soul_Imprinting_Altar/Soul_Deco.png",
+          "Name": "Deco"
         }
       ],
       "LocalOpenSoundEventId": "SFX_Workbench_Open",

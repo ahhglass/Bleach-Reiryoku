@@ -1,6 +1,5 @@
 {
   "Type": "DamageEntity",
-  "DamageEffects": {},
   "Next": {
     "Type": "Serial",
     "Interactions": [

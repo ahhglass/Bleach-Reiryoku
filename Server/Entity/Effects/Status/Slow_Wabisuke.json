@@ -1,10 +1,17 @@
 {
-  "Duration": 10,
+  "Duration": 3,
   "ApplicationEffects": {
-    "EntityBottomTint": "#80ecff",
-    "ModelVFXId": "Intangible_Dark",
-    "ScreenEffect": "ScreenEffects/Snow.png",
-    "EntityTopTint": "#da72ff",
-    "HorizontalSpeedMultiplier": 0.5
-  }
+    "EntityBottomTint": "#6e15a1",
+    "ModelVFXId": "Slow",
+    "EntityTopTint": "#9000c3",
+    "HorizontalSpeedMultiplier": 0.07,
+    "Particles": [
+      {
+        "TargetEntityPart": "Entity",
+        "SystemId": "Slow_Wabisuke"
+      }
+    ]
+  },
+  "OverlapBehavior": "Extend",
+  "ValueType": "Absolute"
 }

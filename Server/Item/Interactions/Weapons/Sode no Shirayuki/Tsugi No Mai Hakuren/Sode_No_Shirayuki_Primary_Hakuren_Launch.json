@@ -1,6 +1,5 @@
 {
   "Type": "LaunchProjectile",
   "RunTime": 0.5,
-  "ProjectileId": "Hakuren",
-  "HorizontalSpeedMultiplier": 0
+  "ProjectileId": "Hakuren"
 }

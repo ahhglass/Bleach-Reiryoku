@@ -1,7 +1,6 @@
 {
   "TranslationProperties": {
-    "Name": "items.Shikai_Hozukimaru.name",
-    "Description": "items.Shikai_Hozukimaru.description" 
+    "Name": "Hozukimaru"
   },
   "Categories": [
     "Items.Weapons",
@@ -9,9 +8,8 @@
   ],
   "Quality": "Shikai",
   "ItemLevel": 30,
-  "Model": "Items/Weapons/Hozukimaru/Spear_ikakku.blockymodel",
-  "Texture": "Items/Weapons/Hozukimaru/Spear_ikkaku.png",
-  "MaxStack": 30,
+  "Model": "Items/Weapons/Hozukimaru/Hozukimaru.blockymodel",
+  "Texture": "Items/Weapons/Hozukimaru/Hozukimaru_Texture2.png",
   "IconProperties": {
     "Scale": 0.24,
     "Rotation": [
