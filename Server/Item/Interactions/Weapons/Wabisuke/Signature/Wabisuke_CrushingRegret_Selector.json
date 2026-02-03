@@ -1,0 +1,37 @@
+{
+  "Type": "Selector",
+  "$Comment": "Length of Combat",
+  "Effects": {
+    "ItemAnimationId": "CrushingRegretPose",
+    "ItemPlayerAnimationsId": "WabisukeAnimations"
+  },
+  "RunTime": 0.15,
+  "Selector": {
+    "Id": "Stab",
+    "StartDistance": 0.1,
+    "EndDistance": 2,
+    "TestLineOfSight": true
+  },
+  "HitEntity": {
+    "Interactions": [
+      {
+        "Type": "ApplyEffect",
+        "EffectId": "Wabisuke_Paralyze",
+        "Entity": "Target",
+        "Effects": {
+          "ItemAnimationId": "CrushingRegretPose"
+        },
+        "RunTime": 2,
+        "Next": {
+          "Type": "Simple",
+          "Effects": {
+            "ItemAnimationId": "SwingDownCrushingRegret"
+          },
+          "RunTime": 0.4,
+          "Next": "Wabisuke_CrushingRegret_Selector2"
+        },
+        "HorizontalSpeedMultiplier": 0
+      }
+    ]
+  }
+}

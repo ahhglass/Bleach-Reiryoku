@@ -422,6 +422,17 @@
     "DashRight": {
       "ThirdPerson": "Characters/Animations/Dash/Dash_Right.blockyanim",
       "ThirdPersonFace": "Characters/Animations/Expressions/Angry.blockyanim"
+    },
+    "CrushingRegretPose": {
+      "ThirdPerson": "Characters/Animations/Items/Wabisuke/CrushingRegret_Pose.blockyanim"
+    },
+    "SwingDownCrushingRegret": {
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Battleaxe/Attacks/Swing_Down/Swing_Down.blockyanim",
+      "ThirdPersonMoving": "Characters/Animations/Items/Dual_Handed/Battleaxe/Attacks/Swing_Down/Swing_Down_Moving.blockyanim",
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Battleaxe/Attacks/Swing_Down/Swing_Down_FPS.blockyanim",
+      "ThirdPersonFace": "Characters/Animations/Expressions/Frown.blockyanim",
+      "Speed": 1,
+      "ClipsGeometry": true
     }
   },
   "Camera": {

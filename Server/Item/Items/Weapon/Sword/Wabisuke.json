@@ -81,30 +81,13 @@
         }
       ]
     },
-    "Vortexstrike_Spin_Damage": {
+    "CrushingRegret_Damage": {
       "Interactions": [
         {
-          "Parent": "Weapon_Sword_Signature_Vortexstrike_Spin_Damage",
+          "Parent": "Wabisuke_CrushingRegret_Damage",
           "DamageCalculator": {
             "BaseDamage": {
-              "Physical": 23
-            }
-          },
-          "EntityStatsOnHit": [],
-          "DamageEffects": {
-            "WorldSoundEventId": "SFX_Sword_T2_Impact",
-            "LocalSoundEventId": "SFX_Sword_T2_Impact"
-          }
-        }
-      ]
-    },
-    "Vortexstrike_Stab_Damage": {
-      "Interactions": [
-        {
-          "Parent": "Weapon_Sword_Signature_Vortexstrike_Stab_Damage",
-          "DamageCalculator": {
-            "BaseDamage": {
-              "Physical": 70
+              "Physical": 100
             }
           },
           "EntityStatsOnHit": [],
@@ -128,7 +111,14 @@
       -45
     ]
   },
-  "Categories": [
-    "BleachCategory.Weapons"
-  ]
+  "Weapon": {
+    "StatModifiers": {
+      "SignatureEnergy": [
+        {
+          "CalculationType": "Additive",
+          "Amount": 1
+        }
+      ]
+    }
+  }
 }

@@ -1,14 +1,15 @@
 {
-  "Duration": 3,
+  "Duration": 10,
   "ApplicationEffects": {
     "EntityBottomTint": "#6e15a1",
     "ModelVFXId": "Slow",
     "EntityTopTint": "#9000c3",
-    "HorizontalSpeedMultiplier": 0.07,
+    "HorizontalSpeedMultiplier": 0.0,
     "Particles": [
       {
         "TargetEntityPart": "Entity",
-        "SystemId": "Slow_Wabisuke"
+        "SystemId": "Slow_Wabisuke",
+        "Scale": 2
       }
     ]
   },
