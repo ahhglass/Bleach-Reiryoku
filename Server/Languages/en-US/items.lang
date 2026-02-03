@@ -27,3 +27,14 @@ Resonating_Reishi_Core.name = Resonating Reishi Core
 Resonating_Reishi_Core.description = This core hums at a frequency that mimics yours. It's an extension of your soul. Ready to be assigned to a blade to awaken it.
 Transcendent_Essence.name = Transcendent Essence
 Transcendent_Essence.description = A swirling paradox of absolute power. The boundaries between your spirit and the physical world have dissolved into this singular pulsing point. Within this glow lies the true form of your soul, screaming to be released.
+
+
+
+items.Currency_Kan.name = Kan
+items.Currency_Kan.description = The standard currency of the Soul Society. A single Kan represents the value of one bale of rice in the world of the living. Its weight and ring are said to be tuned to the very frequency of reishi, making it impossible to counterfeit. To a merchant in the Rukongai, this coin is a fortune; to a captain, mere pocket change.
+
+items.Medical_Pill_Basic.name = Basic Medical Pill
+items.Medical_Pill_Basic.description = A standard-issue pill from Squad 4's medical corps. Made from concentrated medicinal herbs and a trace of healing kaido energy.\n\nRestores <color is="#ffffff">30%</color> health instantly.
+
+items.Kaido_Infused_Pill.name = Kaido-Infused Restoration Pill
+items.Kaido_Infused_Pill.description = A masterpiece of Squad 4's medical research. Not merely a pill, but a solid capsule of suspended healing kaido spells.\n\nRestores <color is="#ffffff">100%</color> health instantly and grants:\n\n• <color is="#ffffff">Health Regen II</color>\n\nDuration: <color is="#ffffff">0:30</color>
