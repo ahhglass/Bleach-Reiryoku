@@ -4,7 +4,7 @@
   },
   "DroppedItemAnimation": "Items/Animations/Dropped/Dropped_Diagonal_Left.blockyanim",
   "Model": "Items/Weapons/Sode_No_Shirayuki/Sode_No_Shirayuki.blockymodel",
-  "Texture": "Items/Weapons/Sode_No_Shirayuki/Sode_No_Shirayuki_Texture.png",
+  "Texture": "Items/Weapons/Sode_No_Shirayuki/Sode_No_Shirayuki_texture.png",
   "Icon": "Icons/ItemsGenerated/Sode_No_Shirayuki.png",
   "PlayerAnimationsId": "Sode_No_Shirayuki_Animations",
   "Reticle": "DefaultMelee",
@@ -134,7 +134,7 @@
       }
     }
   ],
-  "Scale": 0.9,
+  "Scale": 1,
   "Particles": [
     {
       "SystemId": "Sode_No_Shirayuki_Mist",

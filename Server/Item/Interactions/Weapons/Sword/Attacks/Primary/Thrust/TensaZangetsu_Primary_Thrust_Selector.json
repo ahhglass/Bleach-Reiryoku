@@ -4,22 +4,6 @@
   "RunTime": 0.3,
   "Effects": {
     "ItemAnimationId": "StabDashCharged",
-    "Trails": [
-      {
-        "PositionOffset": {
-          "X": 0,
-          "Y": 0,
-          "Z": 0
-        },
-        "RotationOffset": {
-          "Pitch": 0,
-          "Roll": 0,
-          "Yaw": 0
-        },
-        "TargetNodeName": "SwordTip",
-        "TrailId": "TensaZangetsu_Trail"
-      }
-    ],
     "Particles": [
       {
         "RotationOffset": {
@@ -49,7 +33,12 @@
     ],
     "WorldSoundEventId": "SFX_Light_Melee_T2_Lunge",
     "LocalSoundEventId": "SFX_Sword_T2_Lunge_Local",
-    "CameraEffect": "Sword_Stab"
+    "CameraEffect": "Sword_Stab",
+    "Trails": [
+      {
+        "TrailId": "TensaZangetsu_Trail"
+      }
+    ]
   },
   "Selector": {
     "Id": "Stab",
