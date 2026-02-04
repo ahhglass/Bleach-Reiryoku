@@ -3,15 +3,15 @@
 <p>
 English
     |
-    <a href="../docs/CONTRIBUTING.rus.md">Русский</a>
+    <a href="docs/CONTRIBUTING.rus.md">Русский</a>
     |
-    <a href="../docs/CONTRIBUTING.de.md">Deutsch</a>
+    <a href="docs/CONTRIBUTING.de.md">Deutsch</a>
     |
-    <a href="../docs/CONTRIBUTING.pt-br.md">Português (BR)</a>
+    <a href="docs/CONTRIBUTING.pt-br.md">Português (BR)</a>
     |
-    <a href="../docs/CONTRIBUTING.es.md">Español</a>
+    <a href="docs/CONTRIBUTING.es.md">Español</a>
     |
-    <a href="../docs/CONTRIBUTING.fr.md">Français</a>
+    <a href="docs/CONTRIBUTING.fr.md">Français</a>
 </p>
 
 **Bleach: Reiryoku** project contributing guide

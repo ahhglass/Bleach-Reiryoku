@@ -3,15 +3,15 @@
 <p>
 English
     |
-    <a href="../docs/LICENSE.rus.md">Русский</a>
+    <a href="docs/LICENSE.rus.md">Русский</a>
     |
-    <a href="../docs/LICENSE.de.md">Deutsch</a>
+    <a href="docs/LICENSE.de.md">Deutsch</a>
     |
-    <a href="../docs/LICENSE.pt-br.md">Português (BR)</a>
+    <a href="docs/LICENSE.pt-br.md">Português (BR)</a>
     |
-    <a href="../docs/LICENSE.es.md">Español</a>
+    <a href="docs/LICENSE.es.md">Español</a>
     |
-    <a href="../docs/LICENSE.fr.md">Français</a>
+    <a href="docs/LICENSE.fr.md">Français</a>
 </p>
 
 License information for **Bleach: Reiryoku** mod

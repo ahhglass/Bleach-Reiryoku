@@ -3,15 +3,15 @@
 <p>
 English
     |
-    <a href="../docs/CODE_OF_CONDUCT.rus.md">Русский</a>
+    <a href="docs/CODE_OF_CONDUCT.rus.md">Русский</a>
     |
-    <a href="../docs/CODE_OF_CONDUCT.de.md">Deutsch</a>
+    <a href="docs/CODE_OF_CONDUCT.de.md">Deutsch</a>
     |
-    <a href="../docs/CODE_OF_CONDUCT.pt-br.md">Português (BR)</a>
+    <a href="docs/CODE_OF_CONDUCT.pt-br.md">Português (BR)</a>
     |
-    <a href="../docs/CODE_OF_CONDUCT.es.md">Español</a>
+    <a href="docs/CODE_OF_CONDUCT.es.md">Español</a>
     |
-    <a href="../docs/CODE_OF_CONDUCT.fr.md">Français</a>
+    <a href="docs/CODE_OF_CONDUCT.fr.md">Français</a>
 </p>
 
 Code of Conduct of **Bleach: Reiryoku** project
