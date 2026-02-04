@@ -1,38 +1,7 @@
 {
   "Type": "Simple",
-  "Next": {
-    "Type": "Parallel",
-    "$Comment": "Make sure this parallel interaction is needed and can't be optimized away",
-    "Interactions": [
-      {
-        "Interactions": []
-      },
-      {
-        "Interactions": [
-          {
-            "Type": "Replace",
-            "Var": "CrushingRegret_Selector",
-            "DefaultOk": true,
-            "DefaultValue": {
-              "Interactions": [
-                "Wabisuke_CrushingRegret_Selector"
-              ]
-            },
-            "RunTime": 2
-          }
-        ]
-      }
-    ]
-  },
+  "RunTime": 2,
   "Effects": {
-    "ItemPlayerAnimationsId": "WabisukeAnimations",
-    "ItemAnimationId": "CrushingRegretPose",
-    "Particles": [
-      {
-        "SystemId": "Wabisuke_CrushingRegret_Aura",
-        "TargetNodeName": "L-Foot"
-      }
-    ]
-  },
-  "RunTime": 2
+    "ItemAnimationId": "CrushingRegretPose"
+  }
 }

@@ -13,10 +13,16 @@
         "DefaultOk": true,
         "DefaultValue": {
           "Interactions": [
-            "Wabisuke_CrushingRegret_Selector"
+            "Wabisuke_CrushingRegret_Pose"
           ]
         }
       },
+      {
+        "Type": "ApplyEffect",
+        "Entity": "Target",
+        "EffectId": "Wabisuke_Paralyze"
+      },
+      "Wabisuke_CrushingRegret_Selector",
       {
         "Type": "Simple",
         "RunTime": 0.15
