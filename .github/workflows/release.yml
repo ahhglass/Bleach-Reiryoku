@@ -15,10 +15,23 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Read manifest version
+      - name: Validate manifest
         id: manifest
         run: |
-          VERSION=$(jq -r '.Version' manifest.json)
+          if [ ! -f manifest.json ]; then
+            echo "::error::manifest.json not found in repository"
+            exit 1
+          fi
+          VERSION=$(jq -r '.Version // empty' manifest.json)
+          if [ -z "$VERSION" ]; then
+            echo "::error::manifest.json must contain a non-empty Version field"
+            exit 1
+          fi
+          TAG_VERSION="${GITHUB_REF#refs/tags/v}"
+          if [ "$TAG_VERSION" != "$VERSION" ]; then
+            echo "::error::Tag version ($TAG_VERSION) does not match manifest.json Version ($VERSION)"
+            exit 1
+          fi
           echo "VERSION=$VERSION" >> $GITHUB_OUTPUT
 
       - name: Create mod archive (exclude docs, .github)
@@ -26,12 +39,10 @@ jobs:
           MOD_NAME="Bleach-Reiryoku-${{ steps.manifest.outputs.VERSION }}"
           mkdir -p dist/$MOD_NAME
           
-          # Копируем только файлы мода
           cp manifest.json dist/$MOD_NAME/
           cp -r Common dist/$MOD_NAME/
           cp -r Server dist/$MOD_NAME/
           
-          # Создаём zip (без docs, .github, .git)
           cd dist
           zip -r "../Bleach-Reiryoku-${{ steps.manifest.outputs.VERSION }}.zip" "$MOD_NAME"
           cd ..
