@@ -58,10 +58,8 @@
   "HitEntity": {
     "Interactions": [
       {
-        "Type": "Replace",
-        "DefaultValue": "Root_CrushingRegret_Damage",
-        "Var": "CrushingRegret_Damage",
-        "DefaultOk": true
+        "Type": "Simple",
+        "Next": "Wabisuke_CrushingRegret_Damage"
       }
     ]
   }

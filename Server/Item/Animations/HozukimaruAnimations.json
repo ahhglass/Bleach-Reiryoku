@@ -60,6 +60,31 @@
     "SwingRight": {
       "ThirdPerson": "Characters/Animations/Items/Hozukimaru/Swing_Left_Hozukimaru2.blockyanim",
       "Speed": 2
+    },
+    "Sprint": {
+      "ThirdPerson": "Characters/Animations/Items/Hozukimaru/Sprint_Hozukimaru.blockyanim"
+    },
+    "Run": {
+      "ThirdPerson": "Characters/Animations/Items/Hozukimaru/Sprint_Hozukimaru.blockyanim"
+    },
+    "Crouch": {
+      "BlendingDuration": 0.1,
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Battleaxe/Crouch_FPS.blockyanim",
+      "Speed": 0.5,
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Battleaxe/Crouch.blockyanim",
+      "Looping": true
+    },
+    "CrouchWalk": {
+      "BlendingDuration": 0.1,
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Battleaxe/Crouch_Walk.blockyanim",
+      "Speed": 0.8,
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/Battleaxe/Crouch_Walk_FPS.blockyanim",
+      "Looping": true
+    },
+    "Guard": {
+      "ThirdPerson": "Characters/Animations/Items/Hozukimaru/Guard.blockyanim",
+      "FirstPerson": "Characters/Animations/Items/Hozukimaru/Guard_FPS.blockyanim",
+      "ThirdPersonMoving": "Characters/Animations/Items/Hozukimaru/Guard _Moving.blockyanim"
     }
   }
 }
