@@ -10,7 +10,7 @@
           "Z": 0
         },
         "TargetNodeName": "Handle",
-        "TrailId": "TensaZangetsu_Trail",
+        "TrailId": "CrushingRegret_Trail",
         "RotationOffset": {
           "Roll": 90.0
         }
@@ -29,7 +29,9 @@
       }
     ],
     "CameraEffect": "Sword_Swing_Vertical",
-    "ItemAnimationId": "SwingDownCrushingRegret"
+    "ItemAnimationId": "SwingDownCrushingRegret",
+    "WorldSoundEventId": "SFX_CrushingRegret_Swing",
+    "LocalSoundEventId": "SFX_CrushingRegret_Swing"
   },
   "Selector": {
     "Id": "Stab",

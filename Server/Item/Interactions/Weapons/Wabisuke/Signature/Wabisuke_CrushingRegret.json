@@ -8,6 +8,11 @@
     "Type": "Serial",
     "Interactions": [
       {
+        "Type": "ApplyEffect",
+        "Entity": "Target",
+        "EffectId": "Wabisuke_Paralyze"
+      },
+      {
         "Type": "Replace",
         "Var": "CrushingRegret_Selector",
         "DefaultOk": true,
@@ -16,11 +21,6 @@
             "Wabisuke_CrushingRegret_Pose"
           ]
         }
-      },
-      {
-        "Type": "ApplyEffect",
-        "Entity": "Target",
-        "EffectId": "Wabisuke_Paralyze"
       },
       "Wabisuke_CrushingRegret_Selector",
       {
@@ -35,5 +35,8 @@
         "ValueType": "Percent"
       }
     ]
+  },
+  "Effects": {
+    "WorldSoundEventId": "SFX_CrushingRegret"
   }
 }
