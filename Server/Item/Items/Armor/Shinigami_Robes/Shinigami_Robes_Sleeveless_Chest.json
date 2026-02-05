@@ -6,7 +6,7 @@
   "Parent": "Armor_Bronze_Chest",
   "Quality": "Rare",
   "ItemLevel": 15,
-  "Icon": "Icons/ItemsGenerated/Shinigami_Robes_Sleeveles_Chest.png",
+  "Icon": "Icons/ItemsGenerated/Shinigami_Robes_Sleeveless_Chest.png",
   "IconProperties": {
     "Scale": 0.3,
     "Rotation": [
@@ -19,8 +19,8 @@
       -51
     ]
   },
-  "Model": "Items/Armors/Shinigami_Robes_NoSleeve/ShinigamiRobes_NoSleeve.blockymodel",
-  "Texture": "Items/Armors/Shinigami_Robes_NoSleeve/Shinigami_Robes_NoSleeve_texture.png",
+  "Model": "Items/Armors/Shinigami_Robes_NoSleeve/Shinigami_Robes_NoSleeve.blockymodel",
+  "Texture": "Items/Armors/Shinigami_Robes_NoSleeve/Shinigami_Robes_NoSleeve_Texture.png",
   "Recipe": {
     "TimeSeconds": 2,
     "Input": [
@@ -53,7 +53,8 @@
     "ArmorSlot": "Chest",
     "BaseDamageResistance": 0,
     "CosmeticsToHide": [
-      "Overtop"
+      "Overtop",
+      "Pants"
     ],
     "StatModifiers": {
       "Health": [

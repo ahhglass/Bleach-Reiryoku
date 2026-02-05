@@ -20,7 +20,10 @@ Soul_Imprinting_Altar.description = Ein heiliger Arbeitsplatz, an dem sich die S
 Shinigami_Robes.name = Shinigami Robe - Shihakusho
 Shinigami_Robes.description = Die Standard-Shinigami-Uniform, die von allen Mitgliedern der Gotei 13 getragen wird.
 Shinigami_Robes_Sleeveless.name = Shinigami Robe - Ärmellos
-Shinigami_Robes_Sleeveless.description = Eine modifizierte <i>Shihakusho</i>-Variante für diejenigen, die sich mehr Bewegungsfreiheit wünschen. Wird eher als kosmetische Modifikation der Standardroben angesehen.
+Shinigami_Robes_Sleeveless.description = Eine modifizierte <i>Shihakusho</i>-Variante für diejenigen, die sich mehr Bewegungsfreiheit wünschen. Wird eher als kosmetische Modifikation der Standarduniform angesehen.
+Shinigami_Robes_Captain.name = Shinigami Robe - Kapitän
+Shinigami_Robes_Captain.description = Der weiße Mantel, den Kapitäne über ihrer Standarduniform tragen. Bietet überlegenen spirituellen Schutz und kennzeichnet den höchsten Rang in der Gotei 13.
+
 Resonating_Reishi_Core.name = Resonierender Reishi-Kern
 Resonating_Reishi_Core.description = Dieser Kern summt auf einer Frequenz, die deine nachahmt. Er ist eine Erweiterung deiner Seele. Bereit, einer Klinge zugewiesen zu werden, um sie zu erwecken.
 Transcendent_Essence.name = Transzendente Essenz

@@ -1,10 +1,10 @@
 {
   "TranslationProperties": {
-    "Name": "items.Shinigami_Robes.name",
-    "Description": "items.Shinigami_Robes.description"
+    "Name": "items.Shinigami_Robes_Captain.name",
+    "Description": "items.Shinigami_Robes_Captain.description"
   },
   "Parent": "Armor_Bronze_Chest",
-  "Quality": "Rare",
+  "Quality": "Epic",
   "ItemLevel": 15,
   "IconProperties": {
     "Scale": 0.3,
@@ -18,18 +18,18 @@
       -48
     ]
   },
-  "Model": "Items/Armors/Shinigami_Robes/Shinigami_Robes.blockymodel",
-  "Texture": "Items/Armors/Shinigami_Robes/Shinigami_Robes_Ribbon_Texture.png",
+  "Model": "Items/Armors/Shinigami_Robes_Captain/Shinigami_Robes_Captain.blockymodel",
+  "Texture": "Items/Armors/Shinigami_Robes_Captain/Shinigami_Robes_Captain_Texture.png",
   "Recipe": {
-    "TimeSeconds": 2,
+    "TimeSeconds": 3,
     "Input": [
       {
-        "Quantity": 2,
+        "Quantity": 5,
         "ItemId": "Reiryoku_Crystal"
       },
       {
         "ItemId": "Ingredient_Bolt_Wool",
-        "Quantity": 8
+        "Quantity": 20
       },
       {
         "ItemId": "Ingredient_Fabric_Scrap_Shadoweave",
@@ -43,7 +43,7 @@
         "Categories": [
           "Armor_Chest"
         ],
-        "RequiredTierLevel": 2
+        "RequiredTierLevel": 3
       }
     ],
     "KnowledgeRequired": false
@@ -58,7 +58,7 @@
     "StatModifiers": {
       "Health": [
         {
-          "Amount": 18,
+          "Amount": 20,
           "CalculationType": "Additive"
         }
       ]
@@ -66,13 +66,13 @@
     "DamageResistance": {
       "Physical": [
         {
-          "Amount": 0.12,
+          "Amount": 0.13,
           "CalculationType": "Multiplicative"
         }
       ],
       "Projectile": [
         {
-          "Amount": 0.12,
+          "Amount": 0.13,
           "CalculationType": "Multiplicative"
         }
       ]
@@ -81,7 +81,7 @@
       "Charged": [
         {
           "CalculationType": "Multiplicative",
-          "Amount": 0.04
+          "Amount": 0.05
         }
       ]
     }
@@ -94,10 +94,10 @@
       "Cloth_Linen"
     ]
   },
-  "MaxDurability": 120,
+  "MaxDurability": 150,
   "ItemSoundSetId": "ISS_Armor_Cloth",
   "Categories": [
     "BleachCategory.Armors"
   ],
-  "Icon": "Icons/ItemsGenerated/Shinigami_Robes_Chest.png"
+  "Icon": "Icons/ItemsGenerated/Shinigami_Robes_Captain_Chest.png"
 }

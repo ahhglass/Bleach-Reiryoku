@@ -26,35 +26,35 @@
           "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
           "shape": {
             "type": "box",
-            "offset": {"x": 0, "y": 0, "z": 0},
+            "offset": {"x": 0, "y": 0, "z": -0.5},
             "stretch": {"x": 1, "y": 1, "z": 1.07249},
             "settings": {
               "isPiece": false,
-              "size": {"x": 29, "y": 13, "z": 18}
+              "size": {"x": 29, "y": 13, "z": 19}
             },
             "textureLayout": {
               "back": {
-                "offset": {"x": 48, "y": 62},
+                "offset": {"x": 79, "y": 81},
                 "mirror": {"x": false, "y": false},
                 "angle": 0
               },
               "right": {
-                "offset": {"x": 31, "y": 61},
+                "offset": {"x": 10, "y": 78},
                 "mirror": {"x": false, "y": false},
                 "angle": 0
               },
               "front": {
-                "offset": {"x": 1, "y": 62},
+                "offset": {"x": 79, "y": 81},
                 "mirror": {"x": false, "y": false},
                 "angle": 0
               },
               "left": {
-                "offset": {"x": 31, "y": 61},
+                "offset": {"x": 10, "y": 78},
                 "mirror": {"x": false, "y": false},
                 "angle": 0
               },
               "top": {
-                "offset": {"x": 49, "y": 75},
+                "offset": {"x": 79, "y": 78},
                 "mirror": {"x": false, "y": false},
                 "angle": 0
               }
@@ -68,7 +68,7 @@
             {
               "id": "3",
               "name": "Back_Cloth_1",
-              "position": {"x": 0, "y": 2.80933, "z": -9.55171},
+              "position": {"x": 0, "y": 2.80933, "z": -9.05171},
               "orientation": {"x": 0.13053, "y": 0, "z": 0, "w": 0.99144},
               "shape": {
                 "type": "quad",
@@ -94,6 +94,34 @@
               "children": [
                 {
                   "id": "4",
+                  "name": "Back_Cloth_1_White--C1",
+                  "position": {"x": 0, "y": 0, "z": -0.7},
+                  "orientation": {"x": 0.0349, "y": 0, "z": 0, "w": 0.99939},
+                  "shape": {
+                    "type": "quad",
+                    "offset": {"x": 0, "y": 0, "z": 0},
+                    "stretch": {"x": 1, "y": 1, "z": 1},
+                    "settings": {
+                      "isPiece": false,
+                      "size": {"x": 29, "y": 20},
+                      "normal": "+Z",
+                      "isStaticBox": true
+                    },
+                    "textureLayout": {
+                      "front": {
+                        "offset": {"x": 79, "y": 78},
+                        "mirror": {"x": false, "y": false},
+                        "angle": 0
+                      }
+                    },
+                    "unwrapMode": "custom",
+                    "visible": true,
+                    "doubleSided": true,
+                    "shadingMode": "flat"
+                  }
+                },
+                {
+                  "id": "5",
                   "name": "Back_Cloth_2",
                   "position": {"x": 0, "y": -10, "z": 0},
                   "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
@@ -120,7 +148,35 @@
                   },
                   "children": [
                     {
-                      "id": "5",
+                      "id": "6",
+                      "name": "Back_Cloth_2_White--C1",
+                      "position": {"x": 0, "y": 0.2, "z": -1.4},
+                      "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
+                      "shape": {
+                        "type": "quad",
+                        "offset": {"x": 0, "y": 0, "z": 0},
+                        "stretch": {"x": 1, "y": 1, "z": 1},
+                        "settings": {
+                          "isPiece": false,
+                          "size": {"x": 29, "y": 25},
+                          "normal": "+Z",
+                          "isStaticBox": true
+                        },
+                        "textureLayout": {
+                          "front": {
+                            "offset": {"x": 79, "y": 98},
+                            "mirror": {"x": false, "y": false},
+                            "angle": 0
+                          }
+                        },
+                        "unwrapMode": "custom",
+                        "visible": true,
+                        "doubleSided": true,
+                        "shadingMode": "flat"
+                      }
+                    },
+                    {
+                      "id": "7",
                       "name": "Back_Cloth_R",
                       "position": {"x": -14.5, "y": 0, "z": 0},
                       "orientation": {"x": 0, "y": 0.79335, "z": 0, "w": -0.60876},
@@ -135,7 +191,7 @@
                         },
                         "textureLayout": {
                           "front": {
-                            "offset": {"x": 78, "y": 96},
+                            "offset": {"x": 108, "y": 98},
                             "mirror": {"x": true, "y": false},
                             "angle": 0
                           }
@@ -147,7 +203,7 @@
                       }
                     },
                     {
-                      "id": "6",
+                      "id": "8",
                       "name": "Back_Cloth_L",
                       "position": {"x": 14.5, "y": 0, "z": 0},
                       "orientation": {"x": 0, "y": 0.79335, "z": 0, "w": 0.60876},
@@ -162,7 +218,7 @@
                         },
                         "textureLayout": {
                           "front": {
-                            "offset": {"x": 78, "y": 96},
+                            "offset": {"x": 108, "y": 98},
                             "mirror": {"x": true, "y": false},
                             "angle": 0
                           }
@@ -176,13 +232,13 @@
                   ]
                 },
                 {
-                  "id": "7",
+                  "id": "9",
                   "name": "Back_Cloth_R",
                   "position": {"x": -14.5, "y": 0, "z": 0},
                   "orientation": {"x": 0, "y": 0.79335, "z": 0, "w": -0.60876},
                   "shape": {
                     "type": "quad",
-                    "offset": {"x": 6.00008, "y": -0.00019, "z": 0},
+                    "offset": {"x": 6.00008, "y": -0.00019, "z": -1},
                     "stretch": {"x": -1, "y": 1, "z": 1},
                     "settings": {
                       "isPiece": false,
@@ -191,7 +247,7 @@
                     },
                     "textureLayout": {
                       "front": {
-                        "offset": {"x": 78, "y": 77},
+                        "offset": {"x": 107, "y": 79},
                         "mirror": {"x": true, "y": false},
                         "angle": 0
                       }
@@ -203,13 +259,13 @@
                   }
                 },
                 {
-                  "id": "8",
+                  "id": "10",
                   "name": "Back_Cloth_L",
                   "position": {"x": 14.5, "y": 0, "z": 0},
                   "orientation": {"x": 0, "y": 0.79335, "z": 0, "w": 0.60876},
                   "shape": {
                     "type": "quad",
-                    "offset": {"x": -6.00008, "y": -0.00019, "z": 0},
+                    "offset": {"x": -6.00008, "y": -0.00019, "z": -1},
                     "stretch": {"x": 1, "y": 1, "z": 1},
                     "settings": {
                       "isPiece": false,
@@ -218,7 +274,7 @@
                     },
                     "textureLayout": {
                       "front": {
-                        "offset": {"x": 78, "y": 77},
+                        "offset": {"x": 107, "y": 79},
                         "mirror": {"x": true, "y": false},
                         "angle": 0
                       }
@@ -232,9 +288,9 @@
               ]
             },
             {
-              "id": "9",
+              "id": "11",
               "name": "Front_Cloth_1",
-              "position": {"x": 0, "y": 4.05933, "z": 9.44829},
+              "position": {"x": 0, "y": 4.05933, "z": 9.94829},
               "orientation": {"x": -0.0654, "y": 0, "z": 0, "w": 0.99786},
               "shape": {
                 "type": "quad",
@@ -259,7 +315,7 @@
               },
               "children": [
                 {
-                  "id": "10",
+                  "id": "12",
                   "name": "Front_Cloth_2",
                   "position": {"x": 0, "y": -10, "z": 0},
                   "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
@@ -288,9 +344,9 @@
               ]
             },
             {
-              "id": "11",
+              "id": "13",
               "name": "L_Side_Cloth_1",
-              "position": {"x": 14.13393, "y": 0.62077, "z": -0.932},
+              "position": {"x": 14.13393, "y": 0.62077, "z": -0.432},
               "orientation": {"x": 0, "y": 0, "z": 0.13053, "w": 0.99144},
               "shape": {
                 "type": "box",
@@ -314,7 +370,34 @@
               },
               "children": [
                 {
-                  "id": "12",
+                  "id": "14",
+                  "name": "L_Side_Cloth_1_White--C1",
+                  "position": {"x": 1, "y": 0, "z": 0},
+                  "orientation": {"x": 0, "y": 0, "z": 0.02181, "w": 0.99976},
+                  "shape": {
+                    "type": "box",
+                    "offset": {"x": 0, "y": 0, "z": 0},
+                    "stretch": {"x": 1, "y": 1, "z": 1.05},
+                    "settings": {
+                      "isPiece": false,
+                      "size": {"x": 6, "y": 20, "z": 19},
+                      "isStaticBox": true
+                    },
+                    "textureLayout": {
+                      "right": {
+                        "offset": {"x": 10, "y": 75},
+                        "mirror": {"x": false, "y": false},
+                        "angle": 0
+                      }
+                    },
+                    "unwrapMode": "custom",
+                    "visible": true,
+                    "doubleSided": true,
+                    "shadingMode": "flat"
+                  }
+                },
+                {
+                  "id": "15",
                   "name": "L_Side_Cloth_2",
                   "position": {"x": 3, "y": -10, "z": 0},
                   "orientation": {"x": 0, "y": 0, "z": -0.08716, "w": 0.99619},
@@ -340,7 +423,34 @@
                   },
                   "children": [
                     {
-                      "id": "13",
+                      "id": "16",
+                      "name": "L_Side_Cloth_2_White--C1",
+                      "position": {"x": 1.3, "y": 0.6, "z": 0},
+                      "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
+                      "shape": {
+                        "type": "box",
+                        "offset": {"x": 0, "y": 0, "z": 0},
+                        "stretch": {"x": 1, "y": 1, "z": 1.05},
+                        "settings": {
+                          "isPiece": false,
+                          "size": {"x": 6, "y": 25, "z": 19},
+                          "isStaticBox": true
+                        },
+                        "textureLayout": {
+                          "right": {
+                            "offset": {"x": 10, "y": 95},
+                            "mirror": {"x": false, "y": false},
+                            "angle": 0
+                          }
+                        },
+                        "unwrapMode": "custom",
+                        "visible": true,
+                        "doubleSided": true,
+                        "shadingMode": "flat"
+                      }
+                    },
+                    {
+                      "id": "17",
                       "name": "L_Side_Cloth_Side_R",
                       "position": {"x": 3, "y": 0, "z": -9.25},
                       "orientation": {"x": 0, "y": -0.13053, "z": 0, "w": 0.99144},
@@ -355,7 +465,7 @@
                         },
                         "textureLayout": {
                           "front": {
-                            "offset": {"x": 78, "y": 96},
+                            "offset": {"x": 108, "y": 98},
                             "mirror": {"x": true, "y": false},
                             "angle": 0
                           }
@@ -367,7 +477,7 @@
                       }
                     },
                     {
-                      "id": "14",
+                      "id": "18",
                       "name": "L_Side_Cloth_Side_L",
                       "position": {"x": 3, "y": 4, "z": 9.25},
                       "orientation": {"x": 0, "y": 0.13053, "z": 0, "w": 0.99144},
@@ -391,18 +501,48 @@
                         "visible": true,
                         "doubleSided": true,
                         "shadingMode": "flat"
-                      }
+                      },
+                      "children": [
+                        {
+                          "id": "19",
+                          "name": "L_Side_Cloth_Side_L_White--C1",
+                          "position": {"x": 1.4, "y": 0, "z": 1.4},
+                          "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
+                          "shape": {
+                            "type": "quad",
+                            "offset": {"x": 0, "y": 0, "z": 0},
+                            "stretch": {"x": 1, "y": 1, "z": -1},
+                            "settings": {
+                              "isPiece": false,
+                              "size": {"x": 12, "y": 17.99999},
+                              "normal": "+Z",
+                              "isStaticBox": true
+                            },
+                            "textureLayout": {
+                              "front": {
+                                "offset": {"x": 10, "y": 96},
+                                "mirror": {"x": false, "y": false},
+                                "angle": 0
+                              }
+                            },
+                            "unwrapMode": "custom",
+                            "visible": true,
+                            "doubleSided": true,
+                            "shadingMode": "flat"
+                          }
+                        }
+                      ]
                     }
                   ]
                 },
                 {
-                  "id": "15",
+                  "id": "20",
                   "name": "L_Side_Cloth_Side_R",
                   "position": {"x": 3, "y": 0, "z": -9.5},
                   "orientation": {"x": 0, "y": -0.13053, "z": 0, "w": 0.99144},
                   "shape": {
                     "type": "quad",
-                    "offset": {"x": -6.00008, "y": -0.00018, "z": 0},
+                    "offset": {"x": -6.00008, "y": -0.00018, "z": 1},
                     "stretch": {"x": 1, "y": 1, "z": 1},
                     "settings": {
                       "isPiece": false,
@@ -411,7 +551,7 @@
                     },
                     "textureLayout": {
                       "front": {
-                        "offset": {"x": 78, "y": 77},
+                        "offset": {"x": 107, "y": 79},
                         "mirror": {"x": true, "y": false},
                         "angle": 0
                       }
@@ -423,7 +563,7 @@
                   }
                 },
                 {
-                  "id": "16",
+                  "id": "21",
                   "name": "L_Side_Cloth_Side_L",
                   "position": {"x": 3, "y": 0, "z": 9.5},
                   "orientation": {"x": 0, "y": 0.13053, "z": 0, "w": 0.99144},
@@ -447,14 +587,44 @@
                     "visible": true,
                     "doubleSided": true,
                     "shadingMode": "flat"
-                  }
+                  },
+                  "children": [
+                    {
+                      "id": "22",
+                      "name": "L_Side_Cloth_Side_L_White--C1",
+                      "position": {"x": 1, "y": 0, "z": 0.6},
+                      "orientation": {"x": -0.02617, "y": -0.00069, "z": 0.02617, "w": 0.99931},
+                      "shape": {
+                        "type": "quad",
+                        "offset": {"x": 0, "y": 0, "z": 0},
+                        "stretch": {"x": 1, "y": 1, "z": -1},
+                        "settings": {
+                          "isPiece": false,
+                          "size": {"x": 12, "y": 20.00001},
+                          "normal": "+Z",
+                          "isStaticBox": true
+                        },
+                        "textureLayout": {
+                          "front": {
+                            "offset": {"x": 10, "y": 77},
+                            "mirror": {"x": false, "y": false},
+                            "angle": 0
+                          }
+                        },
+                        "unwrapMode": "custom",
+                        "visible": true,
+                        "doubleSided": true,
+                        "shadingMode": "flat"
+                      }
+                    }
+                  ]
                 }
               ]
             },
             {
-              "id": "17",
+              "id": "23",
               "name": "R_Side_Cloth_1",
-              "position": {"x": -14.13393, "y": 0.62077, "z": -0.932},
+              "position": {"x": -14.13393, "y": 0.62077, "z": -0.432},
               "orientation": {"x": 0, "y": 0, "z": -0.13053, "w": 0.99144},
               "shape": {
                 "type": "box",
@@ -478,7 +648,34 @@
               },
               "children": [
                 {
-                  "id": "18",
+                  "id": "24",
+                  "name": "R_Side_Cloth_1_White--C1",
+                  "position": {"x": -1, "y": 0, "z": 0},
+                  "orientation": {"x": 0, "y": 0, "z": -0.02181, "w": 0.99976},
+                  "shape": {
+                    "type": "box",
+                    "offset": {"x": 0, "y": 0, "z": 0},
+                    "stretch": {"x": -1, "y": 1, "z": 1.05},
+                    "settings": {
+                      "isPiece": false,
+                      "size": {"x": 6, "y": 20, "z": 19},
+                      "isStaticBox": true
+                    },
+                    "textureLayout": {
+                      "right": {
+                        "offset": {"x": 10, "y": 75},
+                        "mirror": {"x": false, "y": false},
+                        "angle": 0
+                      }
+                    },
+                    "unwrapMode": "custom",
+                    "visible": true,
+                    "doubleSided": true,
+                    "shadingMode": "flat"
+                  }
+                },
+                {
+                  "id": "25",
                   "name": "R_Side_Cloth_2",
                   "position": {"x": -3, "y": -10, "z": 0},
                   "orientation": {"x": 0, "y": 0, "z": 0.08716, "w": 0.99619},
@@ -504,7 +701,34 @@
                   },
                   "children": [
                     {
-                      "id": "19",
+                      "id": "26",
+                      "name": "R_Side_Cloth_2_White--C1",
+                      "position": {"x": -1.29997, "y": 0, "z": 0},
+                      "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
+                      "shape": {
+                        "type": "box",
+                        "offset": {"x": -0.10003, "y": 0.60003, "z": 0},
+                        "stretch": {"x": -1, "y": 1, "z": 1.05},
+                        "settings": {
+                          "isPiece": false,
+                          "size": {"x": 6, "y": 25, "z": 19},
+                          "isStaticBox": true
+                        },
+                        "textureLayout": {
+                          "right": {
+                            "offset": {"x": 10, "y": 95},
+                            "mirror": {"x": false, "y": false},
+                            "angle": 0
+                          }
+                        },
+                        "unwrapMode": "custom",
+                        "visible": true,
+                        "doubleSided": true,
+                        "shadingMode": "flat"
+                      }
+                    },
+                    {
+                      "id": "27",
                       "name": "R_Side_Cloth_Side_R",
                       "position": {"x": -3, "y": 0, "z": -9.25},
                       "orientation": {"x": 0, "y": 0.13053, "z": 0, "w": 0.99144},
@@ -519,7 +743,7 @@
                         },
                         "textureLayout": {
                           "front": {
-                            "offset": {"x": 78, "y": 96},
+                            "offset": {"x": 108, "y": 98},
                             "mirror": {"x": true, "y": false},
                             "angle": 0
                           }
@@ -531,7 +755,7 @@
                       }
                     },
                     {
-                      "id": "20",
+                      "id": "28",
                       "name": "R_Side_Cloth_Side_L",
                       "position": {"x": -3, "y": 4, "z": 9.25},
                       "orientation": {"x": 0, "y": -0.13053, "z": 0, "w": 0.99144},
@@ -555,18 +779,48 @@
                         "visible": true,
                         "doubleSided": true,
                         "shadingMode": "flat"
-                      }
+                      },
+                      "children": [
+                        {
+                          "id": "29",
+                          "name": "R_Side_Cloth_Side_L_White--C1",
+                          "position": {"x": -1.3, "y": 0, "z": 1.2},
+                          "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
+                          "shape": {
+                            "type": "quad",
+                            "offset": {"x": 0, "y": 0, "z": 0},
+                            "stretch": {"x": -1, "y": 1, "z": -1},
+                            "settings": {
+                              "isPiece": false,
+                              "size": {"x": 12, "y": 17.99999},
+                              "normal": "+Z",
+                              "isStaticBox": true
+                            },
+                            "textureLayout": {
+                              "front": {
+                                "offset": {"x": 10, "y": 95},
+                                "mirror": {"x": false, "y": false},
+                                "angle": 0
+                              }
+                            },
+                            "unwrapMode": "custom",
+                            "visible": true,
+                            "doubleSided": true,
+                            "shadingMode": "flat"
+                          }
+                        }
+                      ]
                     }
                   ]
                 },
                 {
-                  "id": "21",
+                  "id": "30",
                   "name": "R_Side_Cloth_Side_R",
                   "position": {"x": -3, "y": 0, "z": -9.5},
                   "orientation": {"x": 0, "y": 0.13053, "z": 0, "w": 0.99144},
                   "shape": {
                     "type": "quad",
-                    "offset": {"x": 6.00008, "y": -0.00018, "z": 0},
+                    "offset": {"x": 6.00008, "y": -0.00018, "z": 1},
                     "stretch": {"x": -1, "y": 1, "z": 1},
                     "settings": {
                       "isPiece": false,
@@ -575,7 +829,7 @@
                     },
                     "textureLayout": {
                       "front": {
-                        "offset": {"x": 78, "y": 77},
+                        "offset": {"x": 107, "y": 79},
                         "mirror": {"x": true, "y": false},
                         "angle": 0
                       }
@@ -587,7 +841,7 @@
                   }
                 },
                 {
-                  "id": "22",
+                  "id": "31",
                   "name": "R_Side_Cloth_Side_L",
                   "position": {"x": -3, "y": 0, "z": 9.5},
                   "orientation": {"x": 0, "y": -0.13053, "z": 0, "w": 0.99144},
@@ -603,7 +857,7 @@
                     "textureLayout": {
                       "front": {
                         "offset": {"x": 18, "y": 75},
-                        "mirror": {"x": true, "y": false},
+                        "mirror": {"x": false, "y": false},
                         "angle": 0
                       }
                     },
@@ -614,7 +868,7 @@
                   },
                   "children": [
                     {
-                      "id": "23",
+                      "id": "32",
                       "name": "R_Side_Cloth_Side_L--C1",
                       "position": {"x": 6.06693, "y": 0, "z": 0},
                       "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
@@ -640,6 +894,34 @@
                         "doubleSided": true,
                         "shadingMode": "flat"
                       }
+                    },
+                    {
+                      "id": "33",
+                      "name": "R_Side_Cloth_Side_L_White--C2",
+                      "position": {"x": 4.16697, "y": 0, "z": 1.00002},
+                      "orientation": {"x": 0, "y": 0, "z": -0.01745, "w": 0.99985},
+                      "shape": {
+                        "type": "quad",
+                        "offset": {"x": 0.86611, "y": 0, "z": 0},
+                        "stretch": {"x": -1, "y": 1, "z": -1},
+                        "settings": {
+                          "isPiece": false,
+                          "size": {"x": 12, "y": 20.00001},
+                          "normal": "+Z",
+                          "isStaticBox": true
+                        },
+                        "textureLayout": {
+                          "front": {
+                            "offset": {"x": 10, "y": 77},
+                            "mirror": {"x": false, "y": false},
+                            "angle": 0
+                          }
+                        },
+                        "unwrapMode": "custom",
+                        "visible": true,
+                        "doubleSided": true,
+                        "shadingMode": "flat"
+                      }
                     }
                   ]
                 }
@@ -648,7 +930,7 @@
           ]
         },
         {
-          "id": "24",
+          "id": "34",
           "name": "Belly",
           "position": {"x": 0, "y": 16.25, "z": 0},
           "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
@@ -667,7 +949,7 @@
           },
           "children": [
             {
-              "id": "25",
+              "id": "35",
               "name": "Chest",
               "position": {"x": 0, "y": 17, "z": 0},
               "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
@@ -686,7 +968,7 @@
               },
               "children": [
                 {
-                  "id": "26",
+                  "id": "36",
                   "name": "Coat2",
                   "position": {"x": 0, "y": -1, "z": 0},
                   "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
@@ -737,7 +1019,7 @@
                   }
                 },
                 {
-                  "id": "27",
+                  "id": "37",
                   "name": "L-Arm",
                   "position": {"x": 18, "y": 1, "z": -1},
                   "orientation": {"x": 0.00266, "y": 0.06099, "z": 0.04354, "w": 0.99718},
@@ -756,7 +1038,7 @@
                   },
                   "children": [
                     {
-                      "id": "28",
+                      "id": "38",
                       "name": "L-Sleeve",
                       "position": {"x": 0, "y": 7, "z": 0},
                       "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
@@ -791,8 +1073,8 @@
                           },
                           "top": {
                             "offset": {"x": 119, "y": 30},
-                            "mirror": {"x": true, "y": true},
-                            "angle": 270
+                            "mirror": {"x": false, "y": false},
+                            "angle": 90
                           },
                           "bottom": {
                             "offset": {"x": 83, "y": 1},
@@ -807,7 +1089,7 @@
                       },
                       "children": [
                         {
-                          "id": "29",
+                          "id": "39",
                           "name": "L-Forearm",
                           "position": {"x": 0, "y": -10.99985, "z": 0},
                           "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
@@ -826,7 +1108,7 @@
                           },
                           "children": [
                             {
-                              "id": "30",
+                              "id": "40",
                               "name": "L-Sleeve2",
                               "position": {"x": 0, "y": 7.5, "z": 0},
                               "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
@@ -877,7 +1159,7 @@
                               },
                               "children": [
                                 {
-                                  "id": "31",
+                                  "id": "41",
                                   "name": "L-Sleeve_End",
                                   "position": {"x": 0, "y": -6, "z": 0},
                                   "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
@@ -912,13 +1194,13 @@
                                       },
                                       "top": {
                                         "offset": {"x": 120, "y": 62},
-                                        "mirror": {"x": true, "y": true},
-                                        "angle": 270
+                                        "mirror": {"x": false, "y": false},
+                                        "angle": 90
                                       },
                                       "bottom": {
                                         "offset": {"x": 120, "y": 62},
-                                        "mirror": {"x": true, "y": true},
-                                        "angle": 270
+                                        "mirror": {"x": false, "y": false},
+                                        "angle": 90
                                       }
                                     },
                                     "unwrapMode": "custom",
@@ -936,7 +1218,7 @@
                   ]
                 },
                 {
-                  "id": "32",
+                  "id": "42",
                   "name": "R-Arm",
                   "position": {"x": -19, "y": 1, "z": -1},
                   "orientation": {"x": 0.00266, "y": -0.06099, "z": -0.04354, "w": 0.99718},
@@ -955,7 +1237,7 @@
                   },
                   "children": [
                     {
-                      "id": "33",
+                      "id": "43",
                       "name": "R-Forearm",
                       "position": {"x": 0.763, "y": -19.0045, "z": -1.21983},
                       "orientation": {"x": 0, "y": -0.12187, "z": -0.0865, "w": 0.98877},
@@ -974,7 +1256,7 @@
                       },
                       "children": [
                         {
-                          "id": "34",
+                          "id": "44",
                           "name": "R-Sleeve2",
                           "position": {"x": 0, "y": 7.5, "z": 0},
                           "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
@@ -1025,7 +1307,7 @@
                           },
                           "children": [
                             {
-                              "id": "35",
+                              "id": "45",
                               "name": "R-Sleeve_End",
                               "position": {"x": 0, "y": -6, "z": 0},
                               "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
@@ -1060,13 +1342,13 @@
                                   },
                                   "top": {
                                     "offset": {"x": 120, "y": 62},
-                                    "mirror": {"x": true, "y": true},
-                                    "angle": 270
+                                    "mirror": {"x": false, "y": false},
+                                    "angle": 90
                                   },
                                   "bottom": {
                                     "offset": {"x": 120, "y": 62},
-                                    "mirror": {"x": true, "y": true},
-                                    "angle": 270
+                                    "mirror": {"x": false, "y": false},
+                                    "angle": 90
                                   }
                                 },
                                 "unwrapMode": "custom",
@@ -1080,7 +1362,7 @@
                       ]
                     },
                     {
-                      "id": "36",
+                      "id": "46",
                       "name": "R-Sleeve",
                       "position": {"x": 0, "y": 7, "z": 0},
                       "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
@@ -1115,8 +1397,8 @@
                           },
                           "top": {
                             "offset": {"x": 118, "y": 29},
-                            "mirror": {"x": true, "y": true},
-                            "angle": 270
+                            "mirror": {"x": false, "y": false},
+                            "angle": 90
                           },
                           "bottom": {
                             "offset": {"x": 83, "y": 1},
@@ -1131,7 +1413,7 @@
                       },
                       "children": [
                         {
-                          "id": "37",
+                          "id": "47",
                           "name": "R-Forearm",
                           "position": {"x": 0, "y": -10.99985, "z": 0},
                           "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
@@ -1156,7 +1438,7 @@
               ]
             },
             {
-              "id": "38",
+              "id": "48",
               "name": "BellyPart",
               "position": {"x": 0, "y": 0.75, "z": 0},
               "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
@@ -1170,7 +1452,7 @@
                 },
                 "textureLayout": {
                   "back": {
-                    "offset": {"x": 49, "y": 46},
+                    "offset": {"x": 51, "y": 46},
                     "mirror": {"x": false, "y": false},
                     "angle": 0
                   },
@@ -1191,11 +1473,6 @@
                   },
                   "top": {
                     "offset": {"x": 30, "y": 5},
-                    "mirror": {"x": false, "y": false},
-                    "angle": 0
-                  },
-                  "bottom": {
-                    "offset": {"x": 30, "y": 4},
                     "mirror": {"x": false, "y": false},
                     "angle": 0
                   }
