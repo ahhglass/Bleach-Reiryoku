@@ -403,6 +403,11 @@
           "interpolationType": "linear"
         },
         {
+          "time": 15,
+          "delta": {"x": -0.55053, "y": -0.1117, "z": -0.07464, "w": 0.82393},
+          "interpolationType": "linear"
+        },
+        {
           "time": 34,
           "delta": {"x": 0, "y": -0.30071, "z": 0, "w": 0.95372},
           "interpolationType": "linear"
