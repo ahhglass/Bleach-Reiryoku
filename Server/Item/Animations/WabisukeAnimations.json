@@ -425,7 +425,9 @@
     },
     "CrushingRegretPose": {
       "ThirdPerson": "Characters/Animations/Items/Wabisuke/CrushingRegret_Pose.blockyanim",
-      "FirstPerson": "Characters/Animations/Items/Wabisuke/CrushingRegret_Pose_FPS.blockyanim"
+      "FirstPerson": "Characters/Animations/Items/Wabisuke/CrushingRegret_Pose_FPS.blockyanim",
+      "ThirdPersonMoving": "Characters/Animations/Items/Wabisuke/CrushingRegret_Pose_Moving.blockyanim",
+      "Looping": true
     },
     "SwingDownCrushingRegret": {
       "ThirdPerson": "Characters/Animations/Items/Dual_Handed/Battleaxe/Attacks/Swing_Down/Swing_Down.blockyanim",

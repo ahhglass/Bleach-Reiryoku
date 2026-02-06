@@ -92,6 +92,19 @@
       "shapeStretch": [],
       "shapeVisible": [],
       "shapeUvOffset": []
+    },
+    "Hozukimaru:R-Attachment": {
+      "position": [
+        {
+          "time": 0,
+          "delta": {"x": 0, "y": 0, "z": 0},
+          "interpolationType": "linear"
+        }
+      ],
+      "orientation": [],
+      "shapeStretch": [],
+      "shapeVisible": [],
+      "shapeUvOffset": []
     }
   }
 }
