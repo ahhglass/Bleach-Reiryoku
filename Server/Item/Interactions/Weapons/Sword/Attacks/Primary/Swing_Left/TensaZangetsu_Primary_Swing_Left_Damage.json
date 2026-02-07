@@ -1,5 +1,5 @@
 {
-  "Parent": "TestDMGEntityParent",
+  "Parent": "DamageEntityParent",
   "DamageCalculator": {
     "Class": "Light"
   },
