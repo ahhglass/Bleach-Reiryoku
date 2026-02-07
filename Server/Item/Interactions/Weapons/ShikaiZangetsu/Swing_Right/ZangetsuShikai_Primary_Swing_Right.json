@@ -12,7 +12,7 @@
     "DefaultOk": true,
     "DefaultValue": {
       "Interactions": [
-        "Weapon_Sword_Primary_Swing_Right_Selector"
+        "ZangetsuShikai_Primary_Swing_Right_Selector"
       ]
     }
   }

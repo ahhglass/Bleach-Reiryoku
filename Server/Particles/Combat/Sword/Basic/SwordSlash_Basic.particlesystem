@@ -7,8 +7,7 @@
       }
     },
     {
-      "SpawnerId": "SwordSlash_Impact_Basic_Sparks",
-      "StartDelay": 0.01
+      "SpawnerId": "SwordSlash_Impact_Basic_Sparks"
     }
   ],
   "IsImportant": false

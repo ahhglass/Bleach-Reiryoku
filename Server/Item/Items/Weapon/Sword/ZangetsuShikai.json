@@ -55,6 +55,11 @@
             }
           },
           "DamageEffects": {
+            "WorldParticles": [
+              {
+                "SystemId": "ZangetsuShikai_Slash"
+              }
+            ],
             "WorldSoundEventId": "SFX_Battleaxe_T2_Impact",
             "LocalSoundEventId": "SFX_Battleaxe_T2_Impact"
           }
@@ -71,6 +76,11 @@
             }
           },
           "DamageEffects": {
+            "WorldParticles": [
+              {
+                "SystemId": "ZangetsuShikai_Slash"
+              }
+            ],
             "WorldSoundEventId": "SFX_Battleaxe_T2_Impact",
             "LocalSoundEventId": "SFX_Battleaxe_T2_Impact"
           }
@@ -80,6 +90,11 @@
     "Swing_Down_Damage": {
       "Interactions": [
         {
+          "WorldParticles": [
+            {
+              "SystemId": "ZangetsuShikai_Slash"
+            }
+          ],
           "Parent": "Weapon_Sword_Primary_Swing_Down_Damage",
           "DamageCalculator": {
             "BaseDamage": {
@@ -87,6 +102,11 @@
             }
           },
           "DamageEffects": {
+            "WorldParticles": [
+              {
+                "SystemId": "ZangetsuShikai_Slash"
+              }
+            ],
             "WorldSoundEventId": "SFX_Sword_T2_Impact",
             "LocalSoundEventId": "SFX_Sword_T2_Impact"
           }
@@ -109,6 +129,11 @@
             }
           ],
           "DamageEffects": {
+            "WorldParticles": [
+              {
+                "SystemId": "ZangetsuShikai_Slash"
+              }
+            ],
             "WorldSoundEventId": "SFX_Battleaxe_T2_Impact",
             "LocalSoundEventId": "SFX_Battleaxe_T2_Impact"
           }
