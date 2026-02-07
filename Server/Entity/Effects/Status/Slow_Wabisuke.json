@@ -10,7 +10,8 @@
         "TargetEntityPart": "Entity",
         "SystemId": "Slow_Wabisuke"
       }
-    ]
+    ],
+    "WorldSoundEventId": "SFX_Wabisuke_Slow"
   },
   "OverlapBehavior": "Extend",
   "ValueType": "Absolute",

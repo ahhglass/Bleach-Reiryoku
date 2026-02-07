@@ -111,16 +111,6 @@
       -45
     ]
   },
-  "Weapon": {
-    "StatModifiers": {
-      "SignatureEnergy": [
-        {
-          "CalculationType": "Additive",
-          "Amount": 1
-        }
-      ]
-    }
-  },
   "Recipe": {
     "TimeSeconds": 4.5,
     "Input": [
@@ -150,5 +140,15 @@
       }
     ],
     "KnowledgeRequired": false
+  },
+  "Weapon": {
+    "StatModifiers": {
+      "SignatureEnergy": [
+        {
+          "CalculationType": "Additive",
+          "Amount": 20
+        }
+      ]
+    }
   }
 }
