@@ -353,6 +353,13 @@
 		"Guard_Bash": {
 			"Interactions": [
 				{
+					"Parent": "Weapon_Sword_Secondary_Guard_Bash"
+				}
+			]
+		},
+		"Guard_Bash_Selector": {
+			"Interactions": [
+				{
 					"Parent": "Weapon_Sword_Secondary_Guard_Bash_Selector",
 					"Effects": {
 						"Particles": [
