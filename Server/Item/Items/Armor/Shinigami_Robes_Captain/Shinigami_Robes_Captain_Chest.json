@@ -61,6 +61,13 @@
           "Amount": 20,
           "CalculationType": "Additive"
         }
+      ],
+      "Stamina": [
+        {
+          "Target": "Max",
+          "CalculationType": "Additive",
+          "Amount": 5
+        }
       ]
     },
     "DamageResistance": {

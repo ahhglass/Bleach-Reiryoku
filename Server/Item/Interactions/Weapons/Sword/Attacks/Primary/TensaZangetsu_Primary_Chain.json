@@ -19,7 +19,7 @@
       "Var": "Swing_Right",
       "DefaultValue": {
         "Interactions": [
-          "Weapon_Sword_Primary_Swing_Right"
+          "TensaZangetsu_Primary_Swing_Right"
         ]
       }
     },
