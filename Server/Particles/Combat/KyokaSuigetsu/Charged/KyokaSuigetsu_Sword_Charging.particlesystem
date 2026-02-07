@@ -1,7 +1,7 @@
 {
   "Spawners": [
     {
-      "SpawnerId": "Sword_Charging_Circles",
+      "SpawnerId": "KyokaSuigetsu_Sword_Charging_Circles",
       "SpawnRate": {
         "Min": 2.0,
         "Max": 3.0
@@ -10,7 +10,7 @@
       "StartDelay": 0.1
     },
     {
-      "SpawnerId": "Sword_Charging_Sparks",
+      "SpawnerId": "KyokaSuigetsu_Sword_Charging_Sparks",
       "StartDelay": 0.2
     }
   ],

@@ -20,19 +20,19 @@
 				"ConditionValueType": "Percent",
 				"Particles": [
 					{
-						"SystemId": "Sword_Signature_Ready",
+						"SystemId": "KyokaSuigetsu_Sword_Signature_Ready",
 						"TargetNodeName": "Handle",
 						"PositionOffset": {"X": 0.8},
 						"TargetEntityPart": "PrimaryItem"
 					},
 					{
-						"SystemId": "Sword_Signature_Status_Spawn",
+						"SystemId": "KyokaSuigetsu_Sword_Signature_Status_Spawn",
 						"TargetNodeName": "Handle",
 						"PositionOffset": {"X": 0.5},
 						"TargetEntityPart": "PrimaryItem"
 					},
 					{
-						"SystemId": "Sword_Signature_Status",
+						"SystemId": "KyokaSuigetsu_Sword_Signature_Status",
 						"TargetNodeName": "Handle",
 						"PositionOffset": {"X": 0.55},
 						"TargetEntityPart": "PrimaryItem",
@@ -41,19 +41,19 @@
 				],
 				"FirstPersonParticles": [
 					{
-						"SystemId": "Sword_Signature_Ready",
+						"SystemId": "KyokaSuigetsu_Sword_Signature_Ready",
 						"TargetNodeName": "Handle",
 						"PositionOffset": {"X": 0.8},
 						"TargetEntityPart": "PrimaryItem"
 					},
 					{
-						"SystemId": "Sword_Signature_Status_Spawn",
+						"SystemId": "KyokaSuigetsu_Sword_Signature_Status_Spawn",
 						"TargetNodeName": "Handle",
 						"TargetEntityPart": "PrimaryItem",
 						"PositionOffset": {"Y": -100}
 					},
 					{
-						"SystemId": "Sword_Signature_Status",
+						"SystemId": "KyokaSuigetsu_Sword_Signature_Status",
 						"TargetNodeName": "Handle",
 						"PositionOffset": {"X": 0.5},
 						"TargetEntityPart": "PrimaryItem"
@@ -87,6 +87,24 @@
 				{"Parent": "Weapon_Sword_Primary_Swing_Down", "RunTime": 0.32}
 			]
 		},
+		"Thrust": {
+			"Interactions": [
+				{
+					"Parent": "Weapon_Sword_Primary_Thrust",
+					"Effects": {
+						"ItemAnimationId": "StabDashCharging",
+						"Particles": [
+							{
+								"PositionOffset": {"X": 0.6, "Y": 0, "Z": 0},
+								"RotationOffset": {"Pitch": 0, "Roll": 90, "Yaw": 0},
+								"TargetNodeName": "Handle",
+								"SystemId": "KyokaSuigetsu_Sword_Charging"
+							}
+						]
+					}
+				}
+			]
+		},
 		"Swing_Left_Damage": {
 			"Interactions": [
 				{
@@ -96,6 +114,7 @@
 						{"EntityStatId": "SignatureEnergy", "Amount": 2}
 					],
 					"DamageEffects": {
+						"WorldParticles": [{"SystemId": "KyokaSuigetsu_Impact_Sword_Basic"}],
 						"WorldSoundEventId": "SFX_Sword_T2_Impact",
 						"LocalSoundEventId": "SFX_Sword_T2_Impact"
 					}
@@ -111,6 +130,7 @@
 						{"EntityStatId": "SignatureEnergy", "Amount": 2}
 					],
 					"DamageEffects": {
+						"WorldParticles": [{"SystemId": "KyokaSuigetsu_Impact_Sword_Basic"}],
 						"WorldSoundEventId": "SFX_Sword_T2_Impact",
 						"LocalSoundEventId": "SFX_Sword_T2_Impact"
 					}
@@ -141,6 +161,7 @@
 						{"EntityStatId": "SignatureEnergy", "Amount": 3}
 					],
 					"DamageEffects": {
+						"WorldParticles": [{"SystemId": "KyokaSuigetsu_Impact_Sword_Basic"}],
 						"WorldSoundEventId": "SFX_Sword_T2_Impact",
 						"LocalSoundEventId": "SFX_Sword_T2_Impact"
 					}
@@ -154,6 +175,7 @@
 					"DamageCalculator": {"BaseDamage": {"Physical": 20}},
 					"EntityStatsOnHit": [],
 					"DamageEffects": {
+						"WorldParticles": [{"SystemId": "KyokaSuigetsu_Impact_Sword_Basic"}],
 						"WorldSoundEventId": "SFX_Sword_T2_Impact",
 						"LocalSoundEventId": "SFX_Sword_T2_Impact"
 					}
@@ -167,6 +189,7 @@
 					"DamageCalculator": {"BaseDamage": {"Physical": 56}},
 					"EntityStatsOnHit": [],
 					"DamageEffects": {
+						"WorldParticles": [{"SystemId": "KyokaSuigetsu_Impact_Sword_Basic"}],
 						"WorldSoundEventId": "SFX_Sword_T2_Impact",
 						"LocalSoundEventId": "SFX_Sword_T2_Impact"
 					}
@@ -178,6 +201,9 @@
 				{
 					"Parent": "Weapon_Sword_Signature_Vortexstrike_Spin_Effect",
 					"Effects": {
+						"Particles": [
+							{"SystemId": "KyokaSuigetsu_Sword_Signature_AoE", "Scale": 1, "TargetNodeName": "Hip", "TargetEntityPart": "Entity", "PositionOffset": {"Y": 1}}
+						],
 						"Trails": [
 							{
 								"PositionOffset": {"X": 0.8, "Y": 0, "Z": 0},
@@ -188,6 +214,11 @@
 						]
 					}
 				}
+			]
+		},
+		"Vortexstrike_Spin_PlayerEffect": {
+			"Interactions": [
+				{"Type": "ApplyEffect", "EffectId": "Kyoka_Suigetsu_Signature"}
 			]
 		},
 		"Guard_Wield": {
@@ -278,6 +309,10 @@
 				{
 					"Parent": "Weapon_Sword_Primary_Thrust_Selector",
 					"Effects": {
+						"Particles": [
+							{"SystemId": "KyokaSuigetsu_Sword_Charged_Trail_Blade", "TargetNodeName": "Handle", "PositionOffset": {"X": 0, "Y": 0}, "RotationOffset": {"Pitch": 0, "Roll": 0, "Yaw": 0}},
+							{"SystemId": "KyokaSuigetsu_Sword_Charged_Trail", "TargetEntityPart": "Entity", "TargetNodeName": "Hip", "RotationOffset": {"Yaw": -90}, "PositionOffset": {"Y": 0.7, "Z": 0.5}}
+						],
 						"Trails": [
 							{
 								"PositionOffset": {"X": 0, "Y": 0, "Z": 0},
@@ -286,6 +321,53 @@
 								"TrailId": "Kyoka_Suigetsu_Trail"
 							}
 						]
+					}
+				}
+			]
+		},
+		"Vortexstrike_Spin_Effect2": {
+			"Interactions": [
+				{
+					"Parent": "Weapon_Sword_Signature_Vortexstrike_Spin_Effect2",
+					"Effects": {
+						"Particles": [
+							{"SystemId": "KyokaSuigetsu_Sword_Signature_AoE2", "TargetNodeName": "Hip", "TargetEntityPart": "Entity", "PositionOffset": {"Y": 1}}
+						]
+					}
+				}
+			]
+		},
+		"Vortexstrike_Stab_Effect": {
+			"Interactions": [
+				{
+					"Parent": "Weapon_Sword_Signature_Vortexstrike_Stab_Effect",
+					"Effects": {
+						"Particles": [
+							{"SystemId": "KyokaSuigetsu_Sword_Signature_Dash_Effect", "PositionOffset": {"X": -1, "Y": 0}, "RotationOffset": {"Pitch": 0, "Roll": 0, "Yaw": 0}, "TargetNodeName": "Handle"},
+							{"SystemId": "KyokaSuigetsu_Sword_Signature_Dash_Trail", "TargetEntityPart": "Entity", "PositionOffset": {"Y": 0.5, "Z": 0.5}, "TargetNodeName": "Hip", "RotationOffset": {"Yaw": -90}}
+						]
+					}
+				}
+			]
+		},
+		"Guard_Bash": {
+			"Interactions": [
+				{
+					"Parent": "Weapon_Sword_Secondary_Guard_Bash_Selector",
+					"Effects": {
+						"Particles": [
+							{"SystemId": "KyokaSuigetsu_Sword_Bash", "TargetEntityPart": "PrimaryItem", "TargetNodeName": "Handle", "PositionOffset": {"X": 0.2, "Y": 0, "Z": 0}, "RotationOffset": {"Pitch": 0, "Roll": 0}}
+						]
+					}
+				}
+			]
+		},
+		"Guard_Bash_Damage": {
+			"Interactions": [
+				{
+					"Parent": "Weapon_Sword_Secondary_Guard_Bash_Damage",
+					"DamageEffects": {
+						"WorldParticles": [{"SystemId": "KyokaSuigetsu_Impact_Sword_Bash"}]
 					}
 				}
 			]
