@@ -59,14 +59,14 @@
           }
         },
         "Opacity": 1.0,
-        "Color": "#e2e2e2"
+        "Color": "#940a0a"
       },
       "20": {
-        "Color": "#f3f3f3"
+        "Color": "#940a0a"
       },
       "50": {
         "Opacity": 0.8,
-        "Color": "#cacaca"
+        "Color": "#5c0c0c"
       },
       "100": {
         "Opacity": 0.0
