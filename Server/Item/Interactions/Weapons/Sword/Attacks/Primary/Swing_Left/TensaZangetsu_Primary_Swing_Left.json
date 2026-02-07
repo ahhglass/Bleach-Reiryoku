@@ -1,18 +1,18 @@
 {
   "Type": "Simple",
-  "RunTime": 0.2,
+  "RunTime": 0.117,
   "Effects": {
-    "ItemAnimationId": "Hit3",
+    "ItemAnimationId": "SwingLeft",
     "WorldSoundEventId": "SFX_Light_Melee_T2_Swing",
-    "LocalSoundEventId": "SFX_Sword_T2_Swing_Down_Local"
+    "LocalSoundEventId": "SFX_Sword_T2_Swing_RL_Local"
   },
   "Next": {
     "Type": "Replace",
-    "Var": "Hit3_Selector",
+    "Var": "Swing_Left_Selector",
     "DefaultOk": true,
     "DefaultValue": {
       "Interactions": [
-        "TensaZangetsu_Primary_Hit3_Selector"
+        "TensaZangetsu_Primary_Swing_Left_Selector"
       ]
     }
   }

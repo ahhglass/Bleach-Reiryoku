@@ -10,6 +10,13 @@
         "TargetEntityPart": "Entity",
         "SystemId": "Slow_Wabisuke",
         "Scale": 2
+      },
+      {
+        "SystemId": "Slowness_Lines",
+        "TargetEntityPart": "Entity",
+        "PositionOffset": {
+          "Y": 1.5
+        }
       }
     ]
   },

@@ -1,6 +1,6 @@
 {
   "Type": "Selector",
-  "RunTime": 0.067,
+  "RunTime": 0.05,
   "Effects": {
     "Trails": [
       {
@@ -10,7 +10,7 @@
           "Z": 0
         },
         "TargetNodeName": "Handle",
-        "TrailId": "TensaZangetsu_Trail",
+        "TrailId": "Medium_Sword_Basic",
         "RotationOffset": {
           "Roll": 90.0
         }
@@ -28,18 +28,18 @@
         }
       }
     ],
-    "CameraEffect": "Sword_Swing_Vertical"
+    "CameraEffect": "Sword_Swing_Diagonal_Right"
   },
   "Selector": {
     "Id": "Horizontal",
     "Direction": "ToLeft",
     "TestLineOfSight": true,
-    "ExtendTop": 0.4,
-    "ExtendBottom": 0.4,
+    "ExtendTop": 0.5,
+    "ExtendBottom": 0.5,
     "StartDistance": 0.1,
     "EndDistance": 2.75,
     "Length": 90,
-    "RollOffset": 90,
+    "RollOffset": 30,
     "YawStartOffset": -60
   },
   "HitBlock": {
@@ -60,11 +60,11 @@
     "Interactions": [
       {
         "Type": "Replace",
-        "Var": "Hit3_Damage",
+        "Var": "Swing_Left_Damage",
         "DefaultOk": true,
         "DefaultValue": {
           "Interactions": [
-            "TensaZangetsu_Primary_Hit3_Damage"
+            "Weapon_Sword_Primary_Swing_Left_Damage"
           ]
         }
       }

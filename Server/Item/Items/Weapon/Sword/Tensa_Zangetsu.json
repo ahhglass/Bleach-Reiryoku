@@ -59,7 +59,7 @@
           "Parent": "Weapon_Sword_Primary_Swing_Left_Damage",
           "DamageCalculator": {
             "BaseDamage": {
-              "Physical": 24
+              "Physical": 20
             }
           },
           "DamageEffects": {
@@ -75,7 +75,7 @@
           "Parent": "Weapon_Sword_Primary_Swing_Right_Damage",
           "DamageCalculator": {
             "BaseDamage": {
-              "Physical": 29
+              "Physical": 24
             }
           },
           "DamageEffects": {
@@ -140,7 +140,7 @@
           "Parent": "TensaZangetsu_Primary_Hit3_Damage",
           "DamageCalculator": {
             "BaseDamage": {
-              "Physical": 55
+              "Physical": 43
             }
           },
           "DamageEffects": {

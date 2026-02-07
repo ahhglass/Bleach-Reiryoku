@@ -9,6 +9,13 @@
       {
         "TargetEntityPart": "Entity",
         "SystemId": "Slow_Wabisuke"
+      },
+      {
+        "SystemId": "Slowness_Lines",
+        "TargetEntityPart": "Entity",
+        "PositionOffset": {
+          "Y": 1.5
+        }
       }
     ],
     "WorldSoundEventId": "SFX_Wabisuke_Slow"
