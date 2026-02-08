@@ -64,7 +64,7 @@
         "DefaultOk": true,
         "DefaultValue": {
           "Interactions": [
-            "Weapon_Sword_Primary_Swing_Right_Damage"
+            "Hozukimaru_Swing_Right_Damage"
           ]
         }
       }
