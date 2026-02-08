@@ -24,7 +24,8 @@
     ]
   },
   "Interactions": {
-    "Primary": "Root_Hozukimaru_Primary"
+    "Primary": "Root_Hozukimaru_Primary",
+    "Secondary": "Root_TensaZangetsu_Secondary_Guard"
   },
   "InteractionVars": {
     "Spear_Block_Damage": "Spear_Block_Damage",

@@ -21,7 +21,9 @@ Soul_Imprinting_Altar.description = Una sagrada estación de trabajo donde el al
 Shinigami_Robes.name = Túnica de Shinigami - Shihakusho
 Shinigami_Robes.description = El uniforme estándar de Shinigami vestido por todos los miembros del Gotei 13.
 Shinigami_Robes_Sleeveless.name = Tunica de Shinigami - Sin mangas
-Shinigami_Robes_Sleeveless.description = Un <i>Shihakusho</i> modificado para quienes desean más libertad de movimiento. Se considera más bien una modificación cosmética de la túnica estándar.
+Shinigami_Robes_Sleeveless.description = Un <i>Shihakusho</i> modificado para quienes desean más libertad de movimiento. Se considera más bien una modificación cosmética del uniforme estándar.
+Shinigami_Robes_Captain.name = Túnica de Shinigami - Capitán
+Shinigami_Robes_Captain.description = El abrigo blanco que llevan los Capitanes sobre su uniforme estándar. Proporciona una protección espiritual superior y denota el rango más alto en el Gotei 13.
 
 Resonating_Reishi_Core.name = Núcleo resonante de Reishi
 Resonating_Reishi_Core.description = Este núcleo vibra a una frecuencia que imita la tuya. Es una extensión de tu alma. Listo para asignarse a una espada y despertarla.

@@ -9,7 +9,7 @@
       "DefaultOk": true,
       "DefaultValue": {
         "Interactions": [
-          "Weapon_Sword_Primary_Thrust_StaminaCondition"
+          "Wabisuke_Primary_FlashSlash_StaminaCondition"
         ]
       }
     }

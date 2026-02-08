@@ -59,7 +59,7 @@
         },
         {
           "time": 36,
-          "delta": {"x": 0.39055, "y": 0.7905, "z": -0.46773, "w": 0.06169},
+          "delta": {"x": -0.39055, "y": -0.7905, "z": 0.46773, "w": -0.06169},
           "interpolationType": "smooth"
         }
       ],
@@ -174,7 +174,7 @@
         },
         {
           "time": 36,
-          "delta": {"x": 0.00511, "y": 0.65205, "z": 0.06991, "w": -0.75493},
+          "delta": {"x": -0.00511, "y": -0.65205, "z": -0.06991, "w": 0.75493},
           "interpolationType": "smooth"
         }
       ],
@@ -359,6 +359,58 @@
           "time": 0,
           "delta": {"x": 0, "y": -0.13053, "z": 0, "w": 0.99144},
           "interpolationType": "smooth"
+        }
+      ],
+      "shapeStretch": [],
+      "shapeVisible": [],
+      "shapeUvOffset": []
+    },
+    "chaintop": {
+      "position": [],
+      "orientation": [
+        {
+          "time": 0,
+          "delta": {"x": 0, "y": 0, "z": 0, "w": 1},
+          "interpolationType": "linear"
+        },
+        {
+          "time": 34,
+          "delta": {"x": 0, "y": -0.23769, "z": 0, "w": 0.97134},
+          "interpolationType": "linear"
+        }
+      ],
+      "shapeStretch": [],
+      "shapeVisible": [],
+      "shapeUvOffset": []
+    },
+    "Handle2": {
+      "position": [
+        {
+          "time": 7,
+          "delta": {"x": 14, "y": 0, "z": 0},
+          "interpolationType": "linear"
+        },
+        {
+          "time": 34,
+          "delta": {"x": 5, "y": 0, "z": 29},
+          "interpolationType": "linear"
+        }
+      ],
+      "orientation": [
+        {
+          "time": 0,
+          "delta": {"x": 0, "y": 0, "z": 0, "w": 1},
+          "interpolationType": "linear"
+        },
+        {
+          "time": 15,
+          "delta": {"x": -0.55053, "y": -0.1117, "z": -0.07464, "w": 0.82393},
+          "interpolationType": "linear"
+        },
+        {
+          "time": 34,
+          "delta": {"x": 0, "y": -0.30071, "z": 0, "w": 0.95372},
+          "interpolationType": "linear"
         }
       ],
       "shapeStretch": [],

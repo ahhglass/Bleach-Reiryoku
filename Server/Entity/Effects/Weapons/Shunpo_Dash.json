@@ -15,5 +15,6 @@
     "ModelVFXId": "Shunpo_Dash"
   },
   "OverlapBehavior": "Extend",
-  "Invulnerable": true
+  "Invulnerable": false,
+  "RemovalBehavior": "Complete"
 }

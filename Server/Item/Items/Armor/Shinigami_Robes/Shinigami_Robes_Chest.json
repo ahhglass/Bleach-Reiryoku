@@ -19,7 +19,7 @@
     ]
   },
   "Model": "Items/Armors/Shinigami_Robes/Shinigami_Robes.blockymodel",
-  "Texture": "Items/Armors/Shinigami_Robes/Shinigami_Robes_texture_ribbon.png",
+  "Texture": "Items/Armors/Shinigami_Robes/Shinigami_Robes_Ribbon_Texture.png",
   "Recipe": {
     "TimeSeconds": 2,
     "Input": [
@@ -52,7 +52,8 @@
     "ArmorSlot": "Chest",
     "BaseDamageResistance": 0,
     "CosmeticsToHide": [
-      "Overtop"
+      "Overtop",
+      "Pants"
     ],
     "StatModifiers": {
       "Health": [

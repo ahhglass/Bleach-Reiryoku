@@ -225,7 +225,7 @@
       "orientation": [
         {
           "time": 0,
-          "delta": {"x": -0.12318, "y": -0.77704, "z": -0.11305, "w": 0.60684},
+          "delta": {"x": 0.12318, "y": 0.77704, "z": 0.11305, "w": -0.60684},
           "interpolationType": "smooth"
         }
       ],
@@ -271,25 +271,6 @@
         {
           "time": 0,
           "delta": {"x": -0.29044, "y": 0.75918, "z": -0.09195, "w": 0.57518},
-          "interpolationType": "smooth"
-        }
-      ],
-      "shapeStretch": [],
-      "shapeVisible": [],
-      "shapeUvOffset": []
-    },
-    "R-Attachment": {
-      "position": [
-        {
-          "time": 0,
-          "delta": {"x": 0, "y": 0, "z": 18.25},
-          "interpolationType": "smooth"
-        }
-      ],
-      "orientation": [
-        {
-          "time": 0,
-          "delta": {"x": 0, "y": -0.38268, "z": 0, "w": 0.92388},
           "interpolationType": "smooth"
         }
       ],

@@ -59,10 +59,15 @@
           "Parent": "Weapon_Sword_Primary_Swing_Left_Damage",
           "DamageCalculator": {
             "BaseDamage": {
-              "Physical": 24
+              "Physical": 20
             }
           },
           "DamageEffects": {
+            "WorldParticles": [
+              {
+                "SystemId": "TensaZangetsu_Slash"
+              }
+            ],
             "WorldSoundEventId": "SFX_Sword_T2_Impact",
             "LocalSoundEventId": "SFX_Sword_T2_Impact"
           }
@@ -75,10 +80,15 @@
           "Parent": "Weapon_Sword_Primary_Swing_Right_Damage",
           "DamageCalculator": {
             "BaseDamage": {
-              "Physical": 29
+              "Physical": 24
             }
           },
           "DamageEffects": {
+            "WorldParticles": [
+              {
+                "SystemId": "TensaZangetsu_Slash"
+              }
+            ],
             "WorldSoundEventId": "SFX_Sword_T2_Impact",
             "LocalSoundEventId": "SFX_Sword_T2_Impact"
           }
@@ -95,6 +105,11 @@
             }
           },
           "DamageEffects": {
+            "WorldParticles": [
+              {
+                "SystemId": "TensaZangetsu_Slash"
+              }
+            ],
             "WorldSoundEventId": "SFX_Sword_T2_Impact",
             "LocalSoundEventId": "SFX_Sword_T2_Impact"
           }
@@ -140,10 +155,15 @@
           "Parent": "TensaZangetsu_Primary_Hit3_Damage",
           "DamageCalculator": {
             "BaseDamage": {
-              "Physical": 55
+              "Physical": 43
             }
           },
           "DamageEffects": {
+            "WorldParticles": [
+              {
+                "SystemId": "TensaZangetsu_Slash"
+              }
+            ],
             "WorldSoundEventId": "SFX_Sword_T2_Impact",
             "LocalSoundEventId": "SFX_Sword_T2_Impact"
           }
@@ -160,7 +180,7 @@
       "SignatureEnergy": [
         {
           "CalculationType": "Additive",
-          "Amount": 7
+          "Amount": 8
         }
       ],
       "Stamina": [
