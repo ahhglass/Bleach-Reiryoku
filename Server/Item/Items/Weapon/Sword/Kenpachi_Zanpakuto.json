@@ -9,106 +9,163 @@
 	"Icon": "Icons/ItemsGenerated/Kenpachi_Zanpakuto.png",
 	"Quality": "Sealed",
 	"ItemLevel": 25,
-	"Categories": [
-		"BleachCategory.Weapons",
-		"Items.Weapons"
-	],
-	"MaxDurability": 100,
-	"DurabilityLossOnHit": 0.21,
+	"Categories": ["BleachCategory.Weapons", "Items.Weapons"],
 	"IconProperties": {
 		"Scale": 0.38,
 		"Rotation": [45, 90, 0],
 		"Translation": [-35, -40]
 	},
+	"ItemAppearanceConditions": {
+		"SignatureEnergy": [
+			{
+				"Condition": [100, 100],
+				"ConditionValueType": "Percent",
+				"Particles": [
+					{"SystemId": "Kenpachi_Zanpakuto_Sword_Signature_Ready", "TargetNodeName": "Handle", "PositionOffset": {"X": 0.8}, "TargetEntityPart": "PrimaryItem"},
+					{"SystemId": "Kenpachi_Zanpakuto_Sword_Signature_Status_Spawn", "TargetNodeName": "Handle", "PositionOffset": {"X": 0.5}, "TargetEntityPart": "PrimaryItem"},
+					{"SystemId": "Kenpachi_Zanpakuto_Sword_Signature_Status", "TargetNodeName": "Handle", "PositionOffset": {"X": 0.55}, "TargetEntityPart": "PrimaryItem", "Scale": 1.3}
+				],
+				"FirstPersonParticles": [
+					{"SystemId": "Kenpachi_Zanpakuto_Sword_Signature_Ready", "TargetNodeName": "Handle", "PositionOffset": {"X": 0.8}, "TargetEntityPart": "PrimaryItem"},
+					{"SystemId": "Kenpachi_Zanpakuto_Sword_Signature_Status_Spawn", "TargetNodeName": "Handle", "TargetEntityPart": "PrimaryItem", "PositionOffset": {"Y": -100}},
+					{"SystemId": "Kenpachi_Zanpakuto_Sword_Signature_Status", "TargetNodeName": "Handle", "PositionOffset": {"X": 0.5}, "TargetEntityPart": "PrimaryItem"}
+				],
+				"ModelVFXId": "Kenpachi_Zanpakuto_Signature_Status"
+			}
+		]
+	},
+	"Weapon": {
+		"EntityStatsToClear": ["SignatureEnergy"],
+		"StatModifiers": {
+			"SignatureEnergy": [{"Amount": 35, "CalculationType": "Additive"}]
+		}
+	},
 	"InteractionVars": {
+		"Swing_Left": {
+			"Interactions": [{"Parent": "Weapon_Sword_Primary_Swing_Left", "RunTime": 0.08}]
+		},
+		"Swing_Right": {
+			"Interactions": [{"Parent": "Weapon_Sword_Primary_Swing_Right", "RunTime": 0.08}]
+		},
+		"Swing_Down": {
+			"Interactions": [{"Parent": "Weapon_Sword_Primary_Swing_Down", "RunTime": 0.32}]
+		},
+		"Thrust": {
+			"Interactions": ["Kenpachi_Zanpakuto_Thrust"]
+		},
 		"Swing_Left_Damage": {
-			"Interactions": [
-				{
-					"Parent": "Weapon_Sword_Primary_Swing_Left_Damage",
-					"DamageCalculator": {"BaseDamage": {"Physical": 9}},
-					"DamageEffects": {
-						"WorldSoundEventId": "SFX_Sword_T2_Impact",
-						"LocalSoundEventId": "SFX_Sword_T2_Impact"
-					}
-				}
-			]
+			"Interactions": [{
+				"Parent": "Weapon_Sword_Primary_Swing_Left_Damage",
+				"DamageCalculator": {"BaseDamage": {"Physical": 14}},
+				"DamageEffects": {"WorldSoundEventId": "SFX_Sword_T2_Impact", "LocalSoundEventId": "SFX_Sword_T2_Impact"}
+			}]
 		},
 		"Swing_Right_Damage": {
-			"Interactions": [
-				{
-					"Parent": "Weapon_Sword_Primary_Swing_Right_Damage",
-					"DamageCalculator": {"BaseDamage": {"Physical": 10}},
-					"DamageEffects": {
-						"WorldSoundEventId": "SFX_Sword_T2_Impact",
-						"LocalSoundEventId": "SFX_Sword_T2_Impact"
-					}
-				}
-			]
+			"Interactions": [{
+				"Parent": "Weapon_Sword_Primary_Swing_Right_Damage",
+				"DamageCalculator": {"BaseDamage": {"Physical": 18}},
+				"DamageEffects": {"WorldSoundEventId": "SFX_Sword_T2_Impact", "LocalSoundEventId": "SFX_Sword_T2_Impact"}
+			}]
 		},
 		"Swing_Down_Damage": {
-			"Interactions": [
-				{
-					"Parent": "Weapon_Sword_Primary_Swing_Down_Damage",
-					"DamageCalculator": {"BaseDamage": {"Physical": 18}},
-					"DamageEffects": {
-						"WorldSoundEventId": "SFX_Sword_T2_Impact",
-						"LocalSoundEventId": "SFX_Sword_T2_Impact"
-					}
-				}
-			]
+			"Interactions": [{
+				"Parent": "Weapon_Sword_Primary_Swing_Down_Damage",
+				"DamageCalculator": {"BaseDamage": {"Physical": 22}},
+				"DamageEffects": {"WorldSoundEventId": "SFX_Sword_T2_Impact", "LocalSoundEventId": "SFX_Sword_T2_Impact"}
+			}]
 		},
 		"Thrust_Damage": {
-			"Interactions": [
-				{
-					"Parent": "Weapon_Sword_Primary_Thrust_Damage",
-					"DamageCalculator": {"BaseDamage": {"Physical": 26}},
-					"EntityStatsOnHit": [{"EntityStatId": "SignatureEnergy", "Amount": 3}],
-					"DamageEffects": {
-						"WorldSoundEventId": "SFX_Sword_T2_Impact",
-						"LocalSoundEventId": "SFX_Sword_T2_Impact"
-					}
-				}
-			]
+			"Interactions": [{
+				"Parent": "Weapon_Sword_Primary_Thrust_Damage",
+				"DamageCalculator": {"BaseDamage": {"Physical": 26}},
+				"EntityStatsOnHit": [{"EntityStatId": "SignatureEnergy", "Amount": 3}],
+				"DamageEffects": {"WorldSoundEventId": "SFX_Sword_T2_Impact", "LocalSoundEventId": "SFX_Sword_T2_Impact"}
+			}]
 		},
 		"Vortexstrike_Spin_Damage": {
-			"Interactions": [
-				{
-					"Parent": "Weapon_Sword_Signature_Vortexstrike_Spin_Damage",
-					"DamageCalculator": {"BaseDamage": {"Physical": 19}},
-					"DamageEffects": {
-						"WorldSoundEventId": "SFX_Sword_T2_Impact",
-						"LocalSoundEventId": "SFX_Sword_T2_Impact"
-					}
-				}
-			]
+			"Interactions": [{
+				"Parent": "Weapon_Sword_Signature_Vortexstrike_Spin_Damage",
+				"DamageCalculator": {"BaseDamage": {"Physical": 24}},
+				"DamageEffects": {"WorldSoundEventId": "SFX_Sword_T2_Impact", "LocalSoundEventId": "SFX_Sword_T2_Impact"}
+			}]
 		},
 		"Vortexstrike_Stab_Damage": {
-			"Interactions": [
-				{
-					"Parent": "Weapon_Sword_Signature_Vortexstrike_Stab_Damage",
-					"DamageCalculator": {"BaseDamage": {"Physical": 56}},
-					"DamageEffects": {
-						"WorldSoundEventId": "SFX_Sword_T2_Impact",
-						"LocalSoundEventId": "SFX_Sword_T2_Impact"
-					}
-				}
-			]
+			"Interactions": [{
+				"Parent": "Weapon_Sword_Signature_Vortexstrike_Stab_Damage",
+				"DamageCalculator": {"BaseDamage": {"Physical": 56}},
+				"DamageEffects": {"WorldSoundEventId": "SFX_Sword_T2_Impact", "LocalSoundEventId": "SFX_Sword_T2_Impact"}
+			}]
 		},
-		"Guard_Bash_Damage": {
-			"Interactions": [
-				{
-					"Parent": "Weapon_Sword_Secondary_Guard_Bash_Damage",
-					"DamageEffects": {
-						"WorldSoundEventId": "SFX_Sword_T2_Impact",
-						"LocalSoundEventId": "SFX_Sword_T2_Impact"
-					}
+		"Vortexstrike_Spin_Effect": {
+			"Interactions": [{
+				"Parent": "Weapon_Sword_Signature_Vortexstrike_Spin_Effect",
+				"Effects": {
+					"Particles": [{"SystemId": "Kenpachi_Zanpakuto_Sword_Signature_AoE", "Scale": 1, "TargetNodeName": "Hip", "TargetEntityPart": "Entity", "PositionOffset": {"Y": 1}}],
+					"Trails": [{"PositionOffset": {"X": 0.8, "Y": 0, "Z": 0}, "RotationOffset": {"Pitch": 0, "Roll": 90, "Yaw": 0}, "TargetNodeName": "Handle", "TrailId": "Kenpachi_Zanpakuto_Trail"}]
 				}
-			]
+			}]
+		},
+		"Vortexstrike_Spin_PlayerEffect": {
+			"Interactions": [{"Type": "ApplyEffect", "EffectId": "Kenpachi_Zanpakuto_Signature"}]
+		},
+		"Vortexstrike_Spin_Effect2": {
+			"Interactions": [{
+				"Parent": "Weapon_Sword_Signature_Vortexstrike_Spin_Effect2",
+				"Effects": {"Particles": [{"SystemId": "Kenpachi_Zanpakuto_Sword_Signature_AoE2", "TargetNodeName": "Hip", "TargetEntityPart": "Entity", "PositionOffset": {"Y": 1}}]}
+			}]
+		},
+		"Vortexstrike_Stab_Effect": {
+			"Interactions": [{"Parent": "Weapon_Sword_Signature_Vortexstrike_Stab_Effect"}]
 		},
 		"Guard_Wield": {
-			"Interactions": [
-				{"Parent": "Kenpachi_Zanpakuto_Secondary_Guard_Wield"}
-			]
+			"Interactions": [{"Parent": "Kenpachi_Zanpakuto_Secondary_Guard_Wield"}]
+		},
+		"Swing_Left_Selector": {
+			"Interactions": [{
+				"Parent": "Weapon_Sword_Primary_Swing_Left_Selector",
+				"RunTime": 0.03,
+				"Next": {"Type": "Simple", "RunTime": 0.12},
+				"Effects": {"Trails": [{"PositionOffset": {"X": 1.3, "Y": 0, "Z": 0}, "TargetNodeName": "Handle", "TrailId": "Kenpachi_Zanpakuto_Trail", "RotationOffset": {"Roll": 90}}, {"PositionOffset": {"X": 1.7, "Y": 0, "Z": 0}, "TargetNodeName": "Handle", "TrailId": "Sword_Distortion", "RotationOffset": {"Roll": 90}}]}
+			}]
+		},
+		"Swing_Right_Selector": {
+			"Interactions": [{
+				"Parent": "Weapon_Sword_Primary_Swing_Right_Selector",
+				"RunTime": 0.03,
+				"Next": {"Type": "Simple", "RunTime": 0.12},
+				"Effects": {"Trails": [{"PositionOffset": {"X": 1.3, "Y": 0, "Z": 0}, "TargetNodeName": "Handle", "TrailId": "Kenpachi_Zanpakuto_Trail", "RotationOffset": {"Roll": 90}}, {"PositionOffset": {"X": 1.7, "Y": 0, "Z": 0}, "TargetNodeName": "Handle", "TrailId": "Sword_Distortion", "RotationOffset": {"Roll": 90}}]}
+			}]
+		},
+		"Swing_Down_Selector": {
+			"Interactions": [{
+				"Parent": "Weapon_Sword_Primary_Swing_Down_Selector",
+				"RunTime": 0.04,
+				"Next": {"Type": "Simple", "RunTime": 0.14},
+				"Effects": {"Trails": [{"PositionOffset": {"X": 1.3, "Y": 0, "Z": 0}, "TargetNodeName": "Handle", "TrailId": "Kenpachi_Zanpakuto_Trail", "RotationOffset": {"Roll": 90}}, {"PositionOffset": {"X": 1.7, "Y": 0, "Z": 0}, "TargetNodeName": "Handle", "TrailId": "Sword_Distortion", "RotationOffset": {"Roll": 90}}]}
+			}]
+		},
+		"Thrust_Selector": {
+			"Interactions": [{
+				"Parent": "Weapon_Sword_Primary_Thrust_Selector",
+				"Effects": {
+					"Particles": [
+						{"SystemId": "Kenpachi_Zanpakuto_Sword_Charged_Trail_Blade", "TargetNodeName": "Handle", "PositionOffset": {"X": 0, "Y": 0}, "RotationOffset": {"Pitch": 0, "Roll": 0, "Yaw": 0}},
+						{"SystemId": "Kenpachi_Zanpakuto_Sword_Charged_Trail", "TargetEntityPart": "Entity", "TargetNodeName": "Hip", "RotationOffset": {"Yaw": -90}, "PositionOffset": {"Y": 0.7, "Z": 0.5}}
+					],
+					"Trails": [{"PositionOffset": {"X": 0, "Y": 0, "Z": 0}, "RotationOffset": {"Pitch": 0, "Roll": 0, "Yaw": 0}, "TargetNodeName": "SwordTip", "TrailId": "Kenpachi_Zanpakuto_Trail"}]
+				}
+			}]
+		},
+		"Guard_Bash": {
+			"Interactions": [{"Parent": "Weapon_Sword_Secondary_Guard_Bash"}]
+		},
+		"Guard_Bash_Selector": {
+			"Interactions": [{"Parent": "Weapon_Sword_Secondary_Guard_Bash_Selector"}]
+		},
+		"Guard_Bash_Damage": {
+			"Interactions": [{"Parent": "Weapon_Sword_Secondary_Guard_Bash_Damage", "DamageEffects": {"WorldSoundEventId": "SFX_Sword_T2_Impact", "LocalSoundEventId": "SFX_Sword_T2_Impact"}}]
 		}
-	}
+	},
+	"MaxDurability": 100,
+	"DurabilityLossOnHit": 0.21
 }
