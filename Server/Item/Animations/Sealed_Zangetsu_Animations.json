@@ -33,7 +33,7 @@
     "Sprint": {
       "FirstPerson": "Characters/Animations/Items/Main_Handed/Sword/Sprint_FPS.blockyanim",
       "Speed": 1.1,
-      "ThirdPerson": "Characters/Animations/Items/Main_Handed/Sword/Sprint.blockyanim",
+      "ThirdPerson": "Characters/Animations/Items/Zangetsu_Shikai/Sprint_ShikaiZangetsu.blockyanim",
       "Looping": true
     },
     "Crouch": {
