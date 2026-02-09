@@ -28,3 +28,14 @@ Resonating_Reishi_Core.name = Noyau de Reishi résonnant
 Resonating_Reishi_Core.description = Ce noyau bourdonne à une fréquence qui imite la vôtre. C'est une extension de votre âme. Prêt à être affecté à une lame pour l'éveiller.
 Transcendent_Essence.name = Essence transcendante
 Transcendent_Essence.description = Un paradoxe tourbillonnant de pouvoir absolu. Les frontières entre votre esprit et le monde physique se sont dissoutes en ce point de pulsation singulier. Dans cette lueur se trouve la véritable forme de votre âme, qui crie pour être libérée.
+
+
+
+items.Currency_Kan.name = Kan
+items.Currency_Kan.description = La monnaie standard de la Société des Âmes. Un Kan représente la valeur d'une balle de riz dans le monde des vivants. Son poids et son tintement seraient accordés à la fréquence du reishi, rendant la contrefaçon impossible. Pour un marchand du Rukongai, cette pièce est une fortune ; pour un capitaine, de la menue monnaie.
+
+items.Medical_Pill_Basic.name = Pilule médicale de base
+items.Medical_Pill_Basic.description = Pilule standard du corps médical de la 4e division. Fabriquée à partir d'herbes médicinales concentrées et d'une trace d'énergie de guérison kaido.\n\nRestaure <color is="#ffffff">30%</color> de santé instantanément.
+
+items.Kaido_Infused_Pill.name = Pilule de restauration imprégnée de Kaido
+items.Kaido_Infused_Pill.description = Chef-d'œuvre de la recherche médicale de la 4e division. Plus qu'une pilule, une capsule solide de sorts de guérison kaido en suspension.\n\nRestaure <color is="#ffffff">100%</color> de santé instantanément et accorde :\n\n• <color is="#ffffff">Régénération de santé II</color>\n\nDurée : <color is="#ffffff">0:30</color>
