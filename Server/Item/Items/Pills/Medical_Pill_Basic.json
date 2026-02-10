@@ -90,7 +90,7 @@
     "Input": [
       { "ItemId": "Ingredient_Life_Essence", "Quantity": 2 },
       { "ItemId": "Plant_Flower_Tall_Purple", "Quantity": 3 },
-      { "ItemId": "Plant_Crop_Mushroom_Block", "Quantity": 4 }
+      { "ItemId": "Plant_Crop_Mushroom_Cap_Red", "Quantity": 4 }
     ],
     "TimeSeconds": 1,
     "Output": [
