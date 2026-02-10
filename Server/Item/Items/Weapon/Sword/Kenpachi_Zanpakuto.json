@@ -526,5 +526,6 @@
     }
   },
   "MaxDurability": 100,
-  "DurabilityLossOnHit": 0.21
+  "DurabilityLossOnHit": 0.21,
+  "PlayerAnimationsId": "Kenpachi_Zanpakuto_Animations"
 }
