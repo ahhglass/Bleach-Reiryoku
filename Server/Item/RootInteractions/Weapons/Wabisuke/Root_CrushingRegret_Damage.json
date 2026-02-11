@@ -1,0 +1,10 @@
+{
+  "RequireNewClick": true,
+  "ClickQueuingTimeout": 0.2,
+  "Interactions": [
+    "Wabisuke_CrushingRegret_Damage"
+  ],
+  "Cooldown": {
+    "Cooldown": 0.25
+  }
+}

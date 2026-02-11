@@ -1,10 +1,10 @@
-Bankai_Tensa_Zangetsu.name = Bankai - Tensa Zangetsu
+Bankai_Tensa_Zangetsu.name = Bankai – Tensa Zangetsu
 Bankai_Tensa_Zangetsu.description = Bankai – Tensa Zangetsu is a legendary spiritual blade. Its black edge with a chain focuses the wielder’s energy, releasing the devastating wave <i><b>Getsuga Tensho — «Moon Fang That Pierces the Heavens»</b></i>. 
-Shikai_Tensa_Zangetsu.name = Shikai - Zangetsu
+Shikai_Tensa_Zangetsu.name = Shikai – Zangetsu
 Shikai_Tensa_Zangetsu.description = Zangetsu is a massive spiritual cleaver, permanently in its released state. The black blade, wrapped in living cloth, empowers its wielder, unleashing <i><b>Getsuga Tensho</b></i> waves and serving as a shield against physical and energy-based attacks.
 ReiryokuCrystal.name = Reiryoku Crystal
 ReiryokuCrystal.description = A crystal of pure spiritual energy, a concentration of numerous souls. Awakens and evolves a Zanpakuto.
-Sealed_Zangetsu.name = Sealed - Zangetsu
+Sealed_Zangetsu.name = Sealed – Zangetsu
 Sealed_Zangetsu.description = The sealed blade before awakening. Holds boundless, yet dormant potential.
 Asauchi.name = Asauchi
 Asauchi.description = A blank soul template. The foundation for a future Zanpakuto, awaiting the imprint of its owner.
@@ -27,12 +27,26 @@ True_Bankai_Tensa_Zangetsu.description = The ultimate evolution of Ichigo's powe
 Soul_Imprinting_Altar.name = Soul Imprinting Altar
 Soul_Imprinting_Altar.description = A sacred workstation where the wielder's soul merges with the Asauchi. Through deep meditation and concentration of spiritual energy (Reiryoku), the foundation of the future Zanpakuto is laid. This altar is used not only for the initial awakening but also for the subsequent stages of the blade's evolution — from Shikai to the ultimate revelation, Bankai.
 
-Shinigami_Robes.name = Shinigami Robe - Shihakusho
+Shinigami_Robes.name = Shinigami Robe – Shihakusho
 Shinigami_Robes.description = The standard Shinigami uniform worn by all members of the Gotei 13.
-Shinigami_Robes_Sleeveless.name = Shinigami Robe - Sleeveless
-Shinigami_Robes_Sleeveless.description = A modified <i>Shihakusho</i> accomodate for those who desire more liberty of movement. More considered a cosmetic modification to the standard robes.
+Shinigami_Robes_Sleeveless.name = Shinigami Robe – Sleeveless
+Shinigami_Robes_Sleeveless.description = A modified <i>Shihakusho</i> for those who desire more liberty of movement. More considered a cosmetic modification to the standard uniform.
+Shinigami_Robes_Captain.name = Shinigami Robe – Captain
+Shinigami_Robes_Captain.description = The white coat worn by Captains over their standard uniform. Provides superior spiritual protection and denotes highest rank in the Gotei 13.
+
 
 Resonating_Reishi_Core.name = Resonating Reishi Core
 Resonating_Reishi_Core.description = This core hums at a frequency that mimics yours. It's an extension of your soul. Ready to be assigned to a blade to awaken it.
 Transcendent_Essence.name = Transcendent Essence
 Transcendent_Essence.description = A swirling paradox of absolute power. The boundaries between your spirit and the physical world have dissolved into this singular pulsing point. Within this glow lies the true form of your soul, screaming to be released.
+
+
+
+items.Currency_Kan.name = Kan
+items.Currency_Kan.description = The standard currency of the Soul Society. A single Kan represents the value of one bale of rice in the world of the living. Its weight and ring are said to be tuned to the very frequency of reishi, making it impossible to counterfeit. To a merchant in the Rukongai, this coin is a fortune; to a captain, mere pocket change.
+
+items.Medical_Pill_Basic.name = Basic Medical Pill
+items.Medical_Pill_Basic.description = A standard-issue pill from Squad 4's medical corps. Made from concentrated medicinal herbs and a trace of healing kaido energy.\n\nRestores <color is="#ffffff">30%</color> health instantly.
+
+items.Kaido_Infused_Pill.name = Kaido-Infused Restoration Pill
+items.Kaido_Infused_Pill.description = A masterpiece of Squad 4's medical research. Not merely a pill, but a solid capsule of suspended healing kaido spells.\n\nRestores <color is="#ffffff">100%</color> health instantly and grants:\n\n• <color is="#ffffff">Health Regen II</color>\n\nDuration: <color is="#ffffff">0:30</color>

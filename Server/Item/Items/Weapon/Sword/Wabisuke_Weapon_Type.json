@@ -11,7 +11,8 @@
   "Quality": "Template",
   "ItemLevel": 15,
   "Categories": [
-    "Items.Weapons"
+    "Items.Weapons",
+    "BleachCategory.Weapons"
   ],
   "IconProperties": {
     "Scale": 0.35,
@@ -31,7 +32,7 @@
   "Interactions": {
     "Primary": "Root_Wabisuke_Primary",
     "Secondary": "Root_Wabisuke_Secondary_Guard",
-    "Ability1": "Root_Weapon_Sword_Signature_Vortexstrike"
+    "Ability1": "Root_Wabisuke_CrushingRegret"
   },
   "Tags": {
     "Type": [

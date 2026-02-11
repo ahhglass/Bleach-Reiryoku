@@ -187,7 +187,7 @@
                           "shape": {
                             "type": "box",
                             "offset": {"x": 15, "y": -5.5, "z": 0.5},
-                            "stretch": {"x": 1, "y": 1, "z": 1},
+                            "stretch": {"x": 1, "y": 1, "z": 0.625},
                             "settings": {
                               "isPiece": false,
                               "size": {"x": 32, "y": 21, "z": 5},
@@ -239,7 +239,7 @@
                           "shape": {
                             "type": "box",
                             "offset": {"x": 0, "y": 0, "z": 0},
-                            "stretch": {"x": 1, "y": 1.475, "z": 1.625},
+                            "stretch": {"x": 1, "y": 1.475, "z": 1.125},
                             "settings": {
                               "isPiece": false,
                               "size": {"x": 3, "y": 7, "z": 3},
@@ -291,7 +291,7 @@
                           "shape": {
                             "type": "box",
                             "offset": {"x": -23.54244, "y": 2.10529, "z": 0},
-                            "stretch": {"x": 1, "y": 0.975, "z": 0.85},
+                            "stretch": {"x": 1, "y": 0.975, "z": 0.6},
                             "settings": {
                               "isPiece": false,
                               "size": {"x": 28, "y": 21, "z": 5},
@@ -343,7 +343,7 @@
                           "shape": {
                             "type": "box",
                             "offset": {"x": -11.12531, "y": 5.34135, "z": 0},
-                            "stretch": {"x": 1, "y": 0.9375, "z": 0.775},
+                            "stretch": {"x": 1, "y": 0.9375, "z": 0.525},
                             "settings": {
                               "isPiece": false,
                               "size": {"x": 22, "y": 13, "z": 5},
@@ -395,7 +395,7 @@
                           "shape": {
                             "type": "box",
                             "offset": {"x": -11.15773, "y": -4.36884, "z": 0},
-                            "stretch": {"x": 1, "y": 0.9375, "z": 0.6625},
+                            "stretch": {"x": 1, "y": 0.9375, "z": 0.4125},
                             "settings": {
                               "isPiece": false,
                               "size": {"x": 22, "y": 8, "z": 5},

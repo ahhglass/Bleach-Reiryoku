@@ -51,6 +51,11 @@
             }
           },
           "DamageEffects": {
+            "WorldParticles": [
+              {
+                "SystemId": "SwordSlash_Basic"
+              }
+            ],
             "WorldSoundEventId": "SFX_Sword_T2_Impact",
             "LocalSoundEventId": "SFX_Sword_T2_Impact"
           }
@@ -67,6 +72,11 @@
             }
           },
           "DamageEffects": {
+            "WorldParticles": [
+              {
+                "SystemId": "SwordSlash_Basic"
+              }
+            ],
             "WorldSoundEventId": "SFX_Sword_T2_Impact",
             "LocalSoundEventId": "SFX_Sword_T2_Impact"
           }
@@ -83,6 +93,11 @@
             }
           },
           "DamageEffects": {
+            "WorldParticles": [
+              {
+                "SystemId": "SwordSlash_Basic"
+              }
+            ],
             "WorldSoundEventId": "SFX_Sword_T2_Impact",
             "LocalSoundEventId": "SFX_Sword_T2_Impact"
           }

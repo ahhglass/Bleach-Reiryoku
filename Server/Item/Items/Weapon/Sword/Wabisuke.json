@@ -21,6 +21,11 @@
             }
           },
           "DamageEffects": {
+            "WorldParticles": [
+              {
+                "SystemId": "SwordSlash_Basic"
+              }
+            ],
             "WorldSoundEventId": "SFX_Sword_T2_Impact",
             "LocalSoundEventId": "SFX_Sword_T2_Impact"
           }
@@ -37,6 +42,11 @@
             }
           },
           "DamageEffects": {
+            "WorldParticles": [
+              {
+                "SystemId": "SwordSlash_Basic"
+              }
+            ],
             "WorldSoundEventId": "SFX_Sword_T2_Impact",
             "LocalSoundEventId": "SFX_Sword_T2_Impact"
           }
@@ -53,6 +63,11 @@
             }
           },
           "DamageEffects": {
+            "WorldParticles": [
+              {
+                "SystemId": "Wabisuke_Slash"
+              }
+            ],
             "WorldSoundEventId": "SFX_Sword_T2_Impact",
             "LocalSoundEventId": "SFX_Sword_T2_Impact"
           }
@@ -75,40 +90,33 @@
             }
           ],
           "DamageEffects": {
+            "WorldParticles": [
+              {
+                "SystemId": "SwordSlash_Basic"
+              }
+            ],
             "WorldSoundEventId": "SFX_Sword_T2_Impact",
             "LocalSoundEventId": "SFX_Sword_T2_Impact"
           }
         }
       ]
     },
-    "Vortexstrike_Spin_Damage": {
+    "CrushingRegret_Damage": {
       "Interactions": [
         {
-          "Parent": "Weapon_Sword_Signature_Vortexstrike_Spin_Damage",
+          "Parent": "Wabisuke_CrushingRegret_Damage",
           "DamageCalculator": {
             "BaseDamage": {
-              "Physical": 23
+              "Physical": 100
             }
           },
           "EntityStatsOnHit": [],
           "DamageEffects": {
-            "WorldSoundEventId": "SFX_Sword_T2_Impact",
-            "LocalSoundEventId": "SFX_Sword_T2_Impact"
-          }
-        }
-      ]
-    },
-    "Vortexstrike_Stab_Damage": {
-      "Interactions": [
-        {
-          "Parent": "Weapon_Sword_Signature_Vortexstrike_Stab_Damage",
-          "DamageCalculator": {
-            "BaseDamage": {
-              "Physical": 70
-            }
-          },
-          "EntityStatsOnHit": [],
-          "DamageEffects": {
+            "WorldParticles": [
+              {
+                "SystemId": "Wabisuke_Slash"
+              }
+            ],
             "WorldSoundEventId": "SFX_Sword_T2_Impact",
             "LocalSoundEventId": "SFX_Sword_T2_Impact"
           }
@@ -128,7 +136,44 @@
       -45
     ]
   },
-  "Categories": [
-    "BleachCategory.Weapons"
-  ]
+  "Recipe": {
+    "TimeSeconds": 4.5,
+    "Input": [
+      {
+        "ItemId": "Ingredient_Bar_Cobalt",
+        "Quantity": 4
+      },
+      {
+        "ItemId": "Ingredient_Bar_Thorium",
+        "Quantity": 4
+      },
+      {
+        "ItemId": "Ingredient_Void_Essence",
+        "Quantity": 4
+      },
+      {
+        "ItemId": "Resonating_Reishi_Core"
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Categories": [
+          "Soul_Shikai"
+        ],
+        "Id": "Soul_Imprinting_Altar"
+      }
+    ],
+    "KnowledgeRequired": false
+  },
+  "Weapon": {
+    "StatModifiers": {
+      "SignatureEnergy": [
+        {
+          "CalculationType": "Additive",
+          "Amount": 20
+        }
+      ]
+    }
+  }
 }

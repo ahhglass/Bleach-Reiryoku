@@ -28,9 +28,22 @@ Soul_Imprinting_Altar.description = Una sagrada estación de trabajo donde el al
 Shinigami_Robes.name = Túnica de Shinigami - Shihakusho
 Shinigami_Robes.description = El uniforme estándar de Shinigami vestido por todos los miembros del Gotei 13.
 Shinigami_Robes_Sleeveless.name = Tunica de Shinigami - Sin mangas
-Shinigami_Robes_Sleeveless.description = Un <i>Shihakusho</i> modificado para quienes desean más libertad de movimiento. Se considera más bien una modificación cosmética de la túnica estándar.
+Shinigami_Robes_Sleeveless.description = Un <i>Shihakusho</i> modificado para quienes desean más libertad de movimiento. Se considera más bien una modificación cosmética del uniforme estándar.
+Shinigami_Robes_Captain.name = Túnica de Shinigami - Capitán
+Shinigami_Robes_Captain.description = El abrigo blanco que llevan los Capitanes sobre su uniforme estándar. Proporciona una protección espiritual superior y denota el rango más alto en el Gotei 13.
 
 Resonating_Reishi_Core.name = Núcleo resonante de Reishi
 Resonating_Reishi_Core.description = Este núcleo vibra a una frecuencia que imita la tuya. Es una extensión de tu alma. Listo para asignarse a una espada y despertarla.
 Transcendent_Essence.name = Esencia Trascendental
 Transcendent_Essence.description = Un paradójico remolino de poder absoluto. Los límites entre tu espíritu y el mundo físico se han disuelto en este único punto pulsante. En su resplandor yace la verdadera forma de tu alma, clamando por ser liberada.
+
+
+
+items.Currency_Kan.name = Kan
+items.Currency_Kan.description = La moneda estándar de la Sociedad de Almas. Un Kan representa el valor de un fardo de arroz en el mundo de los vivos. Su peso y sonido están sintonizados con la frecuencia del reishi, lo que hace imposible falsificarlo. Para un comerciante del Rukongai, esta moneda es una fortuna; para un capitán, simple calderilla.
+
+items.Medical_Pill_Basic.name = Píldora médica básica
+items.Medical_Pill_Basic.description = Píldora estándar del cuerpo médico de la 4.ª División. Hecha de hierbas medicinales concentradas y un rastro de energía curativa kaido.\n\nRestaura <color is="#ffffff">30%</color> de salud al instante.
+
+items.Kaido_Infused_Pill.name = Píldora de restauración con Kaido
+items.Kaido_Infused_Pill.description = Obra maestra de la investigación médica de la 4.ª División. No es una simple píldora, sino una cápsula sólida de hechizos curativos kaido en suspensión.\n\nRestaura <color is="#ffffff">100%</color> de salud al instante y otorga:\n\n• <color is="#ffffff">Regeneración de salud II</color>\n\nDuración: <color is="#ffffff">0:30</color>
