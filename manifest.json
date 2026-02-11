@@ -1,8 +1,8 @@
 {
   "Group": "The Reiryoku Team",
   "Name": "Bleach Reiryoku",
-  "Version": "0.1.35",
-  "Description": "This mods adds various content based on the Bleach Series.",
+  "Version": "0.1.41",
+  "Description": "This mods adds various content based on the Bleach Series",
   "Authors": [
     {
       "Name": "Jaykov",
@@ -18,9 +18,19 @@
       "Name": "Punished_Man (gourmet)",
       "Email": "",
       "Url": ""
+    },
+    {
+      "Name": "BenSmash",
+      "Email": "",
+      "Url": ""
+    },
+    {
+      "Name": "Alba",
+      "Email": "",
+      "Url": ""
     }
   ],
-  "Website": "",
+  "Website": "https://discord.gg/7My4sVvafk",
   "Dependencies": {},
   "OptionalDependencies": {},
   "LoadBefore": {},

@@ -10,7 +10,7 @@
   "Quality": "Shikai",
   "ItemLevel": 30,
   "Model": "Items/Weapons/Hozukimaru/Hozukimaru.blockymodel",
-  "Texture": "Items/Weapons/Hozukimaru/Hozukimaru_Texture2.png",
+  "Texture": "Items/Weapons/Hozukimaru/Hozukimaru_Texture.png",
   "IconProperties": {
     "Scale": 0.24,
     "Rotation": [
@@ -25,7 +25,8 @@
   },
   "Interactions": {
     "Primary": "Root_Hozukimaru_Primary",
-    "Secondary": "Root_TensaZangetsu_Secondary_Guard"
+    "Secondary": "Root_TensaZangetsu_Secondary_Guard",
+    "Ability1": "Root_Weapon_Battleaxe_Signature_Whirlwind"
   },
   "InteractionVars": {
     "Spear_Block_Damage": "Spear_Block_Damage",
@@ -62,6 +63,23 @@
           "ProjectileId": "Spear_Thorium"
         }
       ]
+    },
+    "Signature_Whirlwind_Damage": {
+      "Interactions": [
+        {
+          "Parent": "Weapon_Battleaxe_Signature_Whirlwind_Damage",
+          "DamageCalculator": {
+            "BaseDamage": {
+              "Physical": 22
+            },
+            "Type": "Absolute"
+          },
+          "DamageEffects": {
+            "WorldSoundEventId": "SFX_Battleaxe_T2_Impact",
+            "LocalSoundEventId": "SFX_Battleaxe_T2_Impact"
+          }
+        }
+      ]
     }
   },
   "Icon": "Icons/ItemsGenerated/Hozukimaru.png",
@@ -75,8 +93,20 @@
       "Spear"
     ]
   },
-  "MaxDurability": 35,
+  "MaxDurability": 100,
   "DurabilityLossOnHit": 0.56,
-  "Weapon": {},
+  "Weapon": {
+    "EntityStatsToClear": [
+      "SignatureEnergy"
+    ],
+    "StatModifiers": {
+      "SignatureEnergy": [
+        {
+          "Amount": 9,
+          "CalculationType": "Additive"
+        }
+      ]
+    }
+  },
   "ItemSoundSetId": "ISS_Weapons_Wood"
 }

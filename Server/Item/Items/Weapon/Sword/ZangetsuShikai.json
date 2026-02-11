@@ -6,7 +6,7 @@
   },
   "Model": "Items/Weapons/Shikai_Zangetsu/Shikai_Zan.blockymodel",
   "Texture": "Items/Weapons/Shikai_Zangetsu/Shikai_Zan.png",
-  "Icon": "Icons/ItemsGenerated/ZangetsuShikai.png",
+  "Icon": "Icons/ItemsGenerated/Shikai_Zangetsu.png",
   "Quality": "Shikai",
   "ItemLevel": 40,
   "Recipe": {

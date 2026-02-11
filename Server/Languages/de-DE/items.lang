@@ -28,3 +28,14 @@ Resonating_Reishi_Core.name = Resonierender Reishi-Kern
 Resonating_Reishi_Core.description = Dieser Kern summt auf einer Frequenz, die deine nachahmt. Er ist eine Erweiterung deiner Seele. Bereit, einer Klinge zugewiesen zu werden, um sie zu erwecken.
 Transcendent_Essence.name = Transzendente Essenz
 Transcendent_Essence.description = Ein wirbelndes Paradoxon absoluter Macht. Die Grenzen zwischen deinem Geist und der physischen Welt haben sich in diesem einzigartigen pulsierenden Punkt aufgelöst. In diesem Glanz liegt die wahre Form deiner Seele, die danach schreit, befreit zu werden.
+
+
+
+items.Currency_Kan.name = Kan
+items.Currency_Kan.description = Die Standardwährung der Seelengesellschaft. Ein Kan entspricht dem Wert eines Reissäcks in der Welt der Lebenden. Gewicht und Klang sollen auf die Frequenz des Reishi abgestimmt sein, was Fälschung unmöglich macht. Für einen Händler im Rukongai ist diese Münze ein Vermögen; für einen Kapitän bloß Kleingeld.
+
+items.Medical_Pill_Basic.name = Basis-Medizinpillen
+items.Medical_Pill_Basic.description = Standardpillen aus dem Sanitätskorps der 4. Division. Aus konzentrierten Heilkräutern und einer Spur heilender Kaido-Energie hergestellt.\n\nStellt <color is="#ffffff">30%</color> Gesundheit sofort wieder her.
+
+items.Kaido_Infused_Pill.name = Kaido-Imprägnierte Restaurationspille
+items.Kaido_Infused_Pill.description = Ein Meisterwerk der medizinischen Forschung der 4. Division. Keine bloße Pille, sondern eine feste Kapsel mit eingeschlossenen heilenden Kaido-Zaubern.\n\nStellt <color is="#ffffff">100%</color> Gesundheit sofort wieder her und gewährt:\n\n• <color is="#ffffff">Gesundheitsregen II</color>\n\nDauer: <color is="#ffffff">0:30</color>

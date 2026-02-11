@@ -1,5 +1,10 @@
 {
-  "Interactions": [
-    "Hozukimaru_Primary_Chain"
-  ]
+	"RequireNewClick": true,
+	"ClickQueuingTimeout": 0.2,
+	"Cooldown": {
+		"Cooldown": 0.25
+	},
+	"Interactions": [
+		"Hozukimaru_Primary_Chain"
+	]
 }
