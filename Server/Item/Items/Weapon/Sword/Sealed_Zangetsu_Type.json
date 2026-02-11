@@ -5,7 +5,7 @@
   "DroppedItemAnimation": "Items/Animations/Dropped/Dropped_Diagonal_Left.blockyanim",
   "Model": "Items/Weapons/Sealed_Zangetsu/Zangetsu_Sealed.blockymodel",
   "Texture": "Items/Weapons/Sealed_Zangetsu/Zangetsu_Sealed_Texture.png",
-  "Icon": "Icons/ItemsGenerated/Sealed_Zangetsu_Type.png",
+  "Icon": "Icons/ItemsGenerated/Sealed_Zangetsu.png",
   "PlayerAnimationsId": "Sword",
   "Reticle": "DefaultMelee",
   "Quality": "Template",
