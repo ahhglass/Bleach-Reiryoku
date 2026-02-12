@@ -1,6 +1,6 @@
 {
   "Type": "Variant",
-  "Reference": "Template_Predator",
+  "Reference": "Template_Predator_Hollow",
   "Modify": {
     "DropList": "Drop_Scorpion",
     "Appearance": "Scorpion_Hollow",
@@ -46,7 +46,8 @@
     "DayFlavorAnimation": "Prey",
     "NightFlavorAnimation": "Prey",
     "IsMemory": true,
-    "MemoriesCategory": "Critter",
+    "MemoriesCategory": "Hollow",
+    "MemoriesNameOverride": "Scorpion_Hollow",
     "_InteractionVars": {
       "Snap_Left_Damage": {
         "Interactions": [

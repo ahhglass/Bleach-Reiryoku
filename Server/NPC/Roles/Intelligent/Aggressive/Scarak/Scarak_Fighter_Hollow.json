@@ -18,10 +18,12 @@
   "Modify": {
     "MaxHealth": 250,
     "Appearance": "Scarak_Fighter_Hollow",
+    "IsMemory": true,
+    "MemoriesCategory": "Hollow",
+    "MemoriesNameOverride": "Scarak_Fighter_Hollow",
     "Weapons": [],
     "OffHand": [],
     "MaxSpeed": 7,
-     "AlwaysSleepAtNight": false,
     "FollowPatrolPath": {
       "Compute": "FollowPatrolPath"
     },

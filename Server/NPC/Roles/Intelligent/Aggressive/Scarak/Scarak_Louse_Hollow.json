@@ -12,8 +12,8 @@
     ],
     "MaxHealth": 80,
     "IsMemory": true,
-    "MemoriesCategory": "Scarak",
-    "MemoriesNameOverride": "Scarak_Louse",
+    "MemoriesCategory": "Hollow",
+    "MemoriesNameOverride": "Scarak_Louse_Hollow",
     "NameTranslationKey": {
       "Compute": "NameTranslationKey"
     }

@@ -1,6 +1,6 @@
 {
   "Type": "Variant",
-  "Reference": "Template_Predator",
+  "Reference": "Template_Predator_Hollow",
   "Modify": {
     "Appearance": "Ghoul_Hollow",
     "WanderRadius": 6,
@@ -12,7 +12,8 @@
     "AlwaysSleepAtNight": false,
     "MaxHealth": 200,
     "IsMemory": true,
-    "MemoriesCategory": "Undead",
+    "MemoriesCategory": "Hollow",
+    "MemoriesNameOverride": "Ghoul_Hollow",
     "_InteractionVars": {
       "Melee_Start": {
         "Interactions": [
