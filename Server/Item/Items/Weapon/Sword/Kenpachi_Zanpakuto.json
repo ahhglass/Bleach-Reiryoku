@@ -1,5 +1,5 @@
 {
-  "Parent": "Template_Weapon_Sword",
+  "Parent": "Kenpachi_Zanpakuto_Type",
   "TranslationProperties": {
     "Name": "items.Sealed_Kenpachi_Zanpakuto.name",
     "Description": "items.Sealed_Kenpachi_Zanpakuto.description"
