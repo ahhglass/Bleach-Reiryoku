@@ -418,6 +418,13 @@
     },
     "DashRight": {
       "ThirdPerson": "Characters/Animations/Dash/Dash_Right.blockyanim"
+    },
+    "SkullCrusherCharge": {
+      "ThirdPerson": "Characters/Animations/Items/Kenpachi_Sealed/Skull_Crusher_Charge.blockyanim",
+      "Looping": true
+    },
+    "SkullCrusherSwing": {
+      "ThirdPerson": "Characters/Animations/Items/Kenpachi_Sealed/Skull_Crusher_Swing.blockyanim"
     }
   },
   "Camera": {

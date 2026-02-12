@@ -97,7 +97,7 @@
     "StatModifiers": {
       "SignatureEnergy": [
         {
-          "Amount": 37,
+          "Amount": 1,
           "CalculationType": "Additive"
         }
       ]
