@@ -9,7 +9,7 @@
     "Interactions": [
       {
         "Type": "ApplyEffect",
-        "EffectId": "War_Incarnate"
+        "EffectId": "Battle_Trance"
       },
       {
         "Type": "Simple"
