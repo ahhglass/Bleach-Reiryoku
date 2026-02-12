@@ -256,5 +256,5 @@
       }
     ]
   },
-  "NameTranslationKey": "server.npcRoles.Wandering_Shinigami.name"
+  "NameTranslationKey": "mobs.npcRoles.Wandering_Shinigami.name"
 }

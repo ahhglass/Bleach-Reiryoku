@@ -1,0 +1,40 @@
+Bankai_Tensa_Zangetsu.name = Bankai – Tensa Zangetsu
+Bankai_Tensa_Zangetsu.description = Bankai – Tensa Zangetsu efsanevi bir ruhani kılıçtır. Zincirli siyah ağzı, taşıyıcının enerjisini odaklayarak yıkıcı <i><b>Getsuga Tenshō — «Gökleri Delen Ay Dişi»</b></i> dalgasını serbest bırakır.
+Shikai_Tensa_Zangetsu.name = Shikai – Zangetsu
+Shikai_Tensa_Zangetsu.description = Zangetsu, kalıcı olarak serbest halde devasa bir ruhani bıçaktır. Canlı kumaşa sarılı siyah bıçak, taşıyıcıyı güçlendirir, <i><b>Getsuga Tenshō</b></i> dalgaları salar ve fiziksel ve enerji saldırılarına karşı kalkan görevi görür.
+ReiryokuCrystal.name = Reiryoku Kristali
+ReiryokuCrystal.description = Saf ruhani enerji kristali, sayısız ruhun yoğunlaşması. Bir Zanpakutō'yu uyandırır ve evriltir.
+Sealed_Zangetsu.name = Mühürlü – Zangetsu
+Sealed_Zangetsu.description = Uyanıştan önceki mühürlü bıçak. Sınırsız ama uyuyan potansiyel taşır.
+Asauchi.name = Asauchi
+Asauchi.description = Boş bir ruh şablonu. Sahibinin damgasını bekleyen gelecekteki Zanpakutō'nun temeli.
+Sode_No_Shirayuki.name = Shikai – Sode no Shirayuki
+Sode_No_Shirayuki.description = Zarif bir buz katanası. Serbest bırakma komutu \n<i><b>«Dans et, Sode no Shirayuki»</b></i> soğuk ve güzelliği buyurur.
+Shikai_Wabisuke.name = Shikai – Wabisuke
+Shikai_Wabisuke.description = Dış inceliğinin tersine hain doğası olan zarif kıvrımlı kılıç. Vuruşu hedefe ağırlık laneti bindirir. Her savunma veya blokta kurbanın yükü acımasızca ikiye katlanır. Serbest bırakma: <i><b>«Eğil, Wabisuke»</b></i>.
+Shikai_Hozukimaru.name = Shikai – Hozukimaru
+Shikai_Hozukimaru.description = Sade ve doğrudan bir savaş mızrağı. Basit biçimi şiddetli yıkıcı güç ve dayanıklılık gizler. Bu silahta dönüşümün uyuyan potansiyeli yatar.
+
+Soul_Imprinting_Altar.name = Ruh Damgalama Sunağı
+Soul_Imprinting_Altar.description = Taşıyıcının ruhunun Asauchi ile birleştiği kutsal çalışma yeri. Derin meditasyon ve ruhani enerji (Reiryoku) yoğunlaştırmasıyla gelecekteki Zanpakutō'nun temeli atılır. Bu sunak hem ilk uyanış hem de Shikai'dan nihai Bankai'ye evrim için kullanılır.
+
+Shinigami_Robes.name = Shinigami Cübbesi – Shihakushō
+Shinigami_Robes.description = Gotei 13'ün tüm üyeleri tarafından giyilen standart Shinigami üniforması.
+Shinigami_Robes_Sleeveless.name = Shinigami Cübbesi – Kolsuz
+Shinigami_Robes_Sleeveless.description = Daha fazla hareket özgürlüğü isteyenler için değiştirilmiş <i>Shihakushō</i>.
+Shinigami_Robes_Captain.name = Shinigami Cübbesi – Kaptan
+Shinigami_Robes_Captain.description = Kaptanların standart üniforma üzerine giydiği beyaz ceket. Üstün ruhani koruma sağlar ve Gotei 13'te en yüksek rütbeyi gösterir.
+
+Resonating_Reishi_Core.name = Rezonans Eden Reishi Çekirdeği
+Resonating_Reishi_Core.description = Bu çekirdek sizinkini taklit eden bir frekansta titreşir. Ruhunuzun bir uzantısıdır. Onu uyandırmak için bir bıçağa atanmaya hazır.
+Transcendent_Essence.name = Aşkın Öz
+Transcendent_Essence.description = Mutlak gücün girdap halinde bir paradoksu. Ruhunuz ile fiziksel dünya arasındaki sınırlar bu tek nabız noktasında çözülmüştür. Bu parıltıda ruhunuzun gerçek biçimi, serbest bırakılmak için haykırır.
+
+items.Currency_Kan.name = Kan
+items.Currency_Kan.description = Ruhlar Topluluğu'nun standart para birimi. Bir Kan, yaşayanlar dünyasında bir çuval pirincin değerini temsil eder. Ağırlığı ve sesi reishi frekansına ayarlı sayılır, sahtesi yapılamaz.
+
+items.Medical_Pill_Basic.name = Temel Tıbbi Hap
+items.Medical_Pill_Basic.description = 4. Birliğin tıbbi biriminden standart hap. Konsantre şifalı otlar ve iyileştirici kaidō enerjisi.\n\n<color is="#ffffff">%30</color> canı anında geri yükler.
+
+items.Kaido_Infused_Pill.name = Kaidō Katkılı İyileşme Hapı
+items.Kaido_Infused_Pill.description = 4. Birliğin tıbbi araştırmasının başyapıtı. Sadece bir hap değil, askıda iyileştirici kaidō büyüleri kapsülü.\n\n<color is="#ffffff">%100</color> canı anında geri yükler ve verir:\n\n• <color is="#ffffff">Can Regen II</color>\n\nSüre: <color is="#ffffff">0:30</color>
