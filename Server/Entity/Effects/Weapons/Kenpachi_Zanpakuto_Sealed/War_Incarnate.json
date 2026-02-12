@@ -1,0 +1,50 @@
+{
+  "ApplicationEffects": {
+    "Particles": [
+      {
+        "SystemId": "Kenpachi_War_Incarnate_Aura"
+      }
+    ],
+    "HorizontalSpeedMultiplier": 1.3,
+    "EntityBottomTint": "#dbc71b",
+    "EntityTopTint": "#f0da86"
+  },
+  "Duration": 15,
+  "Name": "War Incarante",
+  "StatusEffectIcon": "War_Incarnate",
+  "Tags": {
+    "War_Incarnate": [
+      "War_Incarnate"
+    ]
+  },
+  "DamageResistance": {
+    "Bludgeoning": [
+      {
+        "CalculationType": "Multiplicative",
+        "Amount": 0.3
+      }
+    ],
+    "Slashing": [
+      {
+        "CalculationType": "Multiplicative",
+        "Amount": 0.5
+      }
+    ],
+    "Physical": [
+      {
+        "CalculationType": "Multiplicative",
+        "Amount": 0.4
+      }
+    ]
+  },
+  "RemovalBehavior": "Duration",
+  "ValueType": "Absolute",
+  "OverlapBehavior": "Ignore",
+  "StatModifierEffects": {
+    "ModelParticles": [
+      {
+        "SystemId": "Kenpachi_War_Incarnate_Aura"
+      }
+    ]
+  }
+}

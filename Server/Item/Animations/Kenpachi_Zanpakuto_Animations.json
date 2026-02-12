@@ -406,6 +406,18 @@
       "FirstPerson": "Characters/Animations/Items/Main_Handed/Sword/Attacks/Guard_Bash/Guard_Bash_FPS.blockyanim",
       "ThirdPersonFace": "Characters/Animations/Expressions/Angry.blockyanim",
       "KeepPreviousFirstPersonAnimation": true
+    },
+    "DashForward": {
+      "ThirdPerson": "Characters/Animations/Dash/Dash_Forward.blockyanim"
+    },
+    "DashBackward": {
+      "ThirdPerson": "Characters/Animations/Dash/Dash_Backward.blockyanim"
+    },
+    "DashLeft": {
+      "ThirdPerson": "Characters/Animations/Dash/Dash_Left.blockyanim"
+    },
+    "DashRight": {
+      "ThirdPerson": "Characters/Animations/Dash/Dash_Right.blockyanim"
     }
   },
   "Camera": {

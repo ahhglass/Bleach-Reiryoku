@@ -1,0 +1,26 @@
+{
+  "Type": "StatsCondition",
+  "Costs": {
+    "SignatureEnergy": 75
+  },
+  "ValueType": "Percent",
+  "Next": {
+    "Type": "Serial",
+    "Interactions": [
+      {
+        "Type": "ApplyEffect",
+        "EffectId": "War_Incarnate"
+      },
+      {
+        "Type": "Simple"
+      },
+      {
+        "Type": "ChangeStat",
+        "StatModifiers": {
+          "SignatureEnergy": -75
+        },
+        "ValueType": "Percent"
+      }
+    ]
+  }
+}

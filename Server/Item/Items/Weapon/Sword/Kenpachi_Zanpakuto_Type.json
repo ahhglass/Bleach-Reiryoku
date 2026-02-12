@@ -31,7 +31,8 @@
   "Interactions": {
     "Primary": "Root_KenpachiZanpakuto_Sealed_Primary",
     "Secondary": "Root_Weapon_Sword_Secondary_Guard",
-    "Ability1": "Root_Weapon_Sword_Signature_Vortexstrike"
+    "Ability1": "Root_Weapon_Sword_Signature_Vortexstrike",
+    "Ability2": "Root_KenpachiZanpakuto_War_Incarnate"
   },
   "Tags": {
     "Type": [

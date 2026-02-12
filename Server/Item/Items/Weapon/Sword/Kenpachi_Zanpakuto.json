@@ -97,7 +97,7 @@
     "StatModifiers": {
       "SignatureEnergy": [
         {
-          "Amount": 35,
+          "Amount": 37,
           "CalculationType": "Additive"
         }
       ]
@@ -525,7 +525,17 @@
       ]
     }
   },
-  "MaxDurability": 100,
+  "MaxDurability": 300,
   "DurabilityLossOnHit": 0.21,
-  "PlayerAnimationsId": "Kenpachi_Zanpakuto_Animations"
+  "PlayerAnimationsId": "Kenpachi_Zanpakuto_Animations",
+  "State": {
+    "War_Incarante": {
+      "Scale": 5,
+      "Tags": {
+        "War_Incarnate": [
+          "War_Incarnate"
+        ]
+      }
+    }
+  }
 }
