@@ -7,7 +7,7 @@
   ],
   "NPCs": [
     {
-      "Weight": 0.15,
+      "Weight": 0.03,
       "SpawnBlockSet": "Soil",
       "Id": "Wandering_Shinigami",
       "Flock": {
