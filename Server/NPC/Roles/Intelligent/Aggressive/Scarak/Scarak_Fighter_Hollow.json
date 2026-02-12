@@ -21,6 +21,7 @@
     "Weapons": [],
     "OffHand": [],
     "MaxSpeed": 7,
+     "AlwaysSleepAtNight": false,
     "FollowPatrolPath": {
       "Compute": "FollowPatrolPath"
     },

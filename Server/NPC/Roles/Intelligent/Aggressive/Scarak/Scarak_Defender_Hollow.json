@@ -8,6 +8,7 @@
     "FollowPath": false,
     "MaxHealth": 300,
     "IsMemory": true,
+     "AlwaysSleepAtNight": false,
     "MemoriesCategory": "Scarak",
     "MemoriesNameOverride": "Scarak_Defender",
     "NameTranslationKey": {
