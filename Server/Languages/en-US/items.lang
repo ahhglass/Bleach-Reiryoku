@@ -24,7 +24,8 @@ Shinigami_Robes_Sleeveless.name = Shinigami Robe – Sleeveless
 Shinigami_Robes_Sleeveless.description = A modified <i>Shihakusho</i> for those who desire more liberty of movement. More considered a cosmetic modification to the standard uniform.
 Shinigami_Robes_Captain.name = Shinigami Robe – Captain
 Shinigami_Robes_Captain.description = The white coat worn by Captains over their standard uniform. Provides superior spiritual protection and denotes highest rank in the Gotei 13.
-
+Shinigami_Robes_OpenShoulder.name = Shinigami Robe - Open Sleeve
+Shinigami_Robes_OpenShoulder.description = A modified <i>Shihakusho</i> that serves the same purpose as the Sleeveless variant while maintaining a more elegant and ceremonial appearance.
 
 Resonating_Reishi_Core.name = Resonating Reishi Core
 Resonating_Reishi_Core.description = This core hums at a frequency that mimics yours. It's an extension of your soul. Ready to be assigned to a blade to awaken it.
