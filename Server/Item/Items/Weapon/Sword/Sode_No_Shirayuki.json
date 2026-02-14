@@ -167,7 +167,7 @@
       ]
     }
   },
-  "MaxDurability": 180,
+  "MaxDurability": 300,
   "DurabilityLossOnHit": 0.21,
   "Scale": 1,
   "IconProperties": {

@@ -97,7 +97,7 @@
     "StatModifiers": {
       "SignatureEnergy": [
         {
-          "Amount": 1,
+          "Amount": 25,
           "CalculationType": "Additive"
         }
       ]
@@ -139,7 +139,7 @@
           "Parent": "Weapon_Sword_Primary_Swing_Left_Damage",
           "DamageCalculator": {
             "BaseDamage": {
-              "Physical": 14
+              "Physical": 26
             }
           },
           "DamageEffects": {
@@ -160,7 +160,7 @@
           "Parent": "Weapon_Sword_Primary_Swing_Right_Damage",
           "DamageCalculator": {
             "BaseDamage": {
-              "Physical": 18
+              "Physical": 28
             }
           },
           "DamageEffects": {
@@ -181,7 +181,7 @@
           "Parent": "Weapon_Sword_Primary_Swing_Down_Damage",
           "DamageCalculator": {
             "BaseDamage": {
-              "Physical": 22
+              "Physical": 30
             }
           },
           "DamageEffects": {
@@ -202,7 +202,7 @@
           "Parent": "Weapon_Sword_Primary_Thrust_Damage",
           "DamageCalculator": {
             "BaseDamage": {
-              "Physical": 26
+              "Physical": 45
             }
           },
           "EntityStatsOnHit": [
@@ -224,7 +224,7 @@
           "Parent": "Weapon_Sword_Signature_Vortexstrike_Spin_Damage",
           "DamageCalculator": {
             "BaseDamage": {
-              "Physical": 24
+              "Physical": 17
             }
           },
           "DamageEffects": {
@@ -244,6 +244,27 @@
             }
           },
           "DamageEffects": {
+            "WorldSoundEventId": "SFX_Sword_T2_Impact",
+            "LocalSoundEventId": "SFX_Sword_T2_Impact"
+          }
+        }
+      ]
+    },
+    "SkullCrusher_Damage": {
+      "Interactions": [
+        {
+          "Parent": "KenpachiZanpakuto_Signature_Skull_Crusher_Damage",
+          "DamageCalculator": {
+            "BaseDamage": {
+              "Physical": 145
+            }
+          },
+          "DamageEffects": {
+            "WorldParticles": [
+              {
+                "SystemId": "SkullCrusher_SlashEntity"
+              }
+            ],
             "WorldSoundEventId": "SFX_Sword_T2_Impact",
             "LocalSoundEventId": "SFX_Sword_T2_Impact"
           }
@@ -528,14 +549,36 @@
   "MaxDurability": 300,
   "DurabilityLossOnHit": 0.21,
   "PlayerAnimationsId": "Kenpachi_Zanpakuto_Animations",
-  "State": {
-    "War_Incarante": {
-      "Scale": 5,
-      "Tags": {
-        "War_Incarnate": [
-          "War_Incarnate"
-        ]
+  "Recipe": {
+    "TimeSeconds": 3.5,
+    "KnowledgeRequired": false,
+    "Input": [
+      {
+        "ItemId": "Ingredient_Bar_Silver",
+        "Quantity": 12
+      },
+      {
+        "ItemId": "Ingredient_Fabric_Scrap_Linen",
+        "Quantity": 25
+      },
+      {
+        "ItemId": "Reiryoku_Crystal",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Ingredient_Bar_Gold",
+        "Quantity": 4
       }
-    }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Categories": [
+          "Weapon_Sword"
+        ],
+        "Id": "Weapon_Bench",
+        "RequiredTierLevel": 2
+      }
+    ]
   }
 }

@@ -8,11 +8,12 @@
     "HorizontalSpeedMultiplier": 1.3,
     "EntityBottomTint": "#dbc71b",
     "EntityTopTint": "#f0da86",
-    "ScreenEffect": "ScreenEffects/Kenpachi_BattleTrance.png"
+    "ScreenEffect": "ScreenEffects/Kenpachi_BattleTrance.png",
+    "WorldSoundEventId": "SFX_Reiatsu"
   },
   "Duration": 15,
   "Name": "Battle Trance",
-  "StatusEffectIcon": "Battle_Trance",
+  "StatusEffectIcon": "UI/StatusEffects/Battle_Trance.png",
   "DamageResistance": {
     "Bludgeoning": [
       {
@@ -33,7 +34,7 @@
       }
     ]
   },
-  "RemovalBehavior": "Duration",
+  "RemovalBehavior": "Complete",
   "ValueType": "Absolute",
   "OverlapBehavior": "Ignore"
 }

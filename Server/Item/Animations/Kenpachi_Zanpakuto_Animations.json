@@ -421,10 +421,16 @@
     },
     "SkullCrusherCharge": {
       "ThirdPerson": "Characters/Animations/Items/Kenpachi_Sealed/Skull_Crusher_Charge.blockyanim",
-      "Looping": true
+      "Looping": true,
+      "FirstPerson": "Characters/Animations/Items/Kenpachi_Sealed/Skull_Crusher_Charge_FPS.blockyanim",
+      "ThirdPersonMoving": "Characters/Animations/Items/Kenpachi_Sealed/Skull_Crusher_Charge_Moving.blockyanim",
+      "ThirdPersonFace": "Characters/Animations/Expressions/Grin.blockyanim"
     },
     "SkullCrusherSwing": {
-      "ThirdPerson": "Characters/Animations/Items/Kenpachi_Sealed/Skull_Crusher_Swing.blockyanim"
+      "ThirdPerson": "Characters/Animations/Items/Kenpachi_Sealed/Skull_Crusher_Swing.blockyanim",
+      "FirstPerson": "Characters/Animations/Items/Kenpachi_Sealed/Skull_Crusher_Swing_FPS.blockyanim",
+      "ThirdPersonMoving": "Characters/Animations/Items/Kenpachi_Sealed/Skull_Crusher_Swing_Moving.blockyanim",
+      "ThirdPersonFace": "Characters/Animations/Expressions/Rage.blockyanim"
     }
   },
   "Camera": {

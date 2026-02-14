@@ -1,6 +1,6 @@
 {
   "Type": "Selector",
-  "RunTime": 0.6,
+  "RunTime": 0.1,
   "Effects": {
     "Trails": [
       {
@@ -38,6 +38,19 @@
         "SystemId": "Kenpachi_Battle_Trance_Aura",
         "TargetEntityPart": "Entity",
         "Scale": 3
+      },
+      {
+        "SystemId": "SkullCrusher_Slash",
+        "TargetEntityPart": "Entity",
+        "TargetNodeName": "Hip",
+        "PositionOffset": {
+          "Y": 1.5,
+          "Z": 0.5
+        },
+        "RotationOffset": {
+          "Pitch": 0
+        },
+        "Scale": 1
       }
     ]
   },
@@ -69,24 +82,17 @@
   "HitEntity": {
     "Interactions": [
       {
-        "Type": "Replace",
-        "Var": "Skull_Crusher_Damage",
-        "DefaultValue": "Root_KenpachiZanpakuto_Signature_Skuill_Crusher_Damage",
-        "DefaultOk": true,
-        "HorizontalSpeedMultiplier": 0
-      },
-      {
         "Type": "Explode",
         "Config": {
-          "DamageEntities": true,
-          "Knockback": {
-            "Type": "Directional",
-            "Force": 60,
-            "Duration": 2,
-            "VelocityType": "Add"
-          },
-          "EntityDamage": 1
+          "DamageBlocks": true,
+          "BlockDamageRadius": 4
         }
+      },
+      {
+        "Type": "Replace",
+        "DefaultValue": "Root_KenpachiZanpakuto_Signature_Skuill_Crusher_Damage",
+        "Var": "SkullCrusher_Damage",
+        "DefaultOk": true
       }
     ]
   },
