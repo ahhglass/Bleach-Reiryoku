@@ -408,7 +408,8 @@
       "KeepPreviousFirstPersonAnimation": true
     },
     "DashForward": {
-      "ThirdPerson": "Characters/Animations/Dash/Dash_Forward.blockyanim"
+      "ThirdPerson": "Characters/Animations/Dash/Dash_Forward.blockyanim",
+      "Looping": false
     },
     "DashBackward": {
       "ThirdPerson": "Characters/Animations/Dash/Dash_Backward.blockyanim"
@@ -430,7 +431,8 @@
       "ThirdPerson": "Characters/Animations/Items/Kenpachi_Sealed/Skull_Crusher_Swing.blockyanim",
       "FirstPerson": "Characters/Animations/Items/Kenpachi_Sealed/Skull_Crusher_Swing_FPS.blockyanim",
       "ThirdPersonMoving": "Characters/Animations/Items/Kenpachi_Sealed/Skull_Crusher_Swing_Moving.blockyanim",
-      "ThirdPersonFace": "Characters/Animations/Expressions/Rage.blockyanim"
+      "ThirdPersonFace": "Characters/Animations/Expressions/Rage.blockyanim",
+      "KeepPreviousFirstPersonAnimation": false
     }
   },
   "Camera": {

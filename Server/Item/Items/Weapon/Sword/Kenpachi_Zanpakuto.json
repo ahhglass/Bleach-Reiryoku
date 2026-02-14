@@ -97,7 +97,7 @@
     "StatModifiers": {
       "SignatureEnergy": [
         {
-          "Amount": 25,
+          "Amount": 1,
           "CalculationType": "Additive"
         }
       ]
@@ -548,7 +548,6 @@
   },
   "MaxDurability": 300,
   "DurabilityLossOnHit": 0.21,
-  "PlayerAnimationsId": "Kenpachi_Zanpakuto_Animations",
   "Recipe": {
     "TimeSeconds": 3.5,
     "KnowledgeRequired": false,
@@ -580,5 +579,6 @@
         "RequiredTierLevel": 2
       }
     ]
-  }
+  },
+  "PlayerAnimationsId": "Kenpachi_Zanpakuto_Animations"
 }
