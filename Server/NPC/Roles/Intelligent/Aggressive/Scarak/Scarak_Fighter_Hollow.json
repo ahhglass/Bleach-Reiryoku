@@ -16,7 +16,7 @@
     }
   },
   "Modify": {
-    "MaxHealth": 250,
+    "MaxHealth": 255,
     "Appearance": "Scarak_Fighter_Hollow",
     "IsMemory": true,
     "MemoriesCategory": "Hollow",

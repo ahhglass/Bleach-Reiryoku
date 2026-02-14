@@ -5,7 +5,7 @@
     "Appearance": "Crawler_Hollow_Void",
     "AttitudeGroup": "Void",
     "DropList": "Drop_Crawler_Void",
-    "MaxHealth": 74,
+    "MaxHealth": 155,
     "MaxSpeed": 8,
     "WanderRadius": 12,
     "ViewRange": 18,

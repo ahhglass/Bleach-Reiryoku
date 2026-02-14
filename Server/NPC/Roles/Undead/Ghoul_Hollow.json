@@ -10,7 +10,7 @@
     "MaxSpeed": 7,
     "Attack": "Root_NPC_Attack_Melee",
     "AlwaysSleepAtNight": false,
-    "MaxHealth": 200,
+    "MaxHealth": 230,
     "IsMemory": true,
     "MemoriesCategory": "Hollow",
     "MemoriesNameOverride": "Ghoul_Hollow",
