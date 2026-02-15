@@ -14,6 +14,15 @@ Shikai_Wabisuke.name = Shikai – Wabisuke
 Shikai_Wabisuke.description = Une épée élégamment incurvée dont la nature traîtresse contraste avec son raffinement extérieur. Son coup impose une malédiction de poids sur la cible. À chaque parade ou blocage, le fardeau de la victime double sans pitié, jusqu'à ce que l'adversaire soit brisé et cloué au sol par sa propre charge insupportable. Incantation de libération : <i><b>«Plie-toi, Wabisuke»</b></i>.
 Shikai_Hozukimaru.name = Shikai – Hozukimaru
 Shikai_Hozukimaru.description = Une lance de guerre brute et directe. Sa forme simple et sans ornement dissimule un pouvoir destructeur féroce et une durabilité inflexible. En son sein sommeille un potentiel de transformation, capable de révéler sa forme véritable, encore plus redoutable.
+Shikai_Kyoka_Suigetsu.name = Shikai – Kyoka Suigetsu
+Shikai_Kyoka_Suigetsu.description = Une katana modeste, éternellement en état libéré. Sa vraie puissance n'est pas l'acier, mais la domination sensorielle absolue. Ceux qui assistent à son rituel de libération sont à jamais piégés dans son hypnose parfaite, voyant un monde sculpté par la volonté du porteur. Une arme qui conquiert la réalité par la perception.
+Sealed_Kenpachi_Zanpakuto.name = Scellé – Zanpakuto de Kenpachi
+Sealed_Kenpachi_Zanpakuto.description = Une massive lame brute et rouillée. C'est l'état scellé d'un Zanpakuto appartenant à un guerrier à la pression spirituelle monstrueuse. Sa forme dentelée, non affinée, et ses bandelettes en lambeaux sont des limites volontaires, permettant au porteur de savourer plus longtemps le frisson du combat. La vraie puissance en son sein sommeille, en attente de reconnaissance.
+Shikai_Benihime.name = Shikai – Benihime
+Shikai_Benihime.description = Un sabre élégant et légèrement courbe aux motifs cramoisis. Sur sa commande <i><b>«Éveille-toi, Benihime»</b></i>, il acquiert le pouvoir de lancer des <i>Tirs Carmins</i> précis, d'ériger des boucliers hexagonaux quasi impénétrables et de tisser des filets tranchants d'énergie spirituelle. Une lame polyvalente, parfaite pour l'offensive calculée comme pour la défense absolue.
+True_Shikai_Zangetsu.name = Véritable Shikai – Zangetsu
+True_Shikai_Zangetsu.description = Le véritable Shikai d'Ichigo, se manifestant sous la forme de deux lames noires distinctes. Le grand coutelas incarne ses pouvoirs fusionnés de Shinigami et de Hollow, tandis que la plus petite lame représente son héritage Quincy. Commandement de libération : <i><b>«Unissez-vous et protégez, Zangetsu»</b></i>. Les lames peuvent tirer des <i>Getsuga Tensho</i> indépendamment ou les combiner en une onde dévastatrice en forme de croix, <i><b>Getsuga Jujisho</b></i>.
+
 
 Soul_Imprinting_Altar.name = Autel de l'Empreinte d'Âme
 Soul_Imprinting_Altar.description = Un lieu sacré où l'âme du porteur fusionne avec l'Asauchi. Par une profonde méditation et la concentration de l'énergie spirituelle (Reiryoku), les fondations du futur Zanpakuto sont posées. Cet autel est utilisé non seulement pour l'éveil initial, mais aussi pour les étapes suivantes de l'évolution de la lame — du Shikai à la révélation ultime, le Bankai.

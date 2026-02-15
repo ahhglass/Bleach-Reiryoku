@@ -14,6 +14,17 @@ Shikai_Wabisuke.name = Shikai – Wabisuke
 Shikai_Wabisuke.description = An elegantly curved sword whose treacherous nature is the opposite of its external refinement. Its strike places a curse of weight upon the target. With each parry or block, the victim's burden relentlessly doubles, until the opponent is broken and pinned to the ground by their own unbearable load. Release command: <i><b>«Bend, Wabisuke»</b></i>.
 Shikai_Hozukimaru.name = Shikai – Hozukimaru
 Shikai_Hozukimaru.description = A crude and straightforward war spear. Its simple, unadorned form conceals a fierce destructive power and unyielding durability. Within this weapon lies a dormant potential for transformation, capable of unlocking its true, even more formidable form.
+Shikai_Kyoka_Suigetsu.name = Shikai – Kyoka Suigetsu
+Shikai_Kyoka_Suigetsu.description = An unassuming katana, eternally in its released state. Its true power is not steel, but absolute sensory dominion. Those who witness its release ritual become forever trapped in its perfect hypnosis, seeing a world sculpted by the wielder's will. A weapon that conquers reality through perception.
+Sealed_Kenpachi_Zanpakuto.name = Sealed – Kenpachi's Zanpakuto
+Sealed_Kenpachi_Zanpakuto.description = A massive, crude and rusted cleaver. This is the sealed state of a Zanpakuto belonging to a warrior of monstrous spiritual pressure. Its jagged, unrefined form and tattered wrappings are self-imposed limitations, allowing the wielder to savor the thrill of battle longer. The true power within is dormant, awaiting acknowledgment.
+Shikai_Benihime.name = Shikai – Benihime
+Shikai_Benihime.description = An elegant, slightly curved saber with a crimson motif. Upon its command, <i><b>«Awaken, Benihime»</b></i>, it gains the power to launch precise <i>Crimson Shots</i>, erect near-impenetrable hexagonal shields, and weave razor-sharp nets of spiritual energy. A versatile blade perfect for both calculated offense and absolute defense.
+True_Bankai_Tensa_Zangetsu.name = True Bankai – Tensa Zangetsu
+True_Bankai_Tensa_Zangetsu.description = The ultimate evolution of Ichigo's power. This form consolidates his dual blades into a single, immense black cleaver wrapped in stark white bandages. It represents the full convergence of his spiritual heritage, focusing overwhelming force into a singular, devastating edge.
+True_Shikai_Zangetsu.name = True Shikai – Zangetsu
+True_Shikai_Zangetsu.description = Ichigo's true Shikai, manifested as two distinct black blades. The massive cleaver embodies his fused Shinigami and Hollow powers, while the smaller knife represents his Quincy heritage. Release command: <i><b>«Unite and Protect, Zangetsu»</b></i>. The blades can fire\n<i>Getsuga Tensho</i> independently or combine them into a devastating cross-shaped wave, <i><b>Getsuga Jujisho</b></i>.
+
 
 Soul_Imprinting_Altar.name = Soul Imprinting Altar
 Soul_Imprinting_Altar.description = A sacred workstation where the wielder's soul merges with the Asauchi. Through deep meditation and concentration of spiritual energy (Reiryoku), the foundation of the future Zanpakuto is laid. This altar is used not only for the initial awakening but also for the subsequent stages of the blade's evolution — from Shikai to the ultimate revelation, Bankai.

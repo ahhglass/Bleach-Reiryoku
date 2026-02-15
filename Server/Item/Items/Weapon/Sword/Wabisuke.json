@@ -9,7 +9,7 @@
   "Icon": "Icons/ItemsGenerated/Wabisuke.png",
   "Quality": "Shikai",
   "ItemLevel": 35,
-  "MaxDurability": 75,
+  "MaxDurability": 300,
   "InteractionVars": {
     "Swing_Left_Damage": {
       "Interactions": [
