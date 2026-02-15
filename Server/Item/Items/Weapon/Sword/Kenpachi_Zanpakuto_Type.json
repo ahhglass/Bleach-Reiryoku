@@ -29,7 +29,18 @@
     "Compatible": true
   },
   "Interactions": {
-    "Primary": "Root_KenpachiZanpakuto_Sealed_Primary",
+    "Primary": {
+      "Interactions": [
+        {
+          "Type": "EffectCondition",
+          "EntityEffectIds": [
+            "Battle_Trance"
+          ],
+          "Failed": "KenpachiZanpakuto_Primary",
+          "Next": "KenpachiZanpakuto_Primary_BattleTrance"
+        }
+      ]
+    },
     "Secondary": "Root_Weapon_Sword_Secondary_Guard",
     "Ability1": "Root_KenpachiZanpakuto_Skull_Crusher",
     "Ability2": "Root_KenpachiZanpakuto_Battle_Trance"

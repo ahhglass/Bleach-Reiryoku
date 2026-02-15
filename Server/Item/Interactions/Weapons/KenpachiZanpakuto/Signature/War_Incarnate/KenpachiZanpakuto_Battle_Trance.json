@@ -1,7 +1,7 @@
 {
   "Type": "StatsCondition",
   "Costs": {
-    "SignatureEnergy": 75
+    "SignatureEnergy": 100
   },
   "ValueType": "Percent",
   "Next": {
@@ -17,7 +17,7 @@
       {
         "Type": "ChangeStat",
         "StatModifiers": {
-          "SignatureEnergy": -75
+          "SignatureEnergy": -100
         },
         "ValueType": "Percent"
       }

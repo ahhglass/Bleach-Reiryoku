@@ -97,7 +97,7 @@
     "StatModifiers": {
       "SignatureEnergy": [
         {
-          "Amount": 1,
+          "Amount": 25,
           "CalculationType": "Additive"
         }
       ]
@@ -125,6 +125,30 @@
         {
           "Parent": "Weapon_Sword_Primary_Swing_Down",
           "RunTime": 0.32
+        }
+      ]
+    },
+    "Swing_Left_BattleTrance": {
+      "Interactions": [
+        {
+          "Parent": "KenpachiZanpakuto_Primary_Swing_Left_BattleTrance",
+          "RunTime": 0.08
+        }
+      ]
+    },
+    "Swing_Right_BattleTrance": {
+      "Interactions": [
+        {
+          "Parent": "KenpachiZanpakuto_PrimaryBattleTrance_Swing_Right",
+          "RunTime": 0.08
+        }
+      ]
+    },
+    "Swing_Down_BattleTrance": {
+      "Interactions": [
+        {
+          "Parent": "KenpachiZanpakuto_Primary_BattleTrance_Swing_Down",
+          "RunTime": 0.2
         }
       ]
     },
@@ -436,6 +460,126 @@
           "Next": {
             "Type": "Simple",
             "RunTime": 0.14
+          },
+          "Effects": {
+            "Trails": [
+              {
+                "PositionOffset": {
+                  "X": 1.3,
+                  "Y": 0,
+                  "Z": 0
+                },
+                "TargetNodeName": "Handle",
+                "TrailId": "Kenpachi_Zanpakuto_Trail",
+                "RotationOffset": {
+                  "Roll": 90
+                }
+              },
+              {
+                "PositionOffset": {
+                  "X": 1.7,
+                  "Y": 0,
+                  "Z": 0
+                },
+                "TargetNodeName": "Handle",
+                "TrailId": "Sword_Distortion",
+                "RotationOffset": {
+                  "Roll": 90
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "Swing_Left_Selector_BattleTrance": {
+      "Interactions": [
+        {
+          "Parent": "KenpachiZanpakuto_Primary_Swing_Left_BattleTrance_Selector",
+          "RunTime": 0.03,
+          "Next": {
+            "Type": "Simple",
+            "RunTime": 0.06
+          },
+          "Effects": {
+            "Trails": [
+              {
+                "PositionOffset": {
+                  "X": 1.3,
+                  "Y": 0,
+                  "Z": 0
+                },
+                "TargetNodeName": "Handle",
+                "TrailId": "Kenpachi_Zanpakuto_Trail",
+                "RotationOffset": {
+                  "Roll": 90
+                }
+              },
+              {
+                "PositionOffset": {
+                  "X": 1.7,
+                  "Y": 0,
+                  "Z": 0
+                },
+                "TargetNodeName": "Handle",
+                "TrailId": "Sword_Distortion",
+                "RotationOffset": {
+                  "Roll": 90
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "Swing_Right_Selector_BattleTrance": {
+      "Interactions": [
+        {
+          "Parent": "KenpachiZanpakuto_PrimaryBattleTrance_Swing_Right_Selector",
+          "RunTime": 0.03,
+          "Next": {
+            "Type": "Simple",
+            "RunTime": 0.06
+          },
+          "Effects": {
+            "Trails": [
+              {
+                "PositionOffset": {
+                  "X": 1.3,
+                  "Y": 0,
+                  "Z": 0
+                },
+                "TargetNodeName": "Handle",
+                "TrailId": "Kenpachi_Zanpakuto_Trail",
+                "RotationOffset": {
+                  "Roll": 90
+                }
+              },
+              {
+                "PositionOffset": {
+                  "X": 1.7,
+                  "Y": 0,
+                  "Z": 0
+                },
+                "TargetNodeName": "Handle",
+                "TrailId": "Sword_Distortion",
+                "RotationOffset": {
+                  "Roll": 90
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "Swing_Down_Selector_BattleTrance": {
+      "Interactions": [
+        {
+          "Parent": "Weapon_Sword_Primary_Swing_Down_Selector",
+          "RunTime": 0.04,
+          "Next": {
+            "Type": "Simple",
+            "RunTime": 0.07
           },
           "Effects": {
             "Trails": [
