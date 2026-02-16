@@ -8,7 +8,7 @@
       "shape": {
         "type": "none",
         "offset": {"x": 0, "y": 0, "z": 0},
-        "stretch": {"x": 0, "y": 0, "z": 0},
+        "stretch": {"x": 1, "y": 1, "z": 1},
         "settings": {
           "isPiece": true
         },
@@ -603,7 +603,7 @@
                     "textureLayout": {
                       "front": {
                         "offset": {"x": 18, "y": 75},
-                        "mirror": {"x": true, "y": false},
+                        "mirror": {"x": false, "y": false},
                         "angle": 0
                       }
                     },
@@ -655,7 +655,7 @@
           "shape": {
             "type": "none",
             "offset": {"x": 0, "y": 0, "z": 0},
-            "stretch": {"x": 0, "y": 0, "z": 0},
+            "stretch": {"x": 1, "y": 1, "z": 1},
             "settings": {
               "isPiece": true
             },
@@ -674,7 +674,7 @@
               "shape": {
                 "type": "none",
                 "offset": {"x": 0, "y": 0, "z": 0},
-                "stretch": {"x": 0, "y": 0, "z": 0},
+                "stretch": {"x": 1, "y": 1, "z": 1},
                 "settings": {
                   "isPiece": true
                 },
@@ -732,7 +732,7 @@
                     },
                     "unwrapMode": "custom",
                     "visible": true,
-                    "doubleSided": false,
+                    "doubleSided": true,
                     "shadingMode": "flat"
                   }
                 },
@@ -744,7 +744,7 @@
                   "shape": {
                     "type": "none",
                     "offset": {"x": 0, "y": 0, "z": 0},
-                    "stretch": {"x": 0, "y": 0, "z": 0},
+                    "stretch": {"x": 1, "y": 1, "z": 1},
                     "settings": {
                       "isPiece": true
                     },
@@ -762,30 +762,30 @@
                       "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
                       "shape": {
                         "type": "box",
-                        "offset": {"x": 0, "y": -7, "z": 0},
+                        "offset": {"x": 0, "y": -9, "z": 0},
                         "stretch": {"x": 1.07, "y": 1.07, "z": 1.07},
                         "settings": {
                           "isPiece": false,
-                          "size": {"x": 11, "y": 20, "z": 14}
+                          "size": {"x": 11, "y": 16, "z": 14}
                         },
                         "textureLayout": {
                           "back": {
-                            "offset": {"x": 106, "y": 15},
+                            "offset": {"x": 106, "y": 19},
                             "mirror": {"x": true, "y": false},
                             "angle": 0
                           },
                           "right": {
-                            "offset": {"x": 106, "y": 15},
+                            "offset": {"x": 106, "y": 19},
                             "mirror": {"x": false, "y": false},
                             "angle": 0
                           },
                           "front": {
-                            "offset": {"x": 95, "y": 15},
+                            "offset": {"x": 95, "y": 19},
                             "mirror": {"x": false, "y": false},
                             "angle": 0
                           },
                           "left": {
-                            "offset": {"x": 81, "y": 15},
+                            "offset": {"x": 81, "y": 19},
                             "mirror": {"x": false, "y": false},
                             "angle": 0
                           },
@@ -802,19 +802,19 @@
                         },
                         "unwrapMode": "custom",
                         "visible": true,
-                        "doubleSided": false,
+                        "doubleSided": true,
                         "shadingMode": "flat"
                       },
                       "children": [
                         {
                           "id": "29",
                           "name": "L-Forearm",
-                          "position": {"x": 0, "y": -10.99985, "z": 0},
+                          "position": {"x": 0, "y": -8.99985, "z": 0},
                           "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
                           "shape": {
                             "type": "none",
                             "offset": {"x": 0, "y": 0, "z": 0},
-                            "stretch": {"x": 0, "y": 0, "z": 0},
+                            "stretch": {"x": 1, "y": 1, "z": 1},
                             "settings": {
                               "isPiece": true
                             },
@@ -912,13 +912,13 @@
                                       },
                                       "top": {
                                         "offset": {"x": 120, "y": 62},
-                                        "mirror": {"x": true, "y": true},
-                                        "angle": 270
+                                        "mirror": {"x": false, "y": false},
+                                        "angle": 90
                                       },
                                       "bottom": {
                                         "offset": {"x": 120, "y": 62},
-                                        "mirror": {"x": true, "y": true},
-                                        "angle": 270
+                                        "mirror": {"x": false, "y": false},
+                                        "angle": 90
                                       }
                                     },
                                     "unwrapMode": "custom",
@@ -943,7 +943,7 @@
                   "shape": {
                     "type": "none",
                     "offset": {"x": 0, "y": 0, "z": 0},
-                    "stretch": {"x": 0, "y": 0, "z": 0},
+                    "stretch": {"x": 1, "y": 1, "z": 1},
                     "settings": {
                       "isPiece": true
                     },
@@ -962,7 +962,7 @@
                       "shape": {
                         "type": "none",
                         "offset": {"x": 0, "y": 0, "z": 0},
-                        "stretch": {"x": 0, "y": 0, "z": 0},
+                        "stretch": {"x": 1, "y": 1, "z": 1},
                         "settings": {
                           "isPiece": true
                         },
@@ -1060,13 +1060,13 @@
                                   },
                                   "top": {
                                     "offset": {"x": 120, "y": 62},
-                                    "mirror": {"x": true, "y": true},
-                                    "angle": 270
+                                    "mirror": {"x": false, "y": false},
+                                    "angle": 90
                                   },
                                   "bottom": {
                                     "offset": {"x": 120, "y": 62},
-                                    "mirror": {"x": true, "y": true},
-                                    "angle": 270
+                                    "mirror": {"x": false, "y": false},
+                                    "angle": 90
                                   }
                                 },
                                 "unwrapMode": "custom",
@@ -1086,30 +1086,30 @@
                       "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
                       "shape": {
                         "type": "box",
-                        "offset": {"x": 0, "y": -7, "z": 0},
+                        "offset": {"x": 0, "y": -9, "z": 0},
                         "stretch": {"x": -1.07, "y": 1.07, "z": 1.07},
                         "settings": {
                           "isPiece": false,
-                          "size": {"x": 11, "y": 20, "z": 14}
+                          "size": {"x": 11, "y": 16, "z": 14}
                         },
                         "textureLayout": {
                           "back": {
-                            "offset": {"x": 106, "y": 15},
+                            "offset": {"x": 106, "y": 19},
                             "mirror": {"x": true, "y": false},
                             "angle": 0
                           },
                           "right": {
-                            "offset": {"x": 106, "y": 15},
+                            "offset": {"x": 106, "y": 19},
                             "mirror": {"x": false, "y": false},
                             "angle": 0
                           },
                           "front": {
-                            "offset": {"x": 95, "y": 15},
+                            "offset": {"x": 95, "y": 19},
                             "mirror": {"x": false, "y": false},
                             "angle": 0
                           },
                           "left": {
-                            "offset": {"x": 81, "y": 15},
+                            "offset": {"x": 81, "y": 19},
                             "mirror": {"x": false, "y": false},
                             "angle": 0
                           },
@@ -1126,19 +1126,19 @@
                         },
                         "unwrapMode": "custom",
                         "visible": true,
-                        "doubleSided": false,
+                        "doubleSided": true,
                         "shadingMode": "flat"
                       },
                       "children": [
                         {
                           "id": "37",
                           "name": "R-Forearm",
-                          "position": {"x": 0, "y": -10.99985, "z": 0},
+                          "position": {"x": 0, "y": -8.99985, "z": 0},
                           "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
                           "shape": {
                             "type": "none",
                             "offset": {"x": 0, "y": 0, "z": 0},
-                            "stretch": {"x": 0, "y": 0, "z": 0},
+                            "stretch": {"x": 1, "y": 1, "z": 1},
                             "settings": {
                               "isPiece": true
                             },
