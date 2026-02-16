@@ -13,6 +13,13 @@
     "NameTranslationKey": {
       "Value": "mobs.Scarak_Fighter_Hollow.name",
       "Description": "Translation key for NPC name display"
+    },
+    "DesiredAttackDistanceRange": {
+      "Value": [
+        3,
+        3
+      ],
+      "Description": "The distance within which the NPC wants to be from its target while attacking. The max value should be lower than AttackDistance."
     }
   },
   "Modify": {
@@ -20,10 +27,11 @@
     "Appearance": "Scarak_Fighter_Hollow",
     "IsMemory": true,
     "MemoriesCategory": "Hollow",
+    "AttackDistance": 3,
     "MemoriesNameOverride": "Scarak_Fighter_Hollow",
     "Weapons": [],
     "OffHand": [],
-    "MaxSpeed": 7,
+    "MaxSpeed": 12,
     "FollowPatrolPath": {
       "Compute": "FollowPatrolPath"
     },

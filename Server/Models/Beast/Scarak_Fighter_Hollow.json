@@ -15,8 +15,8 @@
       "Z": -0.9
     }
   },
-  "MinScale": 2.3,
-  "MaxScale": 3.4,    
+  "MinScale": 1.2,
+  "MaxScale": 1.8,
   "DefaultAttachments": [],
   "AnimationSets": {
     "Idle": {
@@ -193,28 +193,28 @@
     }
   },
   "RandomAttachmentSets": {
-     "Body": {
-       "Variant1": {
-         "Model": "NPC/Beast/Scarak_Fighter_Hollow/Models/Model.blockymodel",
-         "Texture": "NPC/Beast/Scarak_Fighter_Hollow/Models/Model_Default.png",
-         "Weight": 25
-       },
-       "Variant2": {
-         "Model": "NPC/Beast/Scarak_Fighter_Hollow/Models/Model.blockymodel",
-         "Texture": "NPC/Beast/Scarak_Fighter_Hollow/Models/Model_Default_01.png",
-         "Weight": 25
-       },
-       "Variant3": {
-         "Model": "NPC/Beast/Scarak_Fighter_Hollow/Models/Model.blockymodel",
-         "Texture": "NPC/Beast/Scarak_Fighter_Hollow/Models/Model_Default_02.png",
-         "Weight": 25
-       },
-       "Variant4": {
-         "Model": "NPC/Beast/Scarak_Fighter_Hollow/Models/Model.blockymodel",
-         "Texture": "NPC/Beast/Scarak_Fighter_Hollow/Models/Model_Default_03.png",
-         "Weight": 25
-       }
-     },    
+    "Body": {
+      "Variant1": {
+        "Model": "NPC/Beast/Scarak_Fighter_Hollow/Models/Model.blockymodel",
+        "Texture": "NPC/Beast/Scarak_Fighter_Hollow/Models/Model_Default.png",
+        "Weight": 25
+      },
+      "Variant2": {
+        "Model": "NPC/Beast/Scarak_Fighter_Hollow/Models/Model.blockymodel",
+        "Texture": "NPC/Beast/Scarak_Fighter_Hollow/Models/Model_Default_01.png",
+        "Weight": 25
+      },
+      "Variant3": {
+        "Model": "NPC/Beast/Scarak_Fighter_Hollow/Models/Model.blockymodel",
+        "Texture": "NPC/Beast/Scarak_Fighter_Hollow/Models/Model_Default_02.png",
+        "Weight": 25
+      },
+      "Variant4": {
+        "Model": "NPC/Beast/Scarak_Fighter_Hollow/Models/Model.blockymodel",
+        "Texture": "NPC/Beast/Scarak_Fighter_Hollow/Models/Model_Default_03.png",
+        "Weight": 25
+      }
+    },
     "Head": {
       "Skull": {
         "Model": "NPC/Beast/Scorpion_Hollow/Models/Attachments/Skull_Head.blockymodel",

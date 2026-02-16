@@ -34,7 +34,7 @@
       3,
       4
     ],
-    "CombatBehaviorDistance": 6.5,
+    "CombatBehaviorDistance": 7,
     "CombatRelativeTurnSpeed": 1,
     "CombatDirectWeight": 10,
     "CombatStrafeWeight": 10,
