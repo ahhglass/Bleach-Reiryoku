@@ -248,7 +248,7 @@
           "Parent": "Weapon_Sword_Signature_Vortexstrike_Spin_Damage",
           "DamageCalculator": {
             "BaseDamage": {
-              "Physical": 17
+              "Physical": 20
             }
           },
           "EntityStatsOnHit": [

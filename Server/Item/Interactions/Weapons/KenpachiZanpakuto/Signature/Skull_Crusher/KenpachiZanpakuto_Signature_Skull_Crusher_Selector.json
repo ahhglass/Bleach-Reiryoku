@@ -57,7 +57,7 @@
   "Selector": {
     "Id": "Stab",
     "StartDistance": 0,
-    "EndDistance": 2,
+    "EndDistance": 6,
     "TestLineOfSight": true
   },
   "HitBlock": {
