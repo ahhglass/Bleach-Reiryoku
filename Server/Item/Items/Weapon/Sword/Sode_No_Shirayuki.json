@@ -23,6 +23,9 @@
       {
         "ItemId": "Ingredient_Bar_Silver",
         "Quantity": 9
+      },
+      {
+        "ItemId": "Asauchi"
       }
     ],
     "BenchRequirement": [

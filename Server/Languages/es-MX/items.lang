@@ -33,6 +33,8 @@ Shinigami_Robes_Sleeveless.name = Tunica de Shinigami - Sin mangas
 Shinigami_Robes_Sleeveless.description = Un <i>Shihakusho</i> modificado para quienes desean más libertad de movimiento. Se considera más bien una modificación cosmética del uniforme estándar.
 Shinigami_Robes_Captain.name = Túnica de Shinigami - Capitán
 Shinigami_Robes_Captain.description = El abrigo blanco que llevan los Capitanes sobre su uniforme estándar. Proporciona una protección espiritual superior y denota el rango más alto en el Gotei 13.
+Shinigami_Robes_OpenShoulder.name = Túnica de Shinigami - Hombro Descubierto
+Shinigami_Robes_OpenShoulder.description = Un <i>Shihakusho</i> modificado que sirve el mismo proposito que el sin mangas mientras que mantiene una apariencia mas elegante y ceremonial.
 
 Resonating_Reishi_Core.name = Núcleo resonante de Reishi
 Resonating_Reishi_Core.description = Este núcleo vibra a una frecuencia que imita la tuya. Es una extensión de tu alma. Listo para asignarse a una espada y despertarla.

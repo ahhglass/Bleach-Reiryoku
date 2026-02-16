@@ -1,5 +1,4 @@
 {
-  "Parent": "Template_Weapon_Sword",
   "TranslationProperties": {
     "Name": "items.Asauchi.name",
     "Description": "items.Asauchi.description"
@@ -172,8 +171,6 @@
       ]
     }
   },
-  "MaxDurability": 120,
-  "DurabilityLossOnHit": 0.21,
   "Categories": [
     "BleachCategory.Weapons",
     "Items.Weapons"
@@ -189,5 +186,10 @@
       -36,
       -37
     ]
-  }
+  },
+  "Interactions": {
+    "Primary": "Root_Weapon_Sword_Primary",
+    "Secondary": "Root_Weapon_Sword_Secondary_Guard"
+  },
+  "PlayerAnimationsId": "Sword"
 }

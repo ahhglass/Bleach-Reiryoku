@@ -711,6 +711,9 @@
       {
         "ItemId": "Ingredient_Bar_Gold",
         "Quantity": 4
+      },
+      {
+        "ItemId": "Asauchi"
       }
     ],
     "BenchRequirement": [
