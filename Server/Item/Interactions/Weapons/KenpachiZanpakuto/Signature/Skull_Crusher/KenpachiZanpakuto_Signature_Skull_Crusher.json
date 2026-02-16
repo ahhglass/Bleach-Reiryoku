@@ -18,7 +18,9 @@
             }
           ],
           "ItemPlayerAnimationsId": "Kenpachi_Zanpakuto_Animations",
-          "ItemAnimationId": "SkullCrusherCharge"
+          "ItemAnimationId": "SkullCrusherCharge",
+          "WorldSoundEventId": "SFX_Kenpachi_SkullCrusher_Activate",
+          "LocalSoundEventId": "SFX_Kenpachi_SkullCrusher_Activate"
         },
         "RunTime": 1
       },
