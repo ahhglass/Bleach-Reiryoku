@@ -21,7 +21,7 @@
         "Z": 0
       },
       "TargetNodeName": "Handle",
-      "TrailId": "Arrow",
+      "TrailId": "Basic_Quincy_Arrow",
       "RotationOffset": {
         "Yaw": 90,
         "Pitch": 0,
@@ -35,7 +35,7 @@
         "Z": 0
       },
       "TargetNodeName": "Handle",
-      "TrailId": "Arrow",
+      "TrailId": "Basic_Quincy_Arrow",
       "RotationOffset": {
         "Yaw": 0,
         "Pitch": 45,

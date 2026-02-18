@@ -11,8 +11,8 @@
     "Bounciness": 0.0,
     "SticksVertically": true
   },
-  "LaunchLocalSoundEventId": "SFX_Bow_T2_Shoot_Local",
-  "LaunchWorldSoundEventId": "SFX_Bow_T2_Shoot",
+  "LaunchLocalSoundEventId": "SFX_Kojaku_Shoot_Local",
+  "LaunchWorldSoundEventId": "SFX_Kojaku_Shoot",
   "Interactions": {
     "ProjectileHit": {
       "Interactions": [
