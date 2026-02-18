@@ -28,7 +28,7 @@
   },
   "Interactions": {
     "Primary": "Root_Kojaku_Primary_Shoot",
-    "Secondary": "Root_Weapon_Shortbow_Secondary_Guard",
+    "Secondary": "Root_Hirenkyaku",
     "Ability1": "Root_Weapon_Shortbow_Signature_Volley"
   },
   "InteractionVars": {
