@@ -3,6 +3,11 @@ qualities.Asauchi = Асаучи
 qualities.Shikai = Шикай
 qualities.Bankai = Банкай
 
+qualities.SpiritWeapon = Духовное оружие
+qualities.RefinedSpiritWeapon = Улучшенное духовное оружие
+qualities.HeiligBogen = Хайлиг Боген
+qualities.Vollständig = Фольштендиг
+
 qualities.Spiritual_Resource = Духовный ресурс
 
 qualities.PlushieHuman = Человек

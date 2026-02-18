@@ -25,6 +25,11 @@ True_Bankai_Tensa_Zangetsu.description = The ultimate evolution of Ichigo's powe
 True_Shikai_Zangetsu.name = True Shikai – Zangetsu
 True_Shikai_Zangetsu.description = Ichigo's true Shikai, manifested as two distinct black blades. The massive cleaver embodies his fused Shinigami and Hollow powers, while the smaller knife represents his Quincy heritage. Release command: <i><b>«Unite and Protect, Zangetsu»</b></i>. The blades can fire\n<i>Getsuga Tensho</i> independently or combine them into a devastating cross-shaped wave, <i><b>Getsuga Jujisho</b></i>.\n\n<b><color is="#9D3356">Its true power lies dormant, waiting to be unleashed in a future update</color></b>
 
+Kojaku_Bow.name = Kojaku – Quincy Bow
+Kojaku_Bow.description = The basic bow usable by all Quincy. It is formed by gathering Reishi in the <i>Quincy Cross</i> on the right hand. The arrows it releases are also made of Reishi. It can destroy Hollows with long-range attacks. An early-game weapon for aspiring Quincy.
+
+Quincy_Cross_Point.name = 4-Point Quincy Cross
+Quincy_Cross_Point.description = An initial-level Quincy amulet that helps the player by granting MP (the bow consumes MP) while equipped in the offhand. Essential for sustaining your spiritual power in battle.
 
 Soul_Imprinting_Altar.name = Soul Imprinting Altar
 Soul_Imprinting_Altar.description = A sacred workstation where the wielder's soul merges with the Asauchi. Through deep meditation and concentration of spiritual energy (Reiryoku), the foundation of the future Zanpakuto is laid. This altar is used not only for the initial awakening but also for the subsequent stages of the blade's evolution — from Shikai to the ultimate revelation, Bankai.

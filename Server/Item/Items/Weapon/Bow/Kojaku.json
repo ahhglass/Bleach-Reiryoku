@@ -1,9 +1,10 @@
 {
   "TranslationProperties": {
-    "Name": "Kojaku"
+    "Name": "items.Kojaku_Bow.name",
+    "Description": "items.Kojaku_Bow.description"
   },
   "Parent": "Kojaku_Type",
-  "Quality": "Uncommon",
+  "Quality": "SpiritWeapon",
   "Model": "Items/Weapons/Kojaku/Kojaku.blockymodel",
   "Texture": "Items/Weapons/Kojaku/Kojaku_Texture.png",
   "Icon": "Icons/ItemsGenerated/Kojaku.png",

@@ -23,6 +23,11 @@ Shikai_Benihime.description = Un sable elegante y ligeramente curvado con motivo
 True_Shikai_Zangetsu.name = Verdadero Shikai – Zangetsu
 True_Shikai_Zangetsu.description = El verdadero Shikai de Ichigo, manifestado como dos hojas negras distintas. El enorme cuchillón encarna sus poderes fusionados de Shinigami y Hollow, mientras que el cuchillo más pequeño representa su herencia Quincy. Comando de liberación: <i><b>«Uníos y proteged, Zangetsu»</b></i>. Las hojas pueden disparar <i>Getsuga Tensho</i> por separado o combinarlas en una devastadora onda en forma de cruz, <i><b>Getsuga Jujisho</b></i>.
 
+Kojaku_Bow.name = Kojaku – Arco Quincy
+Kojaku_Bow.description = El arco básico utilizable por todos los Quincy. Se forma reuniendo Reishi en la <i>Cruz Quincy</i> de la mano derecha. Las flechas que lanza también están hechas de Reishi. Permite destruir Hollows con ataques a distancia. Arma inicial para Quincy en ciernes.
+
+Quincy_Cross_Point.name = Cruz Quincy de 4 puntas
+Quincy_Cross_Point.description = Amuleto Quincy de nivel inicial que ayuda al jugador otorgando PM (el arco consume PM) mientras está equipado en la mano secundaria. Esencial para mantener tu poder espiritual en combate.
 
 Soul_Imprinting_Altar.name = Altar de Impresión de Almas
 Soul_Imprinting_Altar.description = Una sagrada estación de trabajo donde el alma del portador se fusiona con la Asauchi. Mediante meditación profunda y concentración de energía espiritual (Reiryoku), se sientan las bases de la futura Zanpakuto. Este altar se utiliza no solo para el despertar inicial, sino también para las etapas posteriores de evolución de la espada — desde Shikai hasta la revelación definitiva, Bankai.

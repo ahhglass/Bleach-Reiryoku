@@ -1,4 +1,8 @@
 {
+  "TranslationProperties": {
+    "Name": "items.Quincy_Cross_Point.name",
+    "Description": "items.Quincy_Cross_Point.description"
+  },  
   "Model": "Items/Quincy_Crosses/QuincyCross.blockymodel",
   "Texture": "Items/Quincy_Crosses/Quincy_Cross_Texture.png",
   "PlayerAnimationsId": "Item",
