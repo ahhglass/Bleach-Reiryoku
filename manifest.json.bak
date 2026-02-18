@@ -8,7 +8,7 @@
       "Name": "Jaykov",
       "Email": "",
       "Url": ""
-    },
+    },    
     {
       "Name": "Lxrdinsky (Shunsui)",
       "Email": "",
@@ -31,7 +31,6 @@
     }
   ],
   "Website": "https://discord.gg/7My4sVvafk",
-  "ServerVersion": "2026.02.17-255364b8e",
   "Dependencies": {},
   "OptionalDependencies": {},
   "LoadBefore": {},
