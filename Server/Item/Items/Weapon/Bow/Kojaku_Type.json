@@ -29,7 +29,8 @@
   "Interactions": {
     "Primary": "Root_Kojaku_Primary_Shoot",
     "Secondary": "Root_Hirenkyaku",
-    "Ability1": "Root_Weapon_Shortbow_Signature_Volley"
+    "Ability1": "Root_Weapon_Shortbow_Signature_Volley",
+    "Ability2": "Root_Kojaku_OkamiYa"
   },
   "InteractionVars": {
     "Kojaku_Primary_Shoot_Charge": {
@@ -266,6 +267,31 @@
           "Effects": {
             "WorldSoundEventId": "SFX_Bow_T2_Signature_Nock",
             "LocalSoundEventId": "SFX_Bow_T2_Signature_Nock_Local"
+          }
+        }
+      ]
+    },
+    "Kojaku_OkamiYa_Charge": {
+      "Interactions": [
+        {
+          "$Comment": "Charging the signature okami-ya attack",
+          "Parent": "Kojaku_OkamiYa_Charge",
+          "Effects": {
+            "WorldSoundEventId": "SFX_Bow_T2_Draw",
+            "LocalSoundEventId": "SFX_Bow_T2_Draw_Local"
+          },
+          "HorizontalSpeedMultiplier": 0.667
+        }
+      ]
+    },
+    "Signature_OkamiYa_Damage": {
+      "Interactions": [
+        {
+          "Parent": "Kojaku_OkamiYa_Damage",
+          "DamageCalculator": {
+            "BaseDamage": {
+              "Projectile": 100
+            }
           }
         }
       ]
@@ -538,9 +564,56 @@
           }
         ]
       }
+    ],
+    "OkamiYa_State": [
+      {
+        "Condition": [
+          1,
+          100
+        ],
+        "ConditionValueType": "Percent",
+        "Model": "Items/Weapons/Kojaku/Kojaku_Signature.blockymodel",
+        "Texture": "Items/Weapons/Kojaku/Kojaku_Texture.png",
+        "Particles": [
+          {
+            "SystemId": "Bow_Signature_Charge",
+            "TargetNodeName": "ARROW-PLACEHOLDER",
+            "PositionOffset": {
+              "X": 0.5,
+              "Y": 0.25,
+              "Z": 0
+            },
+            "Scale": 0.5,
+            "TargetEntityPart": "PrimaryItem"
+          },
+          {
+            "SystemId": "Bow_Signature_Charge",
+            "TargetNodeName": "ARROW-PLACEHOLDER",
+            "PositionOffset": {
+              "X": 0.5,
+              "Y": 0,
+              "Z": 0
+            },
+            "Scale": 0.5,
+            "TargetEntityPart": "PrimaryItem"
+          },
+          {
+            "SystemId": "Bow_Signature_Charge",
+            "TargetNodeName": "ARROW-PLACEHOLDER",
+            "PositionOffset": {
+              "X": 0.5,
+              "Y": -0.25,
+              "Z": 0
+            },
+            "Scale": 0.5,
+            "TargetEntityPart": "PrimaryItem"
+          }
+        ]
+      }
     ]
   },
   "ItemSoundSetId": "ISS_Weapons_Wood",
   "MaxDurability": 80,
-  "DurabilityLossOnHit": 0.58
+  "DurabilityLossOnHit": 0.58,
+  "ClipsGeometry": false
 }

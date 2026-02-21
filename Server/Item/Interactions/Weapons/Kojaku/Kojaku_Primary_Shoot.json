@@ -20,19 +20,35 @@
     }
   },
   "Failed": {
-    "Type": "ChangeStat",
-    "Behaviour": "Set",
-    "StatModifiers": {
-      "StaminaRegenDelay": -10
+    "Type": "StatsCondition",
+    "Costs": {
+      "OkamiYa_State": 100
+    },
+    "Failed": {
+      "Type": "ChangeStat",
+      "Behaviour": "Set",
+      "StatModifiers": {
+        "StaminaRegenDelay": -10
+      },
+      "Next": {
+        "Type": "Replace",
+        "Var": "Kojaku_Primary_Shoot_Charge",
+        "DefaultValue": {
+          "Interactions": [
+            "Kojaku_Primary_Shoot_Charge"
+          ]
+        }
+      }
     },
     "Next": {
       "Type": "Replace",
-      "Var": "Kojaku_Primary_Shoot_Charge",
+      "Var": "Kojaku_OkamiYa_Charge",
       "DefaultValue": {
         "Interactions": [
-          "Kojaku_Primary_Shoot_Charge"
+          "Kojaku_OkamiYa_Charge"
         ]
-      }
+      },
+      "DefaultOk": true
     }
   }
 }

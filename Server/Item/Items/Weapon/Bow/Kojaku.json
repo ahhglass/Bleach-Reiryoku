@@ -149,7 +149,19 @@
           "Parent": "Weapon_Shortbow_Signature_Volley_Damage",
           "DamageCalculator": {
             "BaseDamage": {
-              "Projectile": 14
+              "Projectile": 25
+            }
+          }
+        }
+      ]
+    },
+    "Signature_OkamiYa_Damage": {
+      "Interactions": [
+        {
+          "Parent": "Kojaku_OkamiYa_Damage",
+          "DamageCalculator": {
+            "BaseDamage": {
+              "Projectile": 150
             }
           }
         }
@@ -180,5 +192,15 @@
       -27,
       -43
     ]
+  },
+  "Weapon": {
+    "StatModifiers": {
+      "SignatureEnergy": [
+        {
+          "CalculationType": "Additive",
+          "Amount": 1
+        }
+      ]
+    }
   }
 }
