@@ -32,12 +32,12 @@
     "0.1": {
       "Type": "StatsCondition",
       "Costs": {
-        "Mana": 5
+        "Mana": 4
       },
       "Next": {
         "Type": "ChangeStat",
         "StatModifiers": {
-          "Mana": -5
+          "Mana": -4
         },
         "Next": {
           "Type": "Replace",
@@ -62,12 +62,12 @@
     "0.3": {
       "Type": "StatsCondition",
       "Costs": {
-        "Mana": 10
+        "Mana": 8
       },
       "Next": {
         "Type": "ChangeStat",
         "StatModifiers": {
-          "Mana": -10
+          "Mana": -8
         },
         "Next": {
           "Type": "Replace",
@@ -92,12 +92,12 @@
     "0.6": {
       "Type": "StatsCondition",
       "Costs": {
-        "Mana": 15
+        "Mana": 12
       },
       "Next": {
         "Type": "ChangeStat",
         "StatModifiers": {
-          "Mana": -15
+          "Mana": -12
         },
         "Next": {
           "Type": "Replace",
@@ -122,12 +122,12 @@
     "0.9": {
       "Type": "StatsCondition",
       "Costs": {
-        "Mana": 20
+        "Mana": 16
       },
       "Next": {
         "Type": "ChangeStat",
         "StatModifiers": {
-          "Mana": -20
+          "Mana": -16
         },
         "Next": {
           "Type": "Replace",
@@ -152,12 +152,12 @@
     "1.2": {
       "Type": "StatsCondition",
       "Costs": {
-        "Mana": 25
+        "Mana": 19
       },
       "Next": {
         "Type": "ChangeStat",
         "StatModifiers": {
-          "Mana": -25
+          "Mana": -19
         },
         "Next": {
           "Type": "Replace",

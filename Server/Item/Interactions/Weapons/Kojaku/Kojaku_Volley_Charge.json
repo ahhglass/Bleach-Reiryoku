@@ -22,7 +22,7 @@
         },
         "Scale": 0.5,
         "TargetNodeName": "Handle",
-        "SystemId": "Kojaku_Charging"
+        "SystemId": "Bow_Charging"
       },
       {
         "PositionOffset": {
@@ -37,7 +37,7 @@
         },
         "Scale": 0.5,
         "TargetNodeName": "Handle",
-        "SystemId": "Kojaku_Charging"
+        "SystemId": "Bow_Charging"
       },
       {
         "PositionOffset": {
@@ -52,20 +52,14 @@
         },
         "Scale": 0.5,
         "TargetNodeName": "Handle",
-        "SystemId": "Kojaku_Charging"
-      },
-      {
-        "SystemId": "Kojaku_OkamiYa_User",
-        "TargetEntityPart": "Entity"
-      },
-      {
-        "SystemId": "Kojaku_OkamiYa_Bow",
-        "Scale": 1
+        "SystemId": "Bow_Charging"
       }
     ]
   },
   "HorizontalSpeedMultiplier": 0.667,
   "Next": {
-    "1.5": "Kojaku_OkamiYa_Launch"
+    "0": "Kojaku_Volley_Strength0",
+    "0.75": "Kojaku_Volley_Strength1",
+    "1.5": "Kojaku_Volley_Strength2"
   }
 }

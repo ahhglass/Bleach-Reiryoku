@@ -11,10 +11,10 @@
     },
     "Next": {
       "Type": "Replace",
-      "Var": "Signature_Volley_Charge",
+      "Var": "Kojaku_Volley_Charge",
       "DefaultValue": {
         "Interactions": [
-          "Weapon_Shortbow_Signature_Volley_Charge"
+          "Kojaku_Volley_Charge"
         ]
       }
     }

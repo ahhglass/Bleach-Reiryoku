@@ -59,5 +59,10 @@
         }
       ]
     }
-  }
+  },
+  "Particles": [
+    {
+      "SystemId": "Quincy_Arrow_Sparks"
+    }
+  ]
 }

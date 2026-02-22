@@ -29,8 +29,8 @@
   "Interactions": {
     "Primary": "Root_Kojaku_Primary_Shoot",
     "Secondary": "Root_Hirenkyaku",
-    "Ability1": "Root_Weapon_Shortbow_Signature_Volley",
-    "Ability2": "Root_Kojaku_OkamiYa"
+    "Ability1": "Root_Kojaku_OkamiYa",
+    "Ability2": "Root_Kojaku_Volley"
   },
   "InteractionVars": {
     "Kojaku_Primary_Shoot_Charge": {
@@ -277,8 +277,8 @@
           "$Comment": "Charging the signature okami-ya attack",
           "Parent": "Kojaku_OkamiYa_Charge",
           "Effects": {
-            "WorldSoundEventId": "SFX_Bow_T2_Draw",
-            "LocalSoundEventId": "SFX_Bow_T2_Draw_Local"
+            "WorldSoundEventId": "SFX_OkamiYaCharge",
+            "LocalSoundEventId": "SFX_OkamiYaCharge"
           },
           "HorizontalSpeedMultiplier": 0.667
         }
@@ -296,14 +296,15 @@
         }
       ]
     },
-    "Signature_Volley_Charge": {
+
+    "Kojaku_Volley_Charge": {
       "Interactions": [
         {
           "$Comment": "Charging the signature volley attack",
-          "Parent": "Weapon_Shortbow_Signature_Volley_Charge",
+          "Parent": "Kojaku_Volley_Charge",
           "Effects": {
-            "WorldSoundEventId": "SFX_Bow_T2_Draw",
-            "LocalSoundEventId": "SFX_Bow_T2_Draw_Local"
+            "WorldSoundEventId": "SFX_QuincyBowCharge",
+            "LocalSoundEventId": "SFX_QuincyBowCharge"
           },
           "HorizontalSpeedMultiplier": 0.667
         }
@@ -452,55 +453,6 @@
     }
   },
   "ItemAppearanceConditions": {
-    "SignatureCharges": [
-      {
-        "Condition": [
-          1,
-          100
-        ],
-        "ConditionValueType": "Percent",
-        "Model": "Items/Weapons/Bow/Iron_Triple.blockymodel",
-        "Texture": "Items/Weapons/Bow/Iron_Texture.png",
-        "LocalSoundEventId": "SFX_Bow_T2_Signature_Loop_Local",
-        "WorldSoundEventId": "SFX_Bow_T2_Signature_Loop",
-        "Particles": [
-          {
-            "SystemId": "Bow_Signature_Charge",
-            "TargetNodeName": "ARROW-PLACEHOLDER",
-            "PositionOffset": {
-              "X": 0.5,
-              "Y": 0.25,
-              "Z": 0
-            },
-            "Scale": 0.5,
-            "TargetEntityPart": "PrimaryItem"
-          },
-          {
-            "SystemId": "Bow_Signature_Charge",
-            "TargetNodeName": "ARROW-PLACEHOLDER",
-            "PositionOffset": {
-              "X": 0.5,
-              "Y": 0,
-              "Z": 0
-            },
-            "Scale": 0.5,
-            "TargetEntityPart": "PrimaryItem"
-          },
-          {
-            "SystemId": "Bow_Signature_Charge",
-            "TargetNodeName": "ARROW-PLACEHOLDER",
-            "PositionOffset": {
-              "X": 0.5,
-              "Y": -0.25,
-              "Z": 0
-            },
-            "Scale": 0.5,
-            "TargetEntityPart": "PrimaryItem"
-          }
-        ],
-        "ModelVFXId": "Bow_Signature_Status"
-      }
-    ],
     "SignatureEnergy": [
       {
         "Condition": [
@@ -573,7 +525,20 @@
         ],
         "ConditionValueType": "Percent",
         "Model": "Items/Weapons/Kojaku/Kojaku_Signature.blockymodel",
+        "Texture": "Items/Weapons/Kojaku/Kojaku_Texture.png"
+      }
+    ],
+    "SignatureCharges": [
+      {
+        "Condition": [
+          1,
+          100
+        ],
+        "ConditionValueType": "Percent",
+        "Model": "Items/Weapons/Kojaku/Kojaku_Triple.blockymodel",
         "Texture": "Items/Weapons/Kojaku/Kojaku_Texture.png",
+        "LocalSoundEventId": "SFX_Bow_T2_Signature_Loop_Local",
+        "WorldSoundEventId": "SFX_Bow_T2_Signature_Loop",
         "Particles": [
           {
             "SystemId": "Bow_Signature_Charge",
@@ -608,7 +573,8 @@
             "Scale": 0.5,
             "TargetEntityPart": "PrimaryItem"
           }
-        ]
+        ],
+        "ModelVFXId": "Bow_Signature_Status"
       }
     ]
   },

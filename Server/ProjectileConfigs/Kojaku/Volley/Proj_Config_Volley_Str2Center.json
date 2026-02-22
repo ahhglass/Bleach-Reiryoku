@@ -1,5 +1,5 @@
 {
-  "Parent": "Projectile_Config_OkamiYa",
+  "Parent": "Projectile_Config_Volley",
   "LaunchForce": 90,
   "Physics": {
     "Gravity": 30
