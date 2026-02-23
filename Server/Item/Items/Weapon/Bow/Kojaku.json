@@ -189,15 +189,5 @@
         "ItemId": "Kojaku"
       }
     ]
-  },
-  "Weapon": {
-    "StatModifiers": {
-      "SignatureEnergy": [
-        {
-          "CalculationType": "Additive",
-          "Amount": 1
-        }
-      ]
-    }
   }
 }

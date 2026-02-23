@@ -47,7 +47,8 @@ Resonating_Reishi_Core.name = Resonating Reishi Core
 Resonating_Reishi_Core.description = This core hums at a frequency that mimics yours. It's an extension of your soul. Ready to be assigned to a blade to awaken it.
 Transcendent_Essence.name = Transcendent Essence
 Transcendent_Essence.description = A swirling paradox of absolute power. The boundaries between your spirit and the physical world have dissolved into this singular pulsing point. Within this glow lies the true form of your soul, screaming to be released.
-
+Hollow_Essence.name = Hollow Essence
+Hollow_Essence.description = A crystallized remnant of a defeated Hollow’s distorted soul. It pulses with unstable reiryoku.
 
 
 items.Currency_Kan.name = Kan
@@ -58,3 +59,9 @@ items.Medical_Pill_Basic.description = A standard-issue pill from Squad 4's medi
 
 items.Kaido_Infused_Pill.name = Kaido-Infused Restoration Pill
 items.Kaido_Infused_Pill.description = A masterpiece of Squad 4's medical research. Not merely a pill, but a solid capsule of suspended healing kaido spells.\n\nRestores <color is="#ffffff">100%</color> health instantly and grants:\n\n• <color is="#ffffff">Health Regen II</color>\n\nDuration: <color is="#ffffff">0:30</color>
+
+items.A_Guide_To_Find_Hollows_Closed.name = A guide to find Hollows - Closed
+items.A_Guide_To_Find_Hollows_Closed.description = <color is="#ffffff"><b>Right-Click</b></color> while holding this scroll to open it. Compiled by the 12th Division Research & Development Institute.
+
+items.A_Guide_To_Find_Hollows.name = A guide to find Hollows
+items.A_Guide_To_Find_Hollows.description = <i>Compiled by the 12th Division Research & Development Institute</i>. Hollow activity does not occur during daylight hours. Manifestations have only been recorded after nightfall, when spiritual pressure becomes unstable. Additionally, no Hollow signatures have ever been detected within Zone 1. Operatives seeking Hollows must leave Zone 1 and conduct their patrols at night.

@@ -45,7 +45,8 @@ Resonating_Reishi_Core.name = Núcleo resonante de Reishi
 Resonating_Reishi_Core.description = Este núcleo vibra a una frecuencia que imita la tuya. Es una extensión de tu alma. Listo para asignarse a una espada y despertarla.
 Transcendent_Essence.name = Esencia Trascendental
 Transcendent_Essence.description = Un paradójico remolino de poder absoluto. Los límites entre tu espíritu y el mundo físico se han disuelto en este único punto pulsante. En su resplandor yace la verdadera forma de tu alma, clamando por ser liberada.
-
+Hollow_Essence.name = Esencia de Hollow
+Hollow_Essence.description = Un remanente cristalizado del alma distorsionada de un Hollow derrotado. Late con un reiryoku inestable.
 
 
 items.Currency_Kan.name = Kan
@@ -56,3 +57,9 @@ items.Medical_Pill_Basic.description = Píldora estándar del cuerpo médico de 
 
 items.Kaido_Infused_Pill.name = Píldora de restauración con Kaido
 items.Kaido_Infused_Pill.description = Obra maestra de la investigación médica de la 4.ª División. No es una simple píldora, sino una cápsula sólida de hechizos curativos kaido en suspensión.\n\nRestaura <color is="#ffffff">100%</color> de salud al instante y otorga:\n\n• <color is="#ffffff">Regeneración de salud II</color>\n\nDuración: <color is="#ffffff">0:30</color>
+
+items.A_Guide_To_Find_Hollows_Closed.name = Guía para encontrar Hollows - Cerrada
+items.A_Guide_To_Find_Hollows_Closed.description = <color is="#ffffff"><b>Clic derecho</b></color> mientras sostienes este pergamino para abrirlo. Compilado por el Instituto de Investigación y Desarrollo de la 12ª División.
+
+items.A_Guide_To_Find_Hollows.name = Guía para encontrar Hollows
+items.A_Guide_To_Find_Hollows.description = <i>Compilado por el Instituto de Investigación y Desarrollo de la 12ª División</i>. La actividad Hollow no ocurre durante las horas de luz. Las manifestaciones solo se han registrado después del anochecer, cuando la presión espiritual se vuelve inestable. Además, no se han detectado firmas Hollow dentro de la Zona 1. Los operativos que busquen Hollows deben abandonar la Zona 1 y realizar sus patrullas durante la noche.

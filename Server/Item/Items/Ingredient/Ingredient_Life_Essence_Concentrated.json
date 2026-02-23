@@ -1,10 +1,11 @@
 {
   "TranslationProperties": {
-    "Name": "items.ReiryokuCrystal.name",
-    "Description": "items.ReiryokuCrystal.description"
+    "Name": "server.items.Ingredient_Life_Essence_Concentrated.name",
+    "Description": "server.items.Ingredient_Life_Essence_Concentrated.description"
   },
-  "Icon": "Icons/ItemsGenerated/Reiryoku_Crystal.png",
-  "Quality": "SpiritualResource",
+  "Parent": "Ingredient_Life_Essence",
+  "Icon": "Icons/ItemsGenerated/Ingredient_Life_Essence_Concentrated.png",
+  "Quality": "Rare",
   "Model": "Resources/Ingredients/Essence_Concentrated.blockymodel",
   "IconProperties": {
     "Scale": 0.6,
@@ -20,7 +21,7 @@
   },
   "Scale": 0.55,
   "Light": {
-    "Color": "#333",
+    "Color": "#130",
     "Radius": 1
   },
   "MaxStack": 100,
@@ -28,26 +29,22 @@
   "Recipe": {
     "Input": [
       {
-        "ItemId": "Ingredient_Life_Essence_Concentrated",
-        "Quantity": 3
-      },
-      {
-        "ItemId": "Ingredient_Void_Essence",
-        "Quantity": 10
+        "ItemId": "Ingredient_Life_Essence",
+        "Quantity": 100
       }
     ],
     "Output": [
       {
-        "ItemId": "Reiryoku_Crystal",
+        "ItemId": "Ingredient_Life_Essence_Concentrated",
         "Quantity": 1
       }
     ],
     "BenchRequirement": [
       {
         "Type": "Crafting",
-        "Id": "Arcanebench",
+        "Id": "Farmingbench",
         "Categories": [
-          "Arcane_Misc"
+          "Essence"
         ]
       },
       {
@@ -62,12 +59,7 @@
   },
   "Particles": [
     {
-      "SystemId": "Reiryoku_Crystal_Particles"
+      "SystemId": "Seeds_Eternal"
     }
-  ],
-  "Parent": "Ingredient_Life_Essence",
-  "Texture": "Items/Ingredients/Reiryoku_Crystal_Texture.png",
-  "Categories": [
-    "BleachCategory.Ingredients"
   ]
 }

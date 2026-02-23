@@ -37,6 +37,8 @@ Resonating_Reishi_Core.name = Rezonans Eden Reishi Çekirdeği
 Resonating_Reishi_Core.description = Bu çekirdek sizinkini taklit eden bir frekansta titreşir. Ruhunuzun bir uzantısıdır. Onu uyandırmak için bir bıçağa atanmaya hazır.
 Transcendent_Essence.name = Aşkın Öz
 Transcendent_Essence.description = Mutlak gücün girdap halinde bir paradoksu. Ruhunuz ile fiziksel dünya arasındaki sınırlar bu tek nabız noktasında çözülmüştür. Bu parıltıda ruhunuzun gerçek biçimi, serbest bırakılmak için haykırır.
+Hollow_Essence.name = Hollow Özü
+Hollow_Essence.description = Yenilmiş bir Hollow’un çarpıtılmış ruhundan kristalleşmiş bir kalıntı. Dengesiz reiryoku ile titreşir.
 
 items.Currency_Kan.name = Kan
 items.Currency_Kan.description = Ruhlar Topluluğu'nun standart para birimi. Bir Kan, yaşayanlar dünyasında bir çuval pirincin değerini temsil eder. Ağırlığı ve sesi reishi frekansına ayarlı sayılır, sahtesi yapılamaz.
@@ -46,3 +48,9 @@ items.Medical_Pill_Basic.description = 4. Birliğin tıbbi biriminden standart h
 
 items.Kaido_Infused_Pill.name = Kaidō Katkılı İyileşme Hapı
 items.Kaido_Infused_Pill.description = 4. Birliğin tıbbi araştırmasının başyapıtı. Sadece bir hap değil, askıda iyileştirici kaidō büyüleri kapsülü.\n\n<color is="#ffffff">%100</color> canı anında geri yükler ve verir:\n\n• <color is="#ffffff">Can Regen II</color>\n\nSüre: <color is="#ffffff">0:30</color>
+
+items.A_Guide_To_Find_Hollows_Closed.name = Hollow Bulma Rehberi - Kapalı
+items.A_Guide_To_Find_Hollows_Closed.description = <color is="#ffffff"><b>Sağ tıkla</b></color> ve bu parşömeni elinde tutarak aç. 12. Tümen Araştırma ve Geliştirme Enstitüsü tarafından derlenmiştir.
+
+items.A_Guide_To_Find_Hollows.name = Hollow Bulma Rehberi
+items.A_Guide_To_Find_Hollows.description = <i>12. Tümen Araştırma ve Geliştirme Enstitüsü tarafından derlenmiştir</i>. Hollow etkinliği gündüz saatlerinde gerçekleşmez. Görünümler yalnızca geceleri, ruhsal baskı dengesiz hâle geldiğinde kaydedilmiştir. Ayrıca, Bölge 1 içerisinde hiçbir Hollow izi tespit edilmemiştir. Hollow arayan operatifler Bölge 1’den ayrılmalı ve devriyelerini gece gerçekleştirmelidir.

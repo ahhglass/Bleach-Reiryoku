@@ -44,7 +44,8 @@ Resonating_Reishi_Core.name = Resonierender Reishi-Kern
 Resonating_Reishi_Core.description = Dieser Kern summt auf einer Frequenz, die deine nachahmt. Er ist eine Erweiterung deiner Seele. Bereit, einer Klinge zugewiesen zu werden, um sie zu erwecken.
 Transcendent_Essence.name = Transzendente Essenz
 Transcendent_Essence.description = Ein wirbelndes Paradoxon absoluter Macht. Die Grenzen zwischen deinem Geist und der physischen Welt haben sich in diesem einzigartigen pulsierenden Punkt aufgelöst. In diesem Glanz liegt die wahre Form deiner Seele, die danach schreit, befreit zu werden.
-
+Hollow_Essence.name = Essenz eines Hollows
+Hollow_Essence.description = Ein kristallisierter Überrest der verzerrten Seele eines besiegten Hollows. Sie pulsiert mit instabilem Reiryoku.
 
 
 items.Currency_Kan.name = Kan
@@ -55,3 +56,9 @@ items.Medical_Pill_Basic.description = Standardpillen aus dem Sanitätskorps der
 
 items.Kaido_Infused_Pill.name = Kaido-Imprägnierte Restaurationspille
 items.Kaido_Infused_Pill.description = Ein Meisterwerk der medizinischen Forschung der 4. Division. Keine bloße Pille, sondern eine feste Kapsel mit eingeschlossenen heilenden Kaido-Zaubern.\n\nStellt <color is="#ffffff">100%</color> Gesundheit sofort wieder her und gewährt:\n\n• <color is="#ffffff">Gesundheitsregen II</color>\n\nDauer: <color is="#ffffff">0:30</color>
+
+items.A_Guide_To_Find_Hollows_Closed.name = Ein Leitfaden zur Suche nach Hollows – Geschlossen
+items.A_Guide_To_Find_Hollows_Closed.description = <color is="#ffffff"><b>Rechtsklick</b></color>, während du diese Schriftrolle hältst, um sie zu öffnen. Zusammengestellt von der Forschungs- und Entwicklungsabteilung der 12. Division.
+
+items.A_Guide_To_Find_Hollows.name = Ein Leitfaden zur Suche nach Hollows
+items.A_Guide_To_Find_Hollows.description = <i>Zusammengestellt von der Forschungs- und Entwicklungsabteilung der 12. Division</i>. Hollow-Aktivitäten treten nicht während der Tagesstunden auf. Manifestationen wurden ausschließlich nach Einbruch der Nacht aufgezeichnet, wenn der spirituelle Druck instabil wird. Zudem wurden innerhalb von Zone 1 keinerlei Hollow-Signaturen festgestellt. Einsatzkräfte, die Hollows suchen, müssen Zone 1 verlassen und ihre Patrouillen nachts durchführen.

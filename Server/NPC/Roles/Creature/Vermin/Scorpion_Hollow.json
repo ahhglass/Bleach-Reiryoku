@@ -2,15 +2,16 @@
   "Type": "Variant",
   "Reference": "Template_Predator_Hollow",
   "Modify": {
-    "DropList": "Drop_Scorpion",
+    "DropList": "Drop_Scorpion_Hollow",
     "Appearance": "Scorpion_Hollow",
     "AttitudeGroup": "Vermin",
     "MaxHealth": 210,
     "MaxSpeed": 8,
     "WanderRadius": 20,
-    "ViewRange": 7,
+    "ViewRange": 10,
     "HearingRange": 8,
-    "AlertedRange": 10,
+    "AlertedRange": 40,
+    "AbsoluteDetectionRange": 20,
     "AlertedTime": [
       2,
       2
@@ -24,7 +25,7 @@
       3
     ],
     "CombatBackOffAfterAttack": false,
-    "CombatBehaviorDistance": 4,
+    "CombatBehaviorDistance": 30,
     "CombatRelativeTurnSpeed": 1,
     "CombatDirectWeight": 0,
     "CombatStrafeWeight": 10,
@@ -37,7 +38,8 @@
       3
     ],
     "Attack": "Root_NPC_Scorpion_Attack",
-    "AttackDistance": 3,
+    "AttackDistance": 4,
+    "Chase": true,
     "ChaseRelativeSpeed": 0.6,
     "CombatMovingRelativeSpeed": 0.8,
     "AlwaysSleepAtNight": false,

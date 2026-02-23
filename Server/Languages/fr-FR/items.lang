@@ -44,7 +44,8 @@ Resonating_Reishi_Core.name = Noyau de Reishi résonnant
 Resonating_Reishi_Core.description = Ce noyau bourdonne à une fréquence qui imite la vôtre. C'est une extension de votre âme. Prêt à être affecté à une lame pour l'éveiller.
 Transcendent_Essence.name = Essence transcendante
 Transcendent_Essence.description = Un paradoxe tourbillonnant de pouvoir absolu. Les frontières entre votre esprit et le monde physique se sont dissoutes en ce point de pulsation singulier. Dans cette lueur se trouve la véritable forme de votre âme, qui crie pour être libérée.
-
+Hollow_Essence.name = Essence de Hollow
+Hollow_Essence.description = Un vestige cristallisé de l’âme déformée d’un Hollow vaincu. Elle pulse d’un reiryoku instable.
 
 
 items.Currency_Kan.name = Kan
@@ -55,3 +56,9 @@ items.Medical_Pill_Basic.description = Pilule standard du corps médical de la 4
 
 items.Kaido_Infused_Pill.name = Pilule de restauration imprégnée de Kaido
 items.Kaido_Infused_Pill.description = Chef-d'œuvre de la recherche médicale de la 4e division. Plus qu'une pilule, une capsule solide de sorts de guérison kaido en suspension.\n\nRestaure <color is="#ffffff">100%</color> de santé instantanément et accorde :\n\n• <color is="#ffffff">Régénération de santé II</color>\n\nDurée : <color is="#ffffff">0:30</color>
+
+items.A_Guide_To_Find_Hollows_Closed.name = Guide pour trouver des Hollows – Fermé
+items.A_Guide_To_Find_Hollows_Closed.description = <color is="#ffffff"><b>Clic droit</b></color> en tenant ce parchemin pour l’ouvrir. Compilé par l’Institut de Recherche et Développement de la 12e Division.
+
+items.A_Guide_To_Find_Hollows.name = Guide pour trouver des Hollows
+items.A_Guide_To_Find_Hollows.description = <i>Compilé par l’Institut de Recherche et Développement de la 12e Division</i>. L’activité des Hollows ne se produit pas durant la journée. Les manifestations ont uniquement été observées après la tombée de la nuit, lorsque la pression spirituelle devient instable. De plus, aucune signature de Hollow n’a jamais été détectée dans la Zone 1. Les agents cherchant des Hollows doivent quitter la Zone 1 et effectuer leurs patrouilles de nuit.

@@ -19,12 +19,12 @@ Shikai_Kyoka_Suigetsu.description = Una katana discreta, eternamente en estado l
 Sealed_Kenpachi_Zanpakuto.name = Sellado – Zanpakuto de Kenpachi
 Sealed_Kenpachi_Zanpakuto.description = Una enorme y tosca cuchilla oxidada. Es el estado sellado de un Zanpakuto perteneciente a un guerrero de presión espiritual monstruosa. Su forma irregular y sin refinar, y sus vendas harapientas son limitaciones autoimpuestas que permiten al portador saborear más tiempo la emoción de la batalla. El verdadero poder en su interior aguarda dormido, a la espera de ser reconocido.
 Shikai_Benihime.name = Shikai – Benihime
-Shikai_Benihime.description = Un sable elegante y ligeramente curvado con motivos carmesí. Al invocar <i><b>«Despierta, Benihime»</b></i>, obtiene el poder de lanzar precisos <i>Disparos Carmesí</i>, erigir escudos hexagonales casi impenetrables y tejer redes cortantes de energía espiritual. Una hoja versátil perfecta para el ataque calculado y la defensa absoluta.
+Shikai_Benihime.description = Un sable elegante y ligeramente curvado con motivos carmesí. Con la orden <i><b>«Despierta, Benihime»</b></i> obtiene el poder de lanzar precisos <i>Disparos Carmesí</i>, erigir escudos hexagonales casi impenetrables y tejer redes afiladas de energía espiritual. Una hoja versátil perfecta tanto para el ataque calculado como para la defensa absoluta.
 True_Shikai_Zangetsu.name = Verdadero Shikai – Zangetsu
-True_Shikai_Zangetsu.description = El verdadero Shikai de Ichigo, manifestado como dos hojas negras distintas. El enorme cuchillón encarna sus poderes fusionados de Shinigami y Hollow, mientras que el cuchillo más pequeño representa su herencia Quincy. Comando de liberación: <i><b>«Únanse y protejan, Zangetsu»</b></i>. Las hojas pueden disparar <i>Getsuga Tensho</i> por separado o combinarlas en una devastadora onda en forma de cruz, <i><b>Getsuga Jujisho</b></i>.
+True_Shikai_Zangetsu.description = El verdadero Shikai de Ichigo, manifestado como dos hojas negras distintas. El enorme cuchillón encarna sus poderes fusionados de Shinigami y Hollow, mientras que el cuchillo más pequeño representa su herencia Quincy. Comando de liberación: <i><b>«Uníos y proteged, Zangetsu»</b></i>. Las hojas pueden disparar <i>Getsuga Tensho</i> por separado o combinarlas en una devastadora onda en forma de cruz, <i><b>Getsuga Jujisho</b></i>.
 
 Kojaku_Bow.name = Kojaku – Arco Quincy
-Kojaku_Bow.description = El arco básico que pueden usar todos los Quincy. Se forma reuniendo Reishi en la <i>Cruz Quincy</i> de la mano derecha. Las flechas que dispara también están hechas de Reishi. Permite destruir Hollows con ataques a distancia. Arma de inicio para Quincy principiantes.
+Kojaku_Bow.description = El arco básico utilizable por todos los Quincy. Se forma reuniendo Reishi en la <i>Cruz Quincy</i> de la mano derecha. Las flechas que lanza también están hechas de Reishi. Permite destruir Hollows con ataques a distancia. Arma inicial para Quincy en ciernes.
 
 Quincy_Cross_Point.name = Cruz Quincy de 4 puntas
 Quincy_Cross_Point.description = Amuleto Quincy de nivel inicial que ayuda al jugador otorgando PM (el arco consume PM) mientras está equipado en la mano secundaria. Esencial para mantener tu poder espiritual en combate.
@@ -45,7 +45,8 @@ Resonating_Reishi_Core.name = Núcleo resonante de Reishi
 Resonating_Reishi_Core.description = Este núcleo vibra a una frecuencia que imita la tuya. Es una extensión de tu alma. Listo para asignarse a una espada y despertarla.
 Transcendent_Essence.name = Esencia Trascendental
 Transcendent_Essence.description = Un paradójico remolino de poder absoluto. Los límites entre tu espíritu y el mundo físico se han disuelto en este único punto pulsante. En su resplandor yace la verdadera forma de tu alma, clamando por ser liberada.
-
+Hollow_Essence.name = Esencia de Hollow
+Hollow_Essence.description = Un remanente cristalizado del alma distorsionada de un Hollow derrotado. Late con un reiryoku inestable.
 
 
 items.Currency_Kan.name = Kan
@@ -56,3 +57,9 @@ items.Medical_Pill_Basic.description = Píldora estándar del cuerpo médico de 
 
 items.Kaido_Infused_Pill.name = Píldora de restauración con Kaido
 items.Kaido_Infused_Pill.description = Obra maestra de la investigación médica de la 4.ª División. No es una simple píldora, sino una cápsula sólida de hechizos curativos kaido en suspensión.\n\nRestaura <color is="#ffffff">100%</color> de salud al instante y otorga:\n\n• <color is="#ffffff">Regeneración de salud II</color>\n\nDuración: <color is="#ffffff">0:30</color>
+
+items.A_Guide_To_Find_Hollows_Closed.name = Guía para encontrar Hollows - Cerrada
+items.A_Guide_To_Find_Hollows_Closed.description = <color is="#ffffff"><b>Clic derecho</b></color> mientras sostienes este pergamino para abrirlo. Compilado por el Instituto de Investigación y Desarrollo de la 12ª División.
+
+items.A_Guide_To_Find_Hollows.name = Guía para encontrar Hollows
+items.A_Guide_To_Find_Hollows.description = <i>Compilado por el Instituto de Investigación y Desarrollo de la 12ª División</i>. La actividad Hollow no ocurre durante las horas de luz. Las manifestaciones solo se han registrado después del anochecer, cuando la presión espiritual se vuelve inestable. Además, no se han detectado firmas Hollow dentro de la Zona 1. Los operativos que busquen Hollows deben abandonar la Zona 1 y realizar sus patrullas durante la noche.

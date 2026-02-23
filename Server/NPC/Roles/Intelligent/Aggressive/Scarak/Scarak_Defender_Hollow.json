@@ -4,7 +4,7 @@
   "Modify": {
     "Appearance": "Scarak_Defender_Hollow",
     "Attack": "Scarak_Defender_Bite",
-    "DropList": "Drop_Scarak_Defender",
+    "DropList": "Drop_Defender_Hollow",
     "FollowPath": false,
     "MaxHealth": 300,
     "IsMemory": true,
