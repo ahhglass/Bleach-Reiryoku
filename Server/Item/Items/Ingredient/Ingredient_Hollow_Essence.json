@@ -6,7 +6,7 @@
   "Icon": "Icons/ItemsGenerated/Ingredient_Hollow_Essence.png",
   "Quality": "SpiritualResource",
   "Categories": [
-    "Items.Ingredients"
+    "BleachCategory.Ingredients"
   ],
   "Model": "Items/Ingredients/Hollow_Essence.blockymodel",
   "Texture": "Items/Ingredients/Hollow_Essence_Texture.png",

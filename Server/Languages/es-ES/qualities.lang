@@ -3,10 +3,10 @@ qualities.Asauchi = Asauchi
 qualities.Shikai = Shikai
 qualities.Bankai = Bankai
 
-qualities.SpiritWeapon = Arma espiritual
-qualities.RefinedSpiritWeapon = Arma espiritual refinada
-qualities.HeiligBogen = Heilig Bogen
-qualities.Vollständig = Vollständig
+qualities.Spirit_Weapon = Arma Espiritual
+qualities.Refined_Spirit_Weapon = Arma Espiritual Refinada
+qualities.Heilig_Bogen = Heilig Bogen
+qualities.Vollstandig = Vollständig
 
 qualities.Spiritual_Resource = Recurso Espiritual
 

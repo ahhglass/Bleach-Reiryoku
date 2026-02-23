@@ -3,10 +3,10 @@ qualities.Asauchi = Asauchi
 qualities.Shikai = Shikai
 qualities.Bankai = Bankai
 
-qualities.SpiritWeapon = Ruhani Silah
-qualities.RefinedSpiritWeapon = İncelenmiş Ruhani Silah
-qualities.HeiligBogen = Heilig Bogen
-qualities.Vollständig = Vollständig
+qualities.Spirit_Weapon = Ruhani Silah
+qualities.Refined_Spirit_Weapon = İncelenmiş Ruhani Silah
+qualities.Heilig_Bogen = Heilig Bogen
+qualities.Vollstandig = Vollständig
 
 qualities.Spiritual_Resource = Ruhani Kaynak
 
