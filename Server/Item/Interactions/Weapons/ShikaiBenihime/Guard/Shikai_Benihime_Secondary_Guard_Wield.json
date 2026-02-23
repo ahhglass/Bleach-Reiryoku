@@ -4,7 +4,17 @@
     "ItemAnimationId": "Guard",
     "ClearAnimationOnFinish": true,
     "WorldSoundEventId": "SFX_Light_Melee_T2_Block",
-    "LocalSoundEventId": "SFX_Sword_T2_Block_Local"
+    "LocalSoundEventId": "SFX_Sword_T2_Block_Local",
+    "Particles": [
+      {
+        "SystemId": "Shikai_Benihime_Guard_Particle_Sys",
+        "TargetEntityPart": "Entity",
+        "PositionOffset": {
+          "Y": 1.3,
+          "Z": 1
+        }
+      }
+    ]
   },
   "Forks": {
     "Primary": {
@@ -14,7 +24,9 @@
           "Var": "Guard_Bash",
           "DefaultOk": true,
           "DefaultValue": {
-            "Interactions": ["Weapon_Sword_Secondary_Guard_Bash"]
+            "Interactions": [
+              "Weapon_Sword_Secondary_Guard_Bash"
+            ]
           }
         }
       ]
@@ -33,10 +45,20 @@
   "AngledWielding": {
     "Angle": 0,
     "AngleDistance": 90,
-    "DamageModifiers": {"Physical": 0, "Projectile": 0, "Poison": 0},
-    "KnockbackModifiers": {"Physical": 0.25, "Projectile": 0.25}
+    "DamageModifiers": {
+      "Physical": 0,
+      "Projectile": 0,
+      "Poison": 0
+    },
+    "KnockbackModifiers": {
+      "Physical": 0.25,
+      "Projectile": 0.25
+    }
   },
-  "StaminaCost": {"Value": 7, "CostType": "Damage"},
+  "StaminaCost": {
+    "Value": 7,
+    "CostType": "Damage"
+  },
   "CancelOnOtherClick": false,
   "Failed": {
     "Type": "Replace",
@@ -47,7 +69,11 @@
         {
           "Type": "Simple",
           "Effects": {
-            "Particles": [{"SystemId": "Shield_Shatter"}],
+            "Particles": [
+              {
+                "SystemId": "Shield_Shatter"
+              }
+            ],
             "WorldSoundEventId": "SFX_Light_Melee_T2_Guard_Break",
             "LocalSoundEventId": "SFX_Light_Melee_T2_Guard_Break"
           }
@@ -57,12 +83,18 @@
   },
   "BlockedEffects": {
     "WorldSoundEventId": "SFX_Light_Melee_T2_Guard_Hit",
-    "WorldParticles": [{"SystemId": "Shield_Block"}]
+    "WorldParticles": [
+      {
+        "SystemId": "Shield_Block"
+      }
+    ]
   },
   "Next": {
     "$Comment": "Standard regen delay upon ending guarding on all weapons",
     "Type": "ChangeStat",
     "Behaviour": "Set",
-    "StatModifiers": {"StaminaRegenDelay": -1}
+    "StatModifiers": {
+      "StaminaRegenDelay": -1
+    }
   }
 }

@@ -9,34 +9,53 @@
   "Icon": "Icons/ItemsGenerated/Shikai_Benihime.png",
   "Quality": "Shikai",
   "ItemLevel": 30,
-  "Categories": ["BleachCategory.Weapons", "Items.Weapons"],
+  "Categories": [
+    "BleachCategory.Weapons",
+    "Items.Weapons"
+  ],
   "IconProperties": {
     "Scale": 0.38,
-    "Rotation": [45, 90, 0],
-    "Translation": [-35, -40]
+    "Rotation": [
+      45,
+      90,
+      0
+    ],
+    "Translation": [
+      -35,
+      -40
+    ]
   },
   "ItemAppearanceConditions": {
     "SignatureEnergy": [
       {
-        "Condition": [100, 100],
+        "Condition": [
+          100,
+          100
+        ],
         "ConditionValueType": "Percent",
         "Particles": [
           {
             "SystemId": "Benihime_Sword_Signature_Ready",
             "TargetNodeName": "Handle",
-            "PositionOffset": {"X": 0.8},
+            "PositionOffset": {
+              "X": 0.8
+            },
             "TargetEntityPart": "PrimaryItem"
           },
           {
             "SystemId": "Benihime_Sword_Signature_Status_Spawn",
             "TargetNodeName": "Handle",
-            "PositionOffset": {"X": 0.5},
+            "PositionOffset": {
+              "X": 0.5
+            },
             "TargetEntityPart": "PrimaryItem"
           },
           {
             "SystemId": "Benihime_Sword_Signature_Status",
             "TargetNodeName": "Handle",
-            "PositionOffset": {"X": 0.55},
+            "PositionOffset": {
+              "X": 0.55
+            },
             "TargetEntityPart": "PrimaryItem",
             "Scale": 1.3
           }
@@ -45,19 +64,25 @@
           {
             "SystemId": "Benihime_Sword_Signature_Ready",
             "TargetNodeName": "Handle",
-            "PositionOffset": {"X": 0.8},
+            "PositionOffset": {
+              "X": 0.8
+            },
             "TargetEntityPart": "PrimaryItem"
           },
           {
             "SystemId": "Benihime_Sword_Signature_Status_Spawn",
             "TargetNodeName": "Handle",
             "TargetEntityPart": "PrimaryItem",
-            "PositionOffset": {"Y": -100}
+            "PositionOffset": {
+              "Y": -100
+            }
           },
           {
             "SystemId": "Benihime_Sword_Signature_Status",
             "TargetNodeName": "Handle",
-            "PositionOffset": {"X": 0.5},
+            "PositionOffset": {
+              "X": 0.5
+            },
             "TargetEntityPart": "PrimaryItem"
           }
         ],
@@ -66,7 +91,9 @@
     ]
   },
   "Weapon": {
-    "EntityStatsToClear": ["SignatureEnergy"],
+    "EntityStatsToClear": [
+      "SignatureEnergy"
+    ],
     "StatModifiers": {
       "SignatureEnergy": [
         {
@@ -109,8 +136,16 @@
             "ItemAnimationId": "StabDashCharging",
             "Particles": [
               {
-                "PositionOffset": {"X": 0.6, "Y": 0, "Z": 0},
-                "RotationOffset": {"Pitch": 0, "Roll": 90, "Yaw": 0},
+                "PositionOffset": {
+                  "X": 0.6,
+                  "Y": 0,
+                  "Z": 0
+                },
+                "RotationOffset": {
+                  "Pitch": 0,
+                  "Roll": 90,
+                  "Yaw": 0
+                },
                 "TargetNodeName": "Handle",
                 "SystemId": "Benihime_Sword_Charging"
               }
@@ -123,10 +158,23 @@
       "Interactions": [
         {
           "Parent": "Weapon_Sword_Primary_Swing_Left_Damage",
-          "DamageCalculator": {"BaseDamage": {"Physical": 12}},
-          "EntityStatsOnHit": [{"EntityStatId": "SignatureEnergy", "Amount": 2}],
+          "DamageCalculator": {
+            "BaseDamage": {
+              "Physical": 12
+            }
+          },
+          "EntityStatsOnHit": [
+            {
+              "EntityStatId": "SignatureEnergy",
+              "Amount": 2
+            }
+          ],
           "DamageEffects": {
-            "WorldParticles": [{"SystemId": "Benihime_Slash"}],
+            "WorldParticles": [
+              {
+                "SystemId": "Benihime_Slash"
+              }
+            ],
             "WorldSoundEventId": "SFX_Sword_T2_Impact",
             "LocalSoundEventId": "SFX_Sword_T2_Impact"
           }
@@ -137,10 +185,23 @@
       "Interactions": [
         {
           "Parent": "Weapon_Sword_Primary_Swing_Right_Damage",
-          "DamageCalculator": {"BaseDamage": {"Physical": 14}},
-          "EntityStatsOnHit": [{"EntityStatId": "SignatureEnergy", "Amount": 2}],
+          "DamageCalculator": {
+            "BaseDamage": {
+              "Physical": 14
+            }
+          },
+          "EntityStatsOnHit": [
+            {
+              "EntityStatId": "SignatureEnergy",
+              "Amount": 2
+            }
+          ],
           "DamageEffects": {
-            "WorldParticles": [{"SystemId": "Benihime_Slash"}],
+            "WorldParticles": [
+              {
+                "SystemId": "Benihime_Slash"
+              }
+            ],
             "WorldSoundEventId": "SFX_Sword_T2_Impact",
             "LocalSoundEventId": "SFX_Sword_T2_Impact"
           }
@@ -151,10 +212,23 @@
       "Interactions": [
         {
           "Parent": "Weapon_Sword_Primary_Swing_Down_Damage",
-          "DamageCalculator": {"BaseDamage": {"Physical": 22}},
-          "EntityStatsOnHit": [{"EntityStatId": "SignatureEnergy", "Amount": 3}],
+          "DamageCalculator": {
+            "BaseDamage": {
+              "Physical": 22
+            }
+          },
+          "EntityStatsOnHit": [
+            {
+              "EntityStatId": "SignatureEnergy",
+              "Amount": 3
+            }
+          ],
           "DamageEffects": {
-            "WorldParticles": [{"SystemId": "Benihime_Slash"}],
+            "WorldParticles": [
+              {
+                "SystemId": "Benihime_Slash"
+              }
+            ],
             "WorldSoundEventId": "SFX_Sword_T2_Impact",
             "LocalSoundEventId": "SFX_Sword_T2_Impact"
           }
@@ -165,10 +239,23 @@
       "Interactions": [
         {
           "Parent": "Weapon_Sword_Primary_Thrust_Damage",
-          "DamageCalculator": {"BaseDamage": {"Physical": 28}},
-          "EntityStatsOnHit": [{"EntityStatId": "SignatureEnergy", "Amount": 3}],
+          "DamageCalculator": {
+            "BaseDamage": {
+              "Physical": 28
+            }
+          },
+          "EntityStatsOnHit": [
+            {
+              "EntityStatId": "SignatureEnergy",
+              "Amount": 3
+            }
+          ],
           "DamageEffects": {
-            "WorldParticles": [{"SystemId": "Benihime_Impact_Sword_Basic"}],
+            "WorldParticles": [
+              {
+                "SystemId": "Benihime_Impact_Sword_Basic"
+              }
+            ],
             "WorldSoundEventId": "SFX_Sword_T2_Impact",
             "LocalSoundEventId": "SFX_Sword_T2_Impact"
           }
@@ -179,10 +266,18 @@
       "Interactions": [
         {
           "Parent": "Weapon_Sword_Signature_Vortexstrike_Spin_Damage",
-          "DamageCalculator": {"BaseDamage": {"Physical": 20}},
+          "DamageCalculator": {
+            "BaseDamage": {
+              "Physical": 20
+            }
+          },
           "EntityStatsOnHit": [],
           "DamageEffects": {
-            "WorldParticles": [{"SystemId": "Benihime_Impact_Sword_Basic"}],
+            "WorldParticles": [
+              {
+                "SystemId": "Benihime_Impact_Sword_Basic"
+              }
+            ],
             "WorldSoundEventId": "SFX_Sword_T2_Impact",
             "LocalSoundEventId": "SFX_Sword_T2_Impact"
           }
@@ -193,10 +288,18 @@
       "Interactions": [
         {
           "Parent": "Weapon_Sword_Signature_Vortexstrike_Stab_Damage",
-          "DamageCalculator": {"BaseDamage": {"Physical": 56}},
+          "DamageCalculator": {
+            "BaseDamage": {
+              "Physical": 56
+            }
+          },
           "EntityStatsOnHit": [],
           "DamageEffects": {
-            "WorldParticles": [{"SystemId": "Benihime_Impact_Sword_Basic"}],
+            "WorldParticles": [
+              {
+                "SystemId": "Benihime_Impact_Sword_Basic"
+              }
+            ],
             "WorldSoundEventId": "SFX_Sword_T2_Impact",
             "LocalSoundEventId": "SFX_Sword_T2_Impact"
           }
@@ -214,13 +317,23 @@
                 "Scale": 1,
                 "TargetNodeName": "Hip",
                 "TargetEntityPart": "Entity",
-                "PositionOffset": {"Y": 1}
+                "PositionOffset": {
+                  "Y": 1
+                }
               }
             ],
             "Trails": [
               {
-                "PositionOffset": {"X": 0.8, "Y": 0, "Z": 0},
-                "RotationOffset": {"Pitch": 0, "Roll": 90, "Yaw": 0},
+                "PositionOffset": {
+                  "X": 0.8,
+                  "Y": 0,
+                  "Z": 0
+                },
+                "RotationOffset": {
+                  "Pitch": 0,
+                  "Roll": 90,
+                  "Yaw": 0
+                },
                 "TargetNodeName": "Handle",
                 "TrailId": "Shikai_Benihime_Trail"
               }
@@ -247,7 +360,9 @@
                 "SystemId": "Benihime_Sword_Signature_AoE2",
                 "TargetNodeName": "Hip",
                 "TargetEntityPart": "Entity",
-                "PositionOffset": {"Y": 1}
+                "PositionOffset": {
+                  "Y": 1
+                }
               }
             ]
           }
@@ -262,16 +377,28 @@
             "Particles": [
               {
                 "SystemId": "Benihime_Sword_Signature_Dash_Effect",
-                "PositionOffset": {"X": -1, "Y": 0},
-                "RotationOffset": {"Pitch": 0, "Roll": 0, "Yaw": 0},
+                "PositionOffset": {
+                  "X": -1,
+                  "Y": 0
+                },
+                "RotationOffset": {
+                  "Pitch": 0,
+                  "Roll": 0,
+                  "Yaw": 0
+                },
                 "TargetNodeName": "Handle"
               },
               {
                 "SystemId": "Benihime_Sword_Signature_Dash_Trail",
                 "TargetEntityPart": "Entity",
-                "PositionOffset": {"Y": 0.5, "Z": 0.5},
+                "PositionOffset": {
+                  "Y": 0.5,
+                  "Z": 0.5
+                },
                 "TargetNodeName": "Hip",
-                "RotationOffset": {"Yaw": -90}
+                "RotationOffset": {
+                  "Yaw": -90
+                }
               }
             ]
           }
@@ -282,7 +409,10 @@
       "Interactions": [
         {
           "Parent": "Shikai_Benihime_Secondary_Guard_Wield",
-          "StaminaCost": {"Value": 10, "CostType": "Damage"}
+          "StaminaCost": {
+            "Value": 10,
+            "CostType": "Damage"
+          }
         }
       ]
     },
@@ -291,20 +421,35 @@
         {
           "Parent": "Weapon_Sword_Primary_Swing_Left_Selector",
           "RunTime": 0.03,
-          "Next": {"Type": "Simple", "RunTime": 0.12},
+          "Next": {
+            "Type": "Simple",
+            "RunTime": 0.12
+          },
           "Effects": {
             "Trails": [
               {
-                "PositionOffset": {"X": 1.3, "Y": 0, "Z": 0},
+                "PositionOffset": {
+                  "X": 1.3,
+                  "Y": 0,
+                  "Z": 0
+                },
                 "TargetNodeName": "Handle",
                 "TrailId": "Shikai_Benihime_Trail",
-                "RotationOffset": {"Roll": 90}
+                "RotationOffset": {
+                  "Roll": 90
+                }
               },
               {
-                "PositionOffset": {"X": 1.7, "Y": 0, "Z": 0},
+                "PositionOffset": {
+                  "X": 1.7,
+                  "Y": 0,
+                  "Z": 0
+                },
                 "TargetNodeName": "Handle",
                 "TrailId": "Sword_Distortion",
-                "RotationOffset": {"Roll": 90}
+                "RotationOffset": {
+                  "Roll": 90
+                }
               }
             ]
           }
@@ -316,20 +461,35 @@
         {
           "Parent": "Weapon_Sword_Primary_Swing_Right_Selector",
           "RunTime": 0.03,
-          "Next": {"Type": "Simple", "RunTime": 0.12},
+          "Next": {
+            "Type": "Simple",
+            "RunTime": 0.12
+          },
           "Effects": {
             "Trails": [
               {
-                "PositionOffset": {"X": 1.3, "Y": 0, "Z": 0},
+                "PositionOffset": {
+                  "X": 1.3,
+                  "Y": 0,
+                  "Z": 0
+                },
                 "TargetNodeName": "Handle",
                 "TrailId": "Shikai_Benihime_Trail",
-                "RotationOffset": {"Roll": 90}
+                "RotationOffset": {
+                  "Roll": 90
+                }
               },
               {
-                "PositionOffset": {"X": 1.7, "Y": 0, "Z": 0},
+                "PositionOffset": {
+                  "X": 1.7,
+                  "Y": 0,
+                  "Z": 0
+                },
                 "TargetNodeName": "Handle",
                 "TrailId": "Sword_Distortion",
-                "RotationOffset": {"Roll": 90}
+                "RotationOffset": {
+                  "Roll": 90
+                }
               }
             ]
           }
@@ -341,20 +501,35 @@
         {
           "Parent": "Weapon_Sword_Primary_Swing_Down_Selector",
           "RunTime": 0.04,
-          "Next": {"Type": "Simple", "RunTime": 0.14},
+          "Next": {
+            "Type": "Simple",
+            "RunTime": 0.14
+          },
           "Effects": {
             "Trails": [
               {
-                "PositionOffset": {"X": 1.3, "Y": 0, "Z": 0},
+                "PositionOffset": {
+                  "X": 1.3,
+                  "Y": 0,
+                  "Z": 0
+                },
                 "TargetNodeName": "Handle",
                 "TrailId": "Shikai_Benihime_Trail",
-                "RotationOffset": {"Roll": 90}
+                "RotationOffset": {
+                  "Roll": 90
+                }
               },
               {
-                "PositionOffset": {"X": 1.7, "Y": 0, "Z": 0},
+                "PositionOffset": {
+                  "X": 1.7,
+                  "Y": 0,
+                  "Z": 0
+                },
                 "TargetNodeName": "Handle",
                 "TrailId": "Sword_Distortion",
-                "RotationOffset": {"Roll": 90}
+                "RotationOffset": {
+                  "Roll": 90
+                }
               }
             ]
           }
@@ -370,21 +545,41 @@
               {
                 "SystemId": "Benihime_Sword_Charged_Trail_Blade",
                 "TargetNodeName": "Handle",
-                "PositionOffset": {"X": 0, "Y": 0},
-                "RotationOffset": {"Pitch": 0, "Roll": 0, "Yaw": 0}
+                "PositionOffset": {
+                  "X": 0,
+                  "Y": 0
+                },
+                "RotationOffset": {
+                  "Pitch": 0,
+                  "Roll": 0,
+                  "Yaw": 0
+                }
               },
               {
                 "SystemId": "Benihime_Sword_Charged_Trail",
                 "TargetEntityPart": "Entity",
                 "TargetNodeName": "Hip",
-                "RotationOffset": {"Yaw": -90},
-                "PositionOffset": {"Y": 0.7, "Z": 0.5}
+                "RotationOffset": {
+                  "Yaw": -90
+                },
+                "PositionOffset": {
+                  "Y": 0.7,
+                  "Z": 0.5
+                }
               }
             ],
             "Trails": [
               {
-                "PositionOffset": {"X": 0, "Y": 0, "Z": 0},
-                "RotationOffset": {"Pitch": 0, "Roll": 0, "Yaw": 0},
+                "PositionOffset": {
+                  "X": 0,
+                  "Y": 0,
+                  "Z": 0
+                },
+                "RotationOffset": {
+                  "Pitch": 0,
+                  "Roll": 0,
+                  "Yaw": 0
+                },
                 "TargetNodeName": "SwordTip",
                 "TrailId": "Shikai_Benihime_Trail"
               }
@@ -410,8 +605,15 @@
                 "SystemId": "Benihime_Sword_Bash",
                 "TargetEntityPart": "PrimaryItem",
                 "TargetNodeName": "Handle",
-                "PositionOffset": {"X": 0.2, "Y": 0, "Z": 0},
-                "RotationOffset": {"Pitch": 0, "Roll": 0}
+                "PositionOffset": {
+                  "X": 0.2,
+                  "Y": 0,
+                  "Z": 0
+                },
+                "RotationOffset": {
+                  "Pitch": 0,
+                  "Roll": 0
+                }
               }
             ]
           }
@@ -423,12 +625,20 @@
         {
           "Parent": "Weapon_Sword_Secondary_Guard_Bash_Damage",
           "DamageEffects": {
-            "WorldParticles": [{"SystemId": "Benihime_Impact_Sword_Bash"}]
+            "WorldParticles": [
+              {
+                "SystemId": "Benihime_Impact_Sword_Bash"
+              }
+            ]
           }
         }
       ]
     }
   },
   "MaxDurability": 125,
-  "DurabilityLossOnHit": 0.21
+  "DurabilityLossOnHit": 0.21,
+  "PlayerAnimationsId": "Shikai_Benihime_Animations",
+  "Interactions": {
+    "Primary": "Root_Shikai_Benihime_Primary"
+  }
 }

@@ -8,7 +8,7 @@
       "shape": {
         "type": "none",
         "offset": {"x": 0, "y": 0, "z": 0},
-        "stretch": {"x": 0, "y": 0, "z": 0},
+        "stretch": {"x": 1, "y": 1, "z": 1},
         "settings": {
           "isPiece": true
         },
@@ -27,7 +27,7 @@
           "shape": {
             "type": "none",
             "offset": {"x": 0, "y": 0, "z": 0},
-            "stretch": {"x": 0, "y": 0, "z": 0},
+            "stretch": {"x": 1, "y": 1, "z": 1},
             "settings": {
               "isPiece": true
             },
@@ -46,7 +46,7 @@
               "shape": {
                 "type": "none",
                 "offset": {"x": 0, "y": 0, "z": 0},
-                "stretch": {"x": 0, "y": 0, "z": 0},
+                "stretch": {"x": 1, "y": 1, "z": 1},
                 "settings": {
                   "isPiece": false
                 },
@@ -390,7 +390,7 @@
                       "shape": {
                         "type": "none",
                         "offset": {"x": 0, "y": 0, "z": 0},
-                        "stretch": {"x": 0, "y": 0, "z": 0},
+                        "stretch": {"x": 1, "y": 1, "z": 1},
                         "settings": {
                           "isPiece": false
                         },
@@ -641,7 +641,7 @@
                           "shape": {
                             "type": "none",
                             "offset": {"x": 0, "y": 0, "z": 0},
-                            "stretch": {"x": 0, "y": 0, "z": 0},
+                            "stretch": {"x": 1, "y": 1, "z": 1},
                             "settings": {
                               "isPiece": false
                             },
@@ -701,13 +701,13 @@
                             },
                             {
                               "id": "19",
-                              "name": "Sword Base",
+                              "name": "Sword Base_Tip",
                               "position": {"x": 24.11728, "y": -0.06207, "z": 0},
                               "orientation": {"x": 0, "y": 0, "z": 0.08634, "w": 0.99627},
                               "shape": {
                                 "type": "none",
                                 "offset": {"x": 0, "y": 0, "z": 0},
-                                "stretch": {"x": 0, "y": 0, "z": 0},
+                                "stretch": {"x": 1, "y": 1, "z": 1},
                                 "settings": {
                                   "isPiece": false
                                 },
