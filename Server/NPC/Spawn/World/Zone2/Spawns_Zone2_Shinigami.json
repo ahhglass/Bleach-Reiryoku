@@ -1,7 +1,5 @@
 {
   "Environments": [
-    "Env_Zone2_Savanna",
-    "Env_Zone2_Deserts",
     "Env_Zone2_Oasis",
     "Env_Zone2_Shores"
   ],
@@ -11,9 +9,15 @@
       "SpawnBlockSet": "Soil",
       "Id": "Wandering_Shinigami",
       "Flock": {
-        "Size": [ 1, 1 ]
+        "Size": [
+          1,
+          1
+        ]
       }
     }
   ],
-  "DayTimeRange": [ 0, 24 ]
+  "DayTimeRange": [
+    0,
+    17
+  ]
 }

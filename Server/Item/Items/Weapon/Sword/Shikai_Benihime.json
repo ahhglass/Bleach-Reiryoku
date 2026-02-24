@@ -639,6 +639,8 @@
   "DurabilityLossOnHit": 0.21,
   "PlayerAnimationsId": "Shikai_Benihime_Animations",
   "Interactions": {
-    "Primary": "Root_Shikai_Benihime_Primary"
+    "Primary": "Root_Shikai_Benihime_Primary",
+    "Secondary": "Root_Weapon_Sword_Secondary_Guard",
+    "Ability1": "Root_Weapon_Sword_Signature_Vortexstrike"
   }
 }
