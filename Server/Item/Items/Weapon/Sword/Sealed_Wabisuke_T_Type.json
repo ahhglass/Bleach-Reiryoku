@@ -1,38 +1,50 @@
 {
   "TranslationProperties": {
-    "Name": "Sode no Shirayuki Weapon Type"
+    "Name": "server.items.Template_Weapon_Sword.name"
   },
   "DroppedItemAnimation": "Items/Animations/Dropped/Dropped_Diagonal_Left.blockyanim",
-  "Model": "Items/Weapons/Sode_No_Shirayuki/Sode_No_Shirayuki.blockymodel",
-  "Texture": "Items/Weapons/Sode_No_Shirayuki/Sode_No_Shirayuki_Texture.png",
-  "Icon": "Icons/ItemsGenerated/Sode_No_Shirayuki.png",
-  "PlayerAnimationsId": "Sode_No_Shirayuki_Animations",
+  "Model": "Items/Weapons/Sword/Iron.blockymodel",
+  "Texture": "Items/Weapons/Sword/Iron_Texture.png",
+  "Icon": "Icons/ItemsGenerated/Weapon_Sword_Iron.png",
+  "PlayerAnimationsId": "Sword",
   "Reticle": "DefaultMelee",
   "Quality": "Template",
   "ItemLevel": 15,
   "Categories": [
-    "Items.Weapons",
-    "BleachCategory.Weapons"
+    "Items.Weapons"
   ],
   "IconProperties": {
     "Scale": 0.35,
+    "Translation": [
+      -22,
+      -22
+    ],
     "Rotation": [
       45,
       90,
       0
-    ],
-    "Translation": [
-      -41,
-      -43
     ]
   },
   "Utility": {
     "Compatible": true
   },
   "Interactions": {
-    "Primary": "Root_Sode_No_Shirayuki_Primary",
-    "Secondary": "Root_Sode_No_Shirayuki_Secondary_Guard",
-    "Ability1": "Root_Hakuren_Signature"
+    "Primary": "Root_Weapon_Sword_Primary",
+    "Secondary": "Root_Weapon_Sword_Secondary_Guard",
+    "Ability1": "Root_Weapon_Sword_Signature_Vortexstrike",
+    "Ability3": {
+      "Interactions": [
+        {
+          "Type": "ModifyInventory",
+          "ItemToRemove": {
+            "Id": "Sealed_Wabisuke_T"
+          },
+          "ItemToAdd": {
+            "Id": "Wabisuke"
+          }
+        }
+      ]
+    }
   },
   "Tags": {
     "Type": [
@@ -120,27 +132,5 @@
       }
     ]
   },
-  "ItemSoundSetId": "ISS_Weapons_Blade_Large",
-  "Trails": [
-    {
-      "TrailId": "Sode_No_Shirayuki_Trail",
-      "TargetEntityPart": "PrimaryItem",
-      "TargetNodeName": "Handle",
-      "PositionOffset": {
-        "Y": 0,
-        "X": -0.35
-      }
-    }
-  ],
-  "Scale": 1,
-  "Particles": [
-    {
-      "SystemId": "Sode_No_Shirayuki_Mist",
-      "PositionOffset": {
-        "X": 0.75
-      },
-      "TargetNodeName": "Handle",
-      "TargetEntityPart": "PrimaryItem"
-    }
-  ]
+  "ItemSoundSetId": "ISS_Weapons_Blade_Large"
 }

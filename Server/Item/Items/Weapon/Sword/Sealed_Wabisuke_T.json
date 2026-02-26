@@ -1,59 +1,24 @@
 {
-  "Parent": "Sode_No_Shirayuki_Type",
+  "Parent": "Sealed_Wabisuke_T_Type",
   "TranslationProperties": {
-    "Name": "items.Sode_No_Shirayuki.name",
-    "Description": "items.Sode_No_Shirayuki.description"
+    "Name": "Sealed - Wabisuke"
   },
-  "Model": "Items/Weapons/Sode_No_Shirayuki/Sode_No_Shirayuki.blockymodel",
-  "Texture": "Items/Weapons/Sode_No_Shirayuki/Sode_No_Shirayuki_Texture.png",
-  "Icon": "Icons/ItemsGenerated/Sode_No_Shirayuki.png",
-  "Quality": "Shikai",
-  "ItemLevel": 40,
-  "Recipe": {
-    "TimeSeconds": 4.5,
-    "Input": [
-      {
-        "ItemId": "Ingredient_Ice_Essence",
-        "Quantity": 15
-      },
-      {
-        "ItemId": "Resonating_Reishi_Core",
-        "Quantity": 1
-      },
-      {
-        "ItemId": "Ingredient_Bar_Silver",
-        "Quantity": 9
-      },
-      {
-        "ItemId": "Asauchi"
-      }
-    ],
-    "BenchRequirement": [
-      {
-        "Type": "Crafting",
-        "Categories": [
-          "Soul_Shikai"
-        ],
-        "Id": "Soul_Imprinting_Altar"
-      }
-    ]
-  },
+  "Model": "Items/Weapons/Wabisuke/Sealed_Wabisuke.blockymodel",
+  "Texture": "Items/Weapons/Wabisuke/Sealed_Wabisuke.png",
+  "Quality": "Sealed",
+  "Icon": "Icons/ItemsGenerated/Sealed_Wabisuke_T.png",
+  "ItemLevel": 20,
   "InteractionVars": {
     "Swing_Left_Damage": {
       "Interactions": [
         {
-          "Parent": "Sode_No_Shirayuki_Primary_Swing_Left_Damage",
+          "Parent": "Weapon_Sword_Primary_Swing_Left_Damage",
           "DamageCalculator": {
             "BaseDamage": {
-              "Physical": 14
+              "Physical": 10
             }
           },
           "DamageEffects": {
-            "WorldParticles": [
-              {
-                "SystemId": "Sode_No_Shirayuki_Slash"
-              }
-            ],
             "WorldSoundEventId": "SFX_Sword_T2_Impact",
             "LocalSoundEventId": "SFX_Sword_T2_Impact"
           }
@@ -63,18 +28,13 @@
     "Swing_Right_Damage": {
       "Interactions": [
         {
-          "Parent": "Sode_No_Shirayuki_Primary_Swing_Right_Damage",
+          "Parent": "Weapon_Sword_Primary_Swing_Right_Damage",
           "DamageCalculator": {
             "BaseDamage": {
-              "Physical": 16
+              "Physical": 10
             }
           },
           "DamageEffects": {
-            "WorldParticles": [
-              {
-                "SystemId": "Sode_No_Shirayuki_Slash"
-              }
-            ],
             "WorldSoundEventId": "SFX_Sword_T2_Impact",
             "LocalSoundEventId": "SFX_Sword_T2_Impact"
           }
@@ -84,18 +44,13 @@
     "Swing_Down_Damage": {
       "Interactions": [
         {
-          "Parent": "Sode_No_Shirayuki_Primary_Swing_Down_Damage",
+          "Parent": "Weapon_Sword_Primary_Swing_Down_Damage",
           "DamageCalculator": {
             "BaseDamage": {
-              "Physical": 28
+              "Physical": 18
             }
           },
           "DamageEffects": {
-            "WorldParticles": [
-              {
-                "SystemId": "Sode_No_Shirayuki_Slash"
-              }
-            ],
             "WorldSoundEventId": "SFX_Sword_T2_Impact",
             "LocalSoundEventId": "SFX_Sword_T2_Impact"
           }
@@ -108,7 +63,7 @@
           "Parent": "Weapon_Sword_Primary_Thrust_Damage",
           "DamageCalculator": {
             "BaseDamage": {
-              "Physical": 41
+              "Physical": 26
             }
           },
           "EntityStatsOnHit": [
@@ -130,7 +85,7 @@
           "Parent": "Weapon_Sword_Signature_Vortexstrike_Spin_Damage",
           "DamageCalculator": {
             "BaseDamage": {
-              "Physical": 29
+              "Physical": 19
             }
           },
           "EntityStatsOnHit": [],
@@ -147,7 +102,7 @@
           "Parent": "Weapon_Sword_Signature_Vortexstrike_Stab_Damage",
           "DamageCalculator": {
             "BaseDamage": {
-              "Physical": 87
+              "Physical": 56
             }
           },
           "EntityStatsOnHit": [],
@@ -163,35 +118,26 @@
         {
           "Parent": "Weapon_Sword_Secondary_Guard_Wield",
           "StaminaCost": {
-            "Value": 15.56,
+            "Value": 10,
             "CostType": "Damage"
           }
         }
       ]
     }
   },
-  "Scale": 1,
+  "Categories": [
+    "BleachCategory.Weapons"
+  ],
   "IconProperties": {
-    "Scale": 0.4,
+    "Scale": 0.35,
     "Rotation": [
-      43,
-      101,
-      22.5
+      45,
+      97,
+      0
     ],
     "Translation": [
-      -43,
-      -42
+      -37,
+      -43
     ]
-  },
-  "Weapon": {
-    "RenderDualWielded": false,
-    "StatModifiers": {
-      "SignatureEnergy": [
-        {
-          "CalculationType": "Additive",
-          "Amount": 20
-        }
-      ]
-    }
   }
 }

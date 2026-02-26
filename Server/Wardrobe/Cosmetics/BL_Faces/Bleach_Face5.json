@@ -1,7 +1,7 @@
 {
   "Properties": {
     "Translation": {
-      "Name": "Bleach - Face 3"
+      "Name": "Bleach - Face 5"
     },
         "Icon": "Icons/Wardrobe/Cosmetics/Faces/FACE1.png"
   },
@@ -10,7 +10,7 @@
     "Model": "Characters/Body_Attachments/Faces/Player_Face_Detached.blockymodel",
     "TextureConfig": {
       "Type": "Gradient",
-      "GrayscaleTexture": "Characters/Wardrobe/Cosmetics/Faces/Bleach_Face3.png",
+      "GrayscaleTexture": "Characters/Wardrobe/Cosmetics/Faces/Bleach_Face5.png",
       "GradientSet": "Skin"
     }
   }

@@ -8,7 +8,7 @@
         "SystemId": "Crimson_Seal_TopIcon"
       }
     ],
-    "LocalSoundEventId": "SFX_Consume_Pills",
+    "LocalSoundEventId": "SFX_Effect_Poison_Local",
     "WorldSoundEventId": "SFX_Effect_Poison_World"
   },
   "Duration": 3,
@@ -20,5 +20,10 @@
     "Class": "Light"
   },
   "DamageCalculatorCooldown": 3,
-  "$Comment": "Delayed Damage"
+  "$Comment": "Delayed Damage",
+  "WorldRemovalSoundEventId": "SFX_CrimsonSeal_Removal",
+  "LocalRemovalSoundEventId": "SFX_CrimsonSeal_Removal",
+  "OverlapBehavior": "Overwrite",
+  "Debuff": true,
+  "StatusEffectIcon": "UI/StatusEffects/Crimson_Seal.png"
 }

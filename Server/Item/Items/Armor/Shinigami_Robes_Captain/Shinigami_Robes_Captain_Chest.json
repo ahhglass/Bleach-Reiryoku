@@ -53,7 +53,7 @@
     "BaseDamageResistance": 0,
     "CosmeticsToHide": [
       "Overtop",
-      "Pants"
+      "Undertop"
     ],
     "StatModifiers": {
       "Health": [

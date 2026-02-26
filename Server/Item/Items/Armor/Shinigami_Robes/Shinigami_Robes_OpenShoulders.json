@@ -52,7 +52,6 @@
     "ArmorSlot": "Chest",
     "CosmeticsToHide": [
       "Overtop",
-      "Pants",
       "Undertop"
     ],
     "StatModifiers": {
