@@ -2,7 +2,7 @@
   "Type": "Charging",
   "DisplayProgress": false,
   "Next": {
-    "0": "Weapon_Sword_Primary_Chain",
+    "0": "Shikai_Benihime_Primary_Chain",
     "0.2": {
       "Type": "Replace",
       "Var": "Thrust_Stamina",

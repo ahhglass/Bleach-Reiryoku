@@ -25,7 +25,7 @@
           "DefaultOk": true,
           "DefaultValue": {
             "Interactions": [
-              "Weapon_Sword_Secondary_Guard_Bash"
+              "Shikai_Benihime_Secondary_Guard_Bash"
             ]
           }
         }
@@ -38,6 +38,15 @@
           "Var": "Shunpo",
           "DefaultOk": true,
           "DefaultValue": "Root_Shunpo"
+        }
+      ]
+    },
+    "Ability2": {
+      "Interactions": [
+        {
+          "Type": "Replace",
+          "Var": "Crimson_Seal",
+          "DefaultValue": "Root_Crimson_Seal"
         }
       ]
     }

@@ -104,10 +104,10 @@
     }
   },
   "InteractionVars": {
-    "Swing_Left": {
+    "Swing_Up_Left": {
       "Interactions": [
         {
-          "Parent": "Weapon_Sword_Primary_Swing_Left",
+          "Parent": "Shikai_Benihime_Primary_Swing_Up_Left",
           "RunTime": 0.08
         }
       ]
@@ -117,6 +117,14 @@
         {
           "Parent": "Weapon_Sword_Primary_Swing_Right",
           "RunTime": 0.08
+        }
+      ]
+    },
+    "Swing_Left": {
+      "Interactions": [
+        {
+          "Parent": "Weapon_Sword_Primary_Swing_Left",
+          "RunTime": 0.15
         }
       ]
     },
@@ -591,7 +599,7 @@
     "Guard_Bash": {
       "Interactions": [
         {
-          "Parent": "Weapon_Sword_Secondary_Guard_Bash"
+          "Parent": "Shikai_Benihime_Secondary_Guard_Bash"
         }
       ]
     },
@@ -641,6 +649,6 @@
   "Interactions": {
     "Primary": "Root_Shikai_Benihime_Primary",
     "Secondary": "Root_Weapon_Sword_Secondary_Guard",
-    "Ability1": "Root_Weapon_Sword_Signature_Vortexstrike"
+    "Ability2": "Root_Weapon_Sword_Signature_Vortexstrike"
   }
 }
