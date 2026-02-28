@@ -13,9 +13,9 @@
   "Damage": 45,
   "DeadTimeMiss": 0,
   "DeathEffectsOnHit": true,
-  "HitSoundEventId": "SFX_Ice_Break",
-  "DeathSoundEventId": "SFX_Ice_Break",
+  "HitSoundEventId": "SFX_Skeleton_Mage_Spellbook_Impact",
+  "DeathSoundEventId": "SFX_Skeleton_Mage_Spellbook_Impact",
   "HitParticles": {
-    "SystemId": "Laser_Impact"
+    "SystemId": "Explosion_Medium"
   }
 }

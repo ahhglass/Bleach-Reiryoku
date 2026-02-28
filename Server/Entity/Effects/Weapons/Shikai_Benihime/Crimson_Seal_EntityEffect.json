@@ -9,7 +9,13 @@
       }
     ],
     "LocalSoundEventId": "SFX_Effect_Poison_Local",
-    "WorldSoundEventId": "SFX_Effect_Poison_World"
+    "WorldSoundEventId": "SFX_Effect_Poison_World",
+    "AbilityEffects": {
+      "Disabled": [
+        "Ability1",
+        "Ability2"
+      ]
+    }
   },
   "Duration": 3,
   "DamageCalculator": {
@@ -20,7 +26,7 @@
     "Class": "Light"
   },
   "DamageCalculatorCooldown": 3,
-  "$Comment": "Delayed Damage",
+  "$Comment": "Delayed Damage, disables ults",
   "WorldRemovalSoundEventId": "SFX_CrimsonSeal_Removal",
   "LocalRemovalSoundEventId": "SFX_CrimsonSeal_Removal",
   "OverlapBehavior": "Overwrite",

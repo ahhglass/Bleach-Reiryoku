@@ -58,7 +58,7 @@
     "StatModifiers": {
       "Health": [
         {
-          "Amount": 20,
+          "Amount": 35,
           "CalculationType": "Additive"
         }
       ],
@@ -67,6 +67,12 @@
           "Target": "Max",
           "CalculationType": "Additive",
           "Amount": 5
+        }
+      ],
+      "Mana": [
+        {
+          "CalculationType": "Additive",
+          "Amount": 35
         }
       ]
     },

@@ -20,5 +20,6 @@
     }
   ],
   "CullDistance": 100,
-  "$Comment": "spawn of the effect"
+  "$Comment": "spawn of the effect",
+  "LifeSpan": 3
 }
