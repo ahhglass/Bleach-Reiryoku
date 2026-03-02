@@ -1,12 +1,12 @@
 {
-  "Parent": "Sealed_Sode_No_Shirayuki_T_Type",
+  "Parent": "Sealed_Senbonzakura_Type",
   "TranslationProperties": {
-    "Name": "Sealed - Sode no Shirayuki"
+    "Name": "Sealed - Senbonzakura"
   },
-  "Model": "Items/Weapons/Sode_No_Shirayuki/Sealed_SodeNoShirayuki.blockymodel",
-  "Texture": "Items/Weapons/Sode_No_Shirayuki/Sealed_SodeNoShirayuki_Texture.png",
+  "Model": "Items/Weapons/Senbonzakura/Senbonsakura_Normal.blockymodel",
+  "Texture": "Items/Weapons/Senbonzakura/Senbonzakura_NormalTexture.png",
   "Quality": "Sealed",
-  "Icon": "Icons/ItemsGenerated/Sealed_Sode_No_Shirayuki_T.png",
+  "Icon": "Icons/ItemsGenerated/Sealed_Senbonzakura_T.png",
   "ItemLevel": 20,
   "InteractionVars": {
     "Swing_Left_Damage": {
@@ -129,14 +129,14 @@
     "BleachCategory.Weapons"
   ],
   "IconProperties": {
-    "Scale": 0.35,
+    "Scale": 0.34,
     "Rotation": [
-      45,
+      49,
       97,
       0
     ],
     "Translation": [
-      -36,
+      -44,
       -43
     ]
   }

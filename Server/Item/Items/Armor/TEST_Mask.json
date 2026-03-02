@@ -5,7 +5,7 @@
   "Parent": "Armor_Iron_Head",
   "ItemLevel": 10,
   "Icon": "Icons/ItemsGenerated/TEST_Mask.png",
-  "Model": "Items/Armors/Mask/Mask_Template.blockymodel",
+  "Model": "Items/Armors/Mask/Mask_Template - Copy.blockymodel",
   "Armor": {
     "ArmorSlot": "Head",
     "BaseDamageResistance": 0,
@@ -47,7 +47,7 @@
   "ItemSoundSetId": "ISS_Armor_Heavy",
   "DurabilityLossOnHit": 0.5,
   "Quality": "Template",
-  "Texture": "Items/Armors/Mask/texture.png",
+  "Texture": "Items/Armors/Mask/texture - Copy.png",
   "IconProperties": {
     "Scale": 0.7,
     "Rotation": [

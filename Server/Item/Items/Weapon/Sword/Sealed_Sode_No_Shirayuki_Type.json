@@ -35,12 +35,16 @@
     "Ability3": {
       "Interactions": [
         {
+          "Type": "SendMessage",
+          "Message": "Dance, Sode No Shirayuki!"
+        },
+        {
           "Type": "ModifyInventory",
           "ItemToRemove": {
-            "Id": "Sealed_Wabisuke_T"
+            "Id": "Sealed_Sode_No_Shirayuki_T"
           },
           "ItemToAdd": {
-            "Id": "Wabisuke"
+            "Id": "Sode_No_Shirayuki"
           }
         }
       ]

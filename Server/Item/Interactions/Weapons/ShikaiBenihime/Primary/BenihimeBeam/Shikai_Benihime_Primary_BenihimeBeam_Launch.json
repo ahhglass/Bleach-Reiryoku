@@ -3,6 +3,6 @@
   "RunTime": 0.5,
   "ProjectileId": "Shikai_Benihime_BenihimeBeamProj",
   "Effects": {
-    "LocalSoundEventId": "SFX_Deployable_Totem_Slowing_Despawn"
+    "LocalSoundEventId": "SFX_Benihime_Beam_Launch"
   }
 }
