@@ -26,7 +26,10 @@
       },
       {
         "ItemId": "Ingredient_Life_Essence",
-        "Quantity": 20
+        "Quantity": 13
+      },
+      {
+        "ItemId": "Asauchi"
       }
     ],
     "BenchRequirement": [

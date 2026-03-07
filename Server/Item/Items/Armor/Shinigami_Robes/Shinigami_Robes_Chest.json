@@ -53,13 +53,19 @@
     "BaseDamageResistance": 0,
     "CosmeticsToHide": [
       "Overtop",
-      "Pants"
+      "Undertop"
     ],
     "StatModifiers": {
       "Health": [
         {
           "Amount": 18,
           "CalculationType": "Additive"
+        }
+      ],
+      "Mana": [
+        {
+          "CalculationType": "Additive",
+          "Amount": 25
         }
       ]
     },

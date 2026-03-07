@@ -32,7 +32,7 @@
         "Quantity": 3
       },
       {
-        "ItemId": "Ingredient_Void_Essence",
+        "ItemId": "Ingredient_Hollow_Essence",
         "Quantity": 10
       }
     ],
@@ -49,6 +49,13 @@
         "Categories": [
           "Arcane_Misc"
         ]
+      },
+      {
+        "Type": "Crafting",
+        "Categories": [
+          "Soul_Misc"
+        ],
+        "Id": "Soul_Imprinting_Altar"
       }
     ],
     "OutputQuantity": 1

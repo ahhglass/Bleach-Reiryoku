@@ -27,7 +27,7 @@
     },
     "WorldParticles": [
       {
-        "SystemId": "SwordSlash_Impact_Basic"
+        "SystemId": "Impact_Sword_Basic"
       }
     ],
     "CameraEffect": "Impact_Light"

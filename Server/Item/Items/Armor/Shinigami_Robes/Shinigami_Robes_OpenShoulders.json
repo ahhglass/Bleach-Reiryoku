@@ -52,7 +52,6 @@
     "ArmorSlot": "Chest",
     "CosmeticsToHide": [
       "Overtop",
-      "Pants",
       "Undertop"
     ],
     "StatModifiers": {
@@ -60,6 +59,12 @@
         {
           "Amount": 18,
           "CalculationType": "Additive"
+        }
+      ],
+      "Mana": [
+        {
+          "CalculationType": "Additive",
+          "Amount": 25
         }
       ]
     },

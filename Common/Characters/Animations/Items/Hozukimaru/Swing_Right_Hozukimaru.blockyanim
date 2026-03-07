@@ -386,6 +386,11 @@
     "Handle2": {
       "position": [
         {
+          "time": 0,
+          "delta": {"x": -2, "y": 0, "z": 0},
+          "interpolationType": "linear"
+        },
+        {
           "time": 7,
           "delta": {"x": 14, "y": 0, "z": 0},
           "interpolationType": "linear"

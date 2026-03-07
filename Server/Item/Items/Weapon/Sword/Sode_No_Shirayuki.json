@@ -23,6 +23,9 @@
       {
         "ItemId": "Ingredient_Bar_Silver",
         "Quantity": 9
+      },
+      {
+        "ItemId": "Asauchi"
       }
     ],
     "BenchRequirement": [
@@ -167,8 +170,6 @@
       ]
     }
   },
-  "MaxDurability": 180,
-  "DurabilityLossOnHit": 0.21,
   "Scale": 1,
   "IconProperties": {
     "Scale": 0.4,

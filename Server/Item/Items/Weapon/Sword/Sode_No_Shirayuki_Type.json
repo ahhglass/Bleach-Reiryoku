@@ -121,8 +121,6 @@
     ]
   },
   "ItemSoundSetId": "ISS_Weapons_Blade_Large",
-  "MaxDurability": 80,
-  "DurabilityLossOnHit": 0.21,
   "Trails": [
     {
       "TrailId": "Sode_No_Shirayuki_Trail",

@@ -1,14 +1,14 @@
 {
   "Group": "The Reiryoku Team",
   "Name": "Bleach Reiryoku",
-  "Version": "0.1.41",
+  "Version": "0.1.7",
   "Description": "This mods adds various content based on the Bleach Series",
   "Authors": [
     {
       "Name": "Jaykov",
       "Email": "",
       "Url": ""
-    },    
+    },
     {
       "Name": "Lxrdinsky (Shunsui)",
       "Email": "",
@@ -31,6 +31,7 @@
     }
   ],
   "Website": "https://discord.gg/7My4sVvafk",
+  "ServerVersion": "2026.02.19-1a311a592",
   "Dependencies": {},
   "OptionalDependencies": {},
   "LoadBefore": {},

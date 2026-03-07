@@ -9,7 +9,7 @@
   "VisibleQualityLabel": true,
   "RenderSpecialSlot": true,
   "ItemEntityConfig": {
-    "ParticleSystemId": "Drop_Rare"
+    "ParticleSystemId": "Drop_Common"
   },
   "LocalizationKey": "qualities.qualities.Asauchi"
 }

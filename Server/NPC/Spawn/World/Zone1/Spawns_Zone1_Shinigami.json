@@ -2,12 +2,11 @@
   "Environments": [
     "Env_Zone1_Plains",
     "Env_Zone1_Forests",
-    "Env_Zone1_Mountains",
-    "Env_Zone1_Shore"
+    "Env_Zone1_Mountains"
   ],
   "NPCs": [
     {
-      "Weight": 0.10,
+      "Weight": 0.03,
       "SpawnBlockSet": "Soil",
       "Id": "Wandering_Shinigami",
       "Flock": {
