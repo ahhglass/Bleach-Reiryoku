@@ -31,15 +31,22 @@
     "CameraEffect": "Sword_Swing_Diagonal_Right"
   },
   "Selector": {
-    "Id": "Stab",
-    "StartDistance": 0.01,
-    "EndDistance": 2.75
+    "Id": "Horizontal",
+    "Direction": "ToRight",
+    "TestLineOfSight": true,
+    "ExtendTop": 0.5,
+    "ExtendBottom": 0.5,
+    "StartDistance": 0.1,
+    "EndDistance": 3.5,
+    "Length": 90,
+    "RollOffset": 30,
+    "YawStartOffset": -60
   },
   "HitBlock": {
     "Interactions": [
       {
         "Type": "Replace",
-        "Var": "Swing_Left_Hit_Block",
+        "Var": "Swing_Right_Hit_Block",
         "DefaultOk": true,
         "DefaultValue": {
           "Interactions": [
@@ -53,11 +60,11 @@
     "Interactions": [
       {
         "Type": "Replace",
-        "Var": "Swing_Up_Damage",
+        "Var": "Swing_Ext_Right_Damage",
         "DefaultOk": true,
         "DefaultValue": {
           "Interactions": [
-            "Hozukimaru_Swing_Up_Damage"
+            "Weapon_Sword_Primary_Swing_Right_Damage"
           ]
         }
       }
@@ -66,6 +73,6 @@
   "Next": {
     "Type": "Simple",
     "$Comment": "Pad the interaction length",
-    "RunTime": 0.07
+    "RunTime": 0.01
   }
 }

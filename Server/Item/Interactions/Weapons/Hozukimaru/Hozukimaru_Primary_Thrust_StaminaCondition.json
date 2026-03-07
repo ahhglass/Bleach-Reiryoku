@@ -11,13 +11,26 @@
       "StaminaRegenDelay": -2
     },
     "Next": {
-      "Type": "Replace",
-      "Var": "Thrust",
-      "DefaultOk": true,
-      "DefaultValue": {
-        "Interactions": [
-          "Hozukimaru_Primary_Thrust_Standing"
-        ]
+      "Type": "MovementCondition",
+      "Failed": {
+        "Type": "Replace",
+        "Var": "Thrust",
+        "DefaultOk": true,
+        "DefaultValue": {
+          "Interactions": [
+            "Hozukimaru_Primary_Thrust_Standing"
+          ]
+        }
+      },
+      "Forward": {
+        "Type": "Replace",
+        "Var": "Thrust",
+        "DefaultOk": true,
+        "DefaultValue": {
+          "Interactions": [
+            "Hozukimaru_Forward_Thrust"
+          ]
+        }
       }
     }
   }

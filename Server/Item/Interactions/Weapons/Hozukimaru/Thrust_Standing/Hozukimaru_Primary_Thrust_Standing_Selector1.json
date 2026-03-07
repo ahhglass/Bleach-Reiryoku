@@ -1,7 +1,7 @@
 {
   "Type": "Selector",
   "$Comment": "Length of Combat",
-  "RunTime": 0.3,
+  "RunTime": 0.2,
   "Effects": {
     "ItemAnimationId": "StabCharged1",
     "Trails": [
@@ -71,7 +71,7 @@
       {
         "Type": "Replace",
         "DefaultOk": true,
-        "Var": "Thrust_Damage",
+        "Var": "Thrust_Damage_1",
         "DefaultValue": {
           "Interactions": [
             "Weapon_Sword_Primary_Thrust_Damage"

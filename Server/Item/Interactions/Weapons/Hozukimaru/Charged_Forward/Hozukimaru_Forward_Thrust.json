@@ -22,7 +22,7 @@
     ]
   },
   "Next": {
-    "0": "Hozukimaru_Primary_Chain",
+    "0": "Weapon_Sword_Primary_Chain",
     "0.65": {
       "Type": "Serial",
       "Interactions": [
@@ -69,11 +69,11 @@
             "Interactions": [
               {
                 "Type": "Replace",
-                "Var": "Thrust_Selector",
+                "Var": "Thrust_Force",
                 "DefaultOk": true,
                 "DefaultValue": {
                   "Interactions": [
-                    "Hozukimaru_Primary_Thrust_Standing_Selector1"
+                    "Weapon_Sword_Primary_Thrust_Force"
                   ]
                 }
               },
@@ -83,17 +83,7 @@
                 "DefaultOk": true,
                 "DefaultValue": {
                   "Interactions": [
-                    "Hozukimaru_Primary_Thrust_Standing_Selector2"
-                  ]
-                }
-              },
-              {
-                "Type": "Replace",
-                "Var": "Thrust_Selector",
-                "DefaultOk": true,
-                "DefaultValue": {
-                  "Interactions": [
-                    "Hozukimaru_Primary_Thrust_Standing_Selector3"
+                    "Hozukimaru_Forward_Thrust_Selector"
                   ]
                 }
               }

@@ -31,16 +31,9 @@
     "CameraEffect": "Sword_Swing_Diagonal_Right"
   },
   "Selector": {
-    "Id": "Horizontal",
-    "Direction": "ToRight",
-    "TestLineOfSight": true,
-    "ExtendTop": 0.5,
-    "ExtendBottom": 0.5,
-    "StartDistance": 0.1,
-    "EndDistance": 2.75,
-    "Length": 90,
-    "RollOffset": 30,
-    "YawStartOffset": -60
+    "Id": "Stab",
+    "StartDistance": 0.01,
+    "EndDistance": 2
   },
   "HitBlock": {
     "Interactions": [
@@ -73,6 +66,6 @@
   "Next": {
     "Type": "Simple",
     "$Comment": "Pad the interaction length",
-    "RunTime": 0.167
+    "RunTime": 0.07
   }
 }

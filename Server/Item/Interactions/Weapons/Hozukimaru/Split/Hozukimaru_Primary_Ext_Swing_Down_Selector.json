@@ -1,6 +1,6 @@
 {
   "Type": "Selector",
-  "RunTime": 0.05,
+  "RunTime": 0.067,
   "Effects": {
     "Trails": [
       {
@@ -10,7 +10,7 @@
           "Z": 0
         },
         "TargetNodeName": "Handle",
-        "TrailId": "Medium_Sword_Basic",
+        "TrailId": "Medium_Sword_Strong",
         "RotationOffset": {
           "Roll": 90.0
         }
@@ -28,18 +28,25 @@
         }
       }
     ],
-    "CameraEffect": "Sword_Swing_Diagonal_Right"
+    "CameraEffect": "Sword_Swing_Vertical"
   },
   "Selector": {
-    "Id": "Stab",
-    "StartDistance": 0.01,
-    "EndDistance": 2.75
+    "Id": "Horizontal",
+    "Direction": "ToLeft",
+    "TestLineOfSight": true,
+    "ExtendTop": 0.4,
+    "ExtendBottom": 0.4,
+    "StartDistance": 0.1,
+    "EndDistance": 3.5,
+    "Length": 90,
+    "RollOffset": 90,
+    "YawStartOffset": -60
   },
   "HitBlock": {
     "Interactions": [
       {
         "Type": "Replace",
-        "Var": "Swing_Left_Hit_Block",
+        "Var": "Swing_Down_Hit_Block",
         "DefaultOk": true,
         "DefaultValue": {
           "Interactions": [
@@ -53,11 +60,11 @@
     "Interactions": [
       {
         "Type": "Replace",
-        "Var": "Swing_Up_Damage",
+        "Var": "Swing_Ext_Down_Damage",
         "DefaultOk": true,
         "DefaultValue": {
           "Interactions": [
-            "Hozukimaru_Swing_Up_Damage"
+            "Weapon_Sword_Primary_Swing_Down_Damage"
           ]
         }
       }
@@ -66,6 +73,6 @@
   "Next": {
     "Type": "Simple",
     "$Comment": "Pad the interaction length",
-    "RunTime": 0.07
+    "RunTime": 0.04
   }
 }
